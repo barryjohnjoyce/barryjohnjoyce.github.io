@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Homepage</title>
+	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+  
+</head>
+
+<body>
+
+	<nav class="navbar-inverse" id="nav" style="border: red solid 5px">	
+		
+				<a class="navbar-brand" href="index.html">Union City</a>
+
+				<button type="button" class="navbar-toggle" 
+				    		data-toggle="collapse" 
+				    		data-target="#myCollapsingList">
+					        <span class="sr-only">Toggle navigation</span>
+					        <span class="icon-bar"></span>
+					        <span class="icon-bar"></span>
+					        <span class="icon-bar"></span>
+				</button>
+				    
+			
+
+			<ul id="myCollapsingList" class="nav navbar-nav navbar-right collapse navbar-collapse">
+					
+					<li><a href=meettheband.html>Meet The Band</a></li>
+					<li><a href="#">Our Music</a></li>
+					<li><a href="#">Check Availability</a></li>
+					<li><a href="#">Contact Us</a></li>
+			
+					
+
+					<a href="https://www.facebook.com"><img src="fb.png" alt="fb.png" id="smedia"></a>
+					
+					<a href="https://www.twitter.com"><img src="twitter.png" alt="twitter.png" id="smedia"></a>
+
+					<a href="https://www.youtube.com"><img src="youtube.png" alt="youtube.png" id="smedia"></a>
+			</ul>
+		
+			
+					
+			
+		
+	</nav>
+ 
+ <div style="height: 210px">
+	<img src="band2.jpg" alt="Band Pic" id="bandpic"/>
+	</br><h1>Our Music</h1>
+	<p>Union City are a five-piece band formed in Dublin in 2012. Our style of music ranges from easy-listening to pop, hard-rock and all styles in between.<p> 
+	<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta ea, doloremque nihil voluptatum ullam commodi excepturi fugiat accusantium debitis distinctio quae enim quod modi consectetur quidem. Tempora atque ipsam accusantium?<p>
+
+</div>
+
+<hr/>
+
+<div class='container'>
+	
+
+	<div class='row'>
+		
+		<div class='col-sm-5'>
+			<h2>Audio Clips<h2>
+
+			<h4> Clarksville </h4>
+			<audio controls="controls">
+			<source src="Clarksville.mp3" type="audio/mpeg; codecs=mp3"/>
+			<source src="Clarksville.ogg" type="audio/ogg; codecs=vorbis"/>
+			</audio>
+
+			<h4> Daydream Believer </h4>
+			<audio controls="controls">
+			<source src="DaydreamBeliever.mp3" type="audio/mpeg; codecs=mp3"/>
+			<source src="DaydreamBeliever.ogg" type="audio/ogg; codecs=vorbis"/>
+			</audio>
+
+			<h4> Stepping Stone </h4>
+			<audio controls="controls">
+			<source src="SteppingStone.mp3" type="audio/mpeg; codecs=mp3"/>
+			<source src="SteppingStone.ogg" type="audio/ogg; codecs=vorbis"/>
+			</audio>
+
+			<h4> I'm A Believer </h4>
+			<audio controls="controls">
+			<source src="ImABeliever.mp3" type="audio/mpeg; codecs=mp3"/>
+			<source src="ImABeliever.ogg" type="audio/ogg; codecs=vorbis"/>
+			</audio>
+
+		</div>		
+
+		<div class='col-sm-7'>
+			<h2>Get Our Songs On Spotify!</h2>	
+
+		<form action="#" id="select-song">
+			<fieldset>
+				<legend>Our Songs</legend>
+				<div>
+					<label for="song">Select a song</label>
+					<select id="song">
+						<option value="Clarksville">Clarksville</option> 
+						<option value="DaydreamBeliever">Daydream Believer</option> 
+						<option value="Stepping Stone">Stepping Stone</option> 
+						<option value="I'm A Believer">I'm A Believer</option> 
+
+					</select>
+				</div>
+			</fieldset>
+		</form>
+
+	
+		
+		</div>
+</div>
+	
+
+	<hr/>
+
+
+	
+
+<footer class="col-12">
+     
+    <p>© Copyright 2016</p>
+
+</footer>
+
+
+<script src="https://code.jquery.com/jquery-2.0.3.min.js"></script>
+
+<script>
+		$("#select-song select").on('change', function(event) {
+			event.preventDefault();
+
+			var idTrack = $(this).val();
+			var urlTrack = "https://api.spotify.com/v1/tracks/{id}"
+
+			$.ajax({
+				url: urlTrack,
+				dataType: 'json'
+			})
+			.success(function( dataTracks ) {
+
+				console.log(dataTracks);
+
+				//var contentUl = "	<p>Click on a track...</p></br>";
+
+				$.each( dataTracks.items, function(i, elem) {
+					contentUl += '<li><a target="_blank" href="' + elem.preview_url + '">' + elem.name + '</a></li>';
+				});
+
+				$("#select-track ul").html(contentUl);
+
+			})
+
+		});
+
+
+
+	</script>
+
+	
+
+
+<script src='http://code.jquery.com/jquery.min.js'></script>
+
+<script src="https://code.jquery.com/jquery-2.0.3.min.js"></script>
+
+
+<script>
+
+
+$("#select-song select").on('change', function(event) {
+			event.preventDefault();
+
+			var idSong = $(this).val();
+			var urlTrack = "https://api.spotify.com/v1/albums/" + idSong + "/tracks"
+
+			$.ajax({
+				url: urlTrack,
+				dataType: 'json'
+			})
+			.success(function( dataTrack ) {
+
+				console.log(dataTrack);
+
+				var contentUl = "	<p>Click on a track...</p></br>";
+
+				$.each( dataTracks.items, function(i, elem) {
+					contentUl += '<li><a target="_blank" href="' + elem.preview_url + '">' + elem.name + '</a></li>';
+				});
+
+				$("#select-track ul").html(contentUl);
+
+			})
+
+		});
+
+</script>
+
+<script src='bootstrap/js/bootstrap.min.js'></script>
+
+</body>
+
+</html>
