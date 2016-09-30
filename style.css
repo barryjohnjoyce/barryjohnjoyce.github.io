@@ -69,6 +69,8 @@ body{
 /*ids*/
 #myCollapsingList {background-color: rgba(0,0,0,1) !important; clear:right;}
 
+#bandplayingheight {height: 200px;}
+
 #bandplaying {width: 200px; height: 140px; float: right; margin: 20px; border-radius:10%}
 
 #ituneslogo {height: 30px; width: 80px; float:right; margin-right: 20px;}
