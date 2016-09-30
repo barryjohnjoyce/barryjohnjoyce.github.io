@@ -1,0 +1,2884 @@
+<!DOCTYPE html>
+<!-- saved from url=(0091)http://stackoverflow.com/questions/8808590/html5-number-input-type-that-takes-only-integers -->
+<html itemscope="" itemtype="http://schema.org/QAPage"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>jquery - HTML5: number input type that takes only integers? - Stack Overflow</title>
+    <link rel="shortcut icon" href="http://cdn.sstatic.net/Sites/stackoverflow/img/favicon.ico?v=4f32ecc8f43d">
+    <link rel="apple-touch-icon image_src" href="http://cdn.sstatic.net/Sites/stackoverflow/img/apple-touch-icon.png?v=c78bd457575a">
+    <link rel="search" type="application/opensearchdescription+xml" title="Stack Overflow" href="http://stackoverflow.com/opensearch.xml">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:domain" content="stackoverflow.com">
+    <meta property="og:type" content="website">
+
+    <meta property="og:image" itemprop="image primaryImageOfPage" content="http://cdn.sstatic.net/Sites/stackoverflow/img/apple-touch-icon@2.png?v=73d79a89bded&amp;a">
+    <meta name="twitter:title" property="og:title" itemprop="title name" content="HTML5: number input type that takes only integers?">
+    <meta name="twitter:description" property="og:description" itemprop="description" content="I&#39;m using the jQuery Tools Validator which implements HTML5 validations through jQuery. It&#39;s been working great so far except for one thing. In the HTML5 specification, the input type &quot;number&quot; can ...">
+    <meta property="og:url" content="http://stackoverflow.com/questions/8808590/html5-number-input-type-that-takes-only-integers">
+    <link rel="canonical" href="http://stackoverflow.com/questions/8808590/html5-number-input-type-that-takes-only-integers">
+
+    
+    
+    <script type="text/javascript" async="" src="./jquery - HTML5_ number input type that takes only integers_ - Stack Overflow_files/ados"></script><script async="" src="./jquery - HTML5_ number input type that takes only integers_ - Stack Overflow_files/quant.js.download"></script><script async="" src="./jquery - HTML5_ number input type that takes only integers_ - Stack Overflow_files/beacon.js.download"></script><script async="" src="./jquery - HTML5_ number input type that takes only integers_ - Stack Overflow_files/analytics.js.download"></script><script type="text/javascript" async="" src="./jquery - HTML5_ number input type that takes only integers_ - Stack Overflow_files/ados.js.download"></script><script src="./jquery - HTML5_ number input type that takes only integers_ - Stack Overflow_files/jquery.min.js.download"></script>
+    <script src="./jquery - HTML5_ number input type that takes only integers_ - Stack Overflow_files/stub.en.js.download"></script>
+    <link rel="stylesheet" type="text/css" href="./jquery - HTML5_ number input type that takes only integers_ - Stack Overflow_files/all.css">
+
+            <link rel="alternate" type="application/atom+xml" title="Feed for question &#39;HTML5: number input type that takes only integers?&#39;" href="http://stackoverflow.com/feeds/question/8808590">
+            <meta name="twitter:app:country" content="US">
+            <meta name="twitter:app:name:iphone" content="Stack Exchange iOS">
+            <meta name="twitter:app:id:iphone" content="871299723">
+            <meta name="twitter:app:url:iphone" content="se-zaphod://stackoverflow.com/questions/8808590/html5-number-input-type-that-takes-only-integers">
+            <meta name="twitter:app:name:ipad" content="Stack Exchange iOS">
+            <meta name="twitter:app:id:ipad" content="871299723">
+            <meta name="twitter:app:url:ipad" content="se-zaphod://stackoverflow.com/questions/8808590/html5-number-input-type-that-takes-only-integers">
+            <meta name="twitter:app:name:googleplay" content="Stack Exchange Android">
+            <meta name="twitter:app:url:googleplay" content="http://stackoverflow.com/questions/8808590/html5-number-input-type-that-takes-only-integers">
+            <meta name="twitter:app:id:googleplay" content="com.stackexchange.marvin">
+        <script>
+        
+            StackExchange.ready(function () {
+                    
+                    StackExchange.using("snippets", function () {
+                        StackExchange.snippets.initSnippetRenderer();
+                    });
+                    
+
+                StackExchange.using("postValidation", function () {
+                    StackExchange.postValidation.initOnBlurAndSubmit($('#post-form'), 2, 'answer');
+                });
+
+                
+                StackExchange.question.init({showAnswerHelp:true,totalCommentCount:0,shownCommentCount:0,highlightColor:'#F4A83D',backgroundColor:'#FFF',questionId:8808590});
+
+                styleCode();
+
+                    StackExchange.realtime.subscribeToQuestion('1', '8808590');
+                                                                    StackExchange.using("gps", function () { StackExchange.gps.trackOutboundClicks('#content', '.post-text'); });
+
+            });
+        </script>
+
+
+    <script>
+        StackExchange.init({"locale":"en","stackAuthUrl":"https://stackauth.com","networkMetaHostname":"meta.stackexchange.com","serverTime":1475161143,"routeName":"Questions/Show","site":{"name":"Stack Overflow","description":"Q&A for professional and enthusiast programmers","isNoticesTabEnabled":true,"recaptchaPublicKey":"6LdchgIAAAAAAJwGpIzRQSOFaO0pU6s44Xt8aTwc","recaptchaAudioLang":"en","enableNewTagCreationWarning":true,"insertSpaceAfterNameTabCompletion":false,"id":1,"enableInsertDocLinkDialog":true,"enableSocialMediaInSharePopup":true},"user":{"fkey":"1e3d7953b1d748bc0cb2ea51901986c0","rep":0,"isAnonymous":true,"isAnonymousNetworkWide":true}}, {"site":{"allowImageUploads":true,"enableUserHovercards":true,"styleCode":true,"enableNewLinkInsertDialog":true},"tags":{},"accounts":{"currentPasswordRequiredForChangingStackIdPassword":true},"flags":{"allowRetractingFlags":true},"snippets":{"snippetsEnabled":true,"renderDomain":"stacksnippets.net"},"markdown":{"asteriskIntraWordEmphasis":true}});
+        StackExchange.using.setCacheBreakers({"js/prettify-full.en.js":"6dc8ab516e2d","js/moderator.en.js":"20845a7207f0","js/full-anon.en.js":"be0bec0661aa","js/full.en.js":"7e7a33b6d602","js/wmd.en.js":"c1ee0f2ef487","js/third-party/jquery.autocomplete.min.js":"e5f01e97f7c3","js/third-party/jquery.autocomplete.min.en.js":"","js/mobile.en.js":"12144888d605","js/help.en.js":"a56fdf9b9ff2","js/tageditor.en.js":"bd4fb7a0a976","js/tageditornew.en.js":"4568be0a302a","js/inline-tag-editing.en.js":"4fa1a4a3339e","js/revisions.en.js":"47de10a8358f","js/review.en.js":"a36506ec2834","js/tagsuggestions.en.js":"d1ff9b84abe5","js/post-validation.en.js":"6c3c85a4cd29","js/explore-qlist.en.js":"88f824a42b1a","js/events.en.js":"fd77294cd0e2","js/keyboard-shortcuts.en.js":"690fd0189679","js/external-editor.en.js":"71095ef40e9d","js/external-editor.en.js":"71095ef40e9d","js/snippet-javascript.en.js":"bb9cbf50086e","js/snippet-javascript-codemirror.en.js":"7acbe89928f8"});
+        StackExchange.using("gps", function() {
+             StackExchange.gps.init(true);
+        });
+    </script>
+    
+        <script>
+            StackExchange.ready(function () {
+                $('#nav-tour').click(function () {
+                    StackExchange.using("gps", function() {
+                        StackExchange.gps.track("aboutpage.click", { aboutclick_location: "headermain" }, true);
+                    });
+                });
+            });
+        </script>
+<script async="" src="./jquery - HTML5_ number input type that takes only integers_ - Stack Overflow_files/full-anon.en.js.download"></script><script async="" src="./jquery - HTML5_ number input type that takes only integers_ - Stack Overflow_files/snippet-javascript.en.js.download"></script><script async="" src="./jquery - HTML5_ number input type that takes only integers_ - Stack Overflow_files/post-validation.en.js.download"></script><script async="" src="./jquery - HTML5_ number input type that takes only integers_ - Stack Overflow_files/prettify-full.en.js.download"></script><script async="" src="./jquery - HTML5_ number input type that takes only integers_ - Stack Overflow_files/external-editor.en.js.download"></script><script type="text/javascript" src="./jquery - HTML5_ number input type that takes only integers_ - Stack Overflow_files/adFeedback.js.download"></script><link rel="stylesheet" href="./jquery - HTML5_ number input type that takes only integers_ - Stack Overflow_files/adFeedback.css"><link type="text/css" rel="stylesheet" href="./jquery - HTML5_ number input type that takes only integers_ - Stack Overflow_files/jobs-multi.min.css"></head>
+<body class="question-page new-topbar" cz-shortcut-listen="true">
+    <noscript>&lt;div id="noscript-padding"&gt;&lt;/div&gt;</noscript>
+            <script>(function () { var old = $.fn.contents; $.fn.contents = function () { try { return old.apply(this, arguments); } catch (e) { return $([]); } } })()</script>
+        
+
+
+
+
+    <div id="notify-container"></div>
+    <div id="custom-header"></div>
+
+
+
+
+
+<div class="topbar">
+    <div class="topbar-wrapper">
+
+        <div class="js-topbar-dialog-corral">
+
+
+<div class="topbar-dialog siteSwitcher-dialog dno">
+    <div class="header">
+        <h3><a href="http://stackoverflow.com/">current community</a></h3>
+    </div>
+    <div class="modal-content current-site-container">
+        <ul class="current-site">
+                <li>
+                        <div class="related-links">
+                    <a href="http://chat.stackoverflow.com/" class="js-gps-track" data-gps-track="site_switcher.click({ item_type:6 })">chat</a>
+            </div>
+
+
+
+
+    <a href="http://stackoverflow.com/" class="current-site-link site-link js-gps-track" data-id="1" data-gps-track="
+        site_switcher.click({ item_type:3 })">
+        <div class="site-icon favicon favicon-stackoverflow" title="Stack Overflow"></div>
+        Stack Overflow
+    </a>
+
+                </li>
+                <li class="related-site">
+                        <div class="L-shaped-icon-container">
+        <span class="L-shaped-icon"></span>
+    </div>
+
+                    
+
+
+
+    <a href="http://meta.stackoverflow.com/" class="site-link js-gps-track" data-id="552" data-gps-track="
+            site.switch({ target_site:552, item_type:3 }),
+        site_switcher.click({ item_type:4 })">
+        <div class="site-icon favicon favicon-stackoverflowmeta" title="Meta Stack Overflow"></div>
+        Meta Stack Overflow
+    </a>
+
+                </li>
+        </ul>
+    </div>
+    <div class="header" id="your-communities-header">
+        <h3>
+your communities        </h3>
+            
+    </div>
+    <div class="modal-content" id="your-communities-section">
+            
+            <div class="call-to-login">
+<a href="https://stackoverflow.com/users/signup?ssrc=site_switcher&amp;returnurl=http%3a%2f%2fstackoverflow.com%2fquestions%2f8808590%2fhtml5-number-input-type-that-takes-only-integers" class="login-link js-gps-track" data-gps-track="site_switcher.click({ item_type:10 })">Sign up</a> or <a href="https://stackoverflow.com/users/login?ssrc=site_switcher&amp;returnurl=http%3a%2f%2fstackoverflow.com%2fquestions%2f8808590%2fhtml5-number-input-type-that-takes-only-integers" class="login-link js-gps-track" data-gps-track="site_switcher.click({ item_type:11 })">log in</a> to customize your list.
+            </div>
+    </div>
+    <div class="header">
+        <h3><a href="http://stackexchange.com/sites">more stack exchange communities</a></h3>
+        <a href="http://blog.stackoverflow.com/" class="fr">company blog</a>
+    </div>
+    <div class="modal-content">
+            <div class="child-content"></div>
+    </div>
+</div>
+        </div>
+
+        <div class="network-items">
+                <a href="http://stackexchange.com/" class="topbar-icon icon-site-switcher yes-hover js-site-switcher-button js-gps-track" data-gps-track="site_switcher.show" title="A list of all 161 Stack Exchange sites">
+                    <span class="hidden-text">Stack Exchange</span>
+                </a>
+
+    <a href="http://stackoverflow.com/questions/8808590/html5-number-input-type-that-takes-only-integers#" class="topbar-icon icon-inbox yes-hover js-inbox-button" title="Recent inbox messages">
+        <span class="hidden-text">Inbox</span>
+        <span class="unread-count" style="display:none"></span>
+    </a>
+    <a href="http://stackoverflow.com/questions/8808590/html5-number-input-type-that-takes-only-integers#" class="topbar-icon icon-achievements yes-hover js-achievements-button" data-unread-class="" title="Recent achievements: reputation, badges, and privileges earned">
+        <span class="hidden-text">Reputation and Badges</span>
+        <span class="unread-count" style="display:none">
+            
+        </span>
+    </a>
+        </div>
+
+        <div class="topbar-links">
+
+                <div class="links-container">
+                <span class="topbar-menu-links">
+                                    <a href="https://stackoverflow.com/users/signup?ssrc=head&amp;returnurl=http%3a%2f%2fstackoverflow.com%2fquestions%2f8808590%2fhtml5-number-input-type-that-takes-only-integers" class="login-link">sign up</a>
+                                <a href="https://stackoverflow.com/users/login?ssrc=head&amp;returnurl=http%3a%2f%2fstackoverflow.com%2fquestions%2f8808590%2fhtml5-number-input-type-that-takes-only-integers" class="login-link">log in</a>
+
+                            <a href="http://stackoverflow.com/tour">tour</a>
+        <a href="http://stackoverflow.com/questions/8808590/html5-number-input-type-that-takes-only-integers#" class="icon-help js-help-button" title="Help Center and other resources">
+            help
+            <span class="triangle"></span>
+        </a>
+    <div class="topbar-dialog help-dialog js-help-dialog dno">
+        <div class="modal-content">
+            <ul>
+                                    <li>
+                        <a href="http://stackoverflow.com/tour" class="js-gps-track" data-gps-track="help_popup.click({ item_type:1 })">
+                            Tour
+                            <span class="item-summary">
+                                Start here for a quick overview of the site
+                            </span>
+                        </a>
+                    </li>
+                <li>
+                    <a href="http://stackoverflow.com/help" class="js-gps-track" data-gps-track="help_popup.click({ item_type:4 })">
+                        Help Center
+                        <span class="item-summary">
+                            Detailed answers to any questions you might have
+                        </span>
+                    </a>
+                </li>
+                        <li>
+                            <a href="http://meta.stackoverflow.com/" class="js-gps-track" data-gps-track="help_popup.click({ item_type:2 })">
+                                Meta
+                                <span class="item-summary">
+                                    Discuss the workings and policies of this site
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://stackoverflow.com/company/about" class="js-gps-track" data-gps-track="help_popup.click({ item_type:6 })">
+                                About Us
+                                <span class="item-summary">
+                                    Learn more about Stack Overflow the company
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://business.stackoverflow.com/?ref=topbar_help" class="js-gps-track" data-gps-track="help_popup.click({ item_type:7 })">
+                                Business
+                                <span class="item-summary">
+                                    Learn more about hiring developers or posting ads with us
+                                </span>
+                            </a>
+                        </li>
+            </ul>
+        </div>
+    </div>
+                                            </span>
+                </div>
+
+            <div class="search-container">
+                <form id="search" action="http://stackoverflow.com/search" method="get" autocomplete="off">
+                    <input name="q" type="text" placeholder="Search Q&amp;A" value="" tabindex="1" autocomplete="off" maxlength="240">
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>
+    <script>
+        StackExchange.ready(function() { StackExchange.topbar.init(); });
+    </script>
+
+    <div class="container">
+        <div id="header">
+            <br class="cbt">
+            <div id="hlogo">
+                <a href="http://stackoverflow.com/">
+                    Stack Overflow
+                </a>
+            </div>
+            <div id="hmenus">
+                <div class="nav mainnavs">
+                    <ul>
+                        <li class="youarehere"><a id="nav-questions" href="http://stackoverflow.com/questions">Questions</a></li>
+                            <li><a id="nav-jobs" href="http://stackoverflow.com/jobs?med=site-ui&amp;ref=jobs-tab">Jobs</a></li>
+                                                <li><a id="nav-docs" href="http://stackoverflow.com/documentation">Documentation</a></li>
+                        <li><a id="nav-tags" href="http://stackoverflow.com/tags">Tags</a></li>
+                        <li><a id="nav-users" href="http://stackoverflow.com/users">Users</a></li>
+                        <li><a id="nav-badges" href="http://stackoverflow.com/help/badges">Badges</a></li>
+                    </ul>
+                </div>
+                <div class="nav askquestion">
+                    <ul>
+                        <li>
+                            <a id="nav-askquestion" href="http://stackoverflow.com/questions/ask">Ask Question</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+
+
+
+        <div id="content" class="snippet-hidden">
+            
+
+<div itemscope="" itemtype="http://schema.org/Question">
+    <link itemprop="image" href="http://cdn.sstatic.net/Sites/stackoverflow/img/apple-touch-icon.png?v=c78bd457575a">
+
+
+    <div id="herobox" class="alternate">
+        <div class="test"></div>
+            <div id="close">
+                <a title="click to minimize"><span>x</span> Dismiss</a>
+            </div>
+        <div class="content">
+            <b>Join the Stack Overflow Community</b>
+            <div class="separator"></div>
+            <div class="blurb">
+                Stack Overflow is a community of 4.7 million programmers, just like you, helping each other.
+                    <br>
+Join them; it only takes a minute:                    <br>
+            </div>
+            <a href="http://stackoverflow.com/users/signup?ssrc=hero&amp;returnurl=http%3a%2f%2fstackoverflow.com%2fquestions%2f8808590%2fhtml5-number-input-type-that-takes-only-integers" id="tell-me-more" class="button">Sign up</a>
+        </div>
+    </div>
+<script>
+    StackExchange.ready(function () {
+
+        var location = 0;
+        if ($("body").hasClass("questions-page")) {
+            location = 1;;
+        } else if ($("body").hasClass("question-page")) {
+            location = 1;;
+        } else if ($("body").hasClass("faq-page")) {
+            location = 5;;
+        } else if ($("body").hasClass("home-page")) {
+            location = 3;;
+        }
+
+        $('#tell-me-more').click(function () {
+            StackExchange.using("gps", function () {
+                StackExchange.gps.track("hero.action", { hero_action_type: 'cta', location: location }, true);
+            });
+        });
+        $('#herobox #close').click(function () {
+            StackExchange.using("gps", function () {
+                StackExchange.gps.track("hero.action", { hero_action_type: "minimize", location: location }, true);
+            });
+            $.cookie("hero", "mini", { path: "/", expires: 365 });
+            $.ajax({
+                url: "/hero-mini",
+                success: function (data) {
+                    $("#herobox").fadeOut("fast", function () {
+                        $("#herobox").replaceWith(data);
+                        $("#herobox-mini").fadeIn("fast");
+                    });
+                }
+            });
+            return false;
+        });
+    });
+
+</script>			<div id="question-header">
+                <h1 itemprop="name"><a href="http://stackoverflow.com/questions/8808590/html5-number-input-type-that-takes-only-integers" class="question-hyperlink">HTML5: number input type that takes only integers?</a></h1>
+		</div>
+			<div id="mainbar">
+
+			
+
+<div class="question" data-questionid="8808590" id="question">
+
+    <script>
+                var ados = ados || {}; ados.run = ados.run || [];
+                ados.run.push(function () { ados_add_placement(22,8277,"adzerk1100085584",4).setZone(43); });
+            </script>
+            <div class="everyonelovesstackoverflow adzerk-vote" id="adzerk1100085584"><a href="http://engine.adzerk.net/r?e=eyJhdiI6NDE0LCJhdCI6NCwiYnQiOjAsImNtIjo0NzE0OTMsImNoIjoxMTc4LCJjayI6e30sImNyIjoxNjI3NzY4LCJkaSI6ImFlMDk1MmM2MjM1MjQyMDdiMWY5ZGQwOTUxM2QxYTNkIiwiZG0iOjEsImZjIjoxOTI0NDQ3LCJmbCI6MjE0MjMxMiwiaXAiOiI1MS4xNzEuNy4xNTYiLCJrdyI6ImpxdWVyeSxodG1sNSx2YWxpZGF0aW9uLGpxdWVyeS10b29scyIsIm53IjoyMiwicGMiOjAsImVjIjowLCJwciI6MTYwNCwicnQiOjEsInJmIjoiaHR0cHM6Ly93d3cuZ29vZ2xlLmllLyIsInN0Ijo4Mjc3LCJ1ayI6InVlMS05YjZmMDNlNGMyZGY0NjU5YjZjOGRhZmY4ODk0OGE0ZCIsInpuIjo0MywidHMiOjE0NzUxNjExNDQ2NTAsImJmIjp0cnVlLCJwbiI6ImFkemVyazExMDAwODU1ODQiLCJ1ciI6Imh0dHA6Ly9zdGFja292ZXJmbG93LmNvbS9qb2JzL3JlbW90ZT91dG1fc291cmNlPXdlYnNpdGUmdXRtX21lZGl1bT1iYW5uZXImdXRtX2NvbnRlbnQ9bGVhZGVyYm9hcmRfNCZ1dG1fY2FtcGFpZ249aG91c2VfYWRzX1JPU19TTyJ9&amp;s=71msbAHKzYeB2dA_x9ullMT1CF8" rel="nofollow" target="_blank" title=""><img src="./jquery - HTML5_ number input type that takes only integers_ - Stack Overflow_files/3ce23fa868ea401dac7e2fcfda5ec312.png" title="" alt="" border="0" width="728" height="90"></a><img height="0px" width="0px" border="0" style="position:absolute;" src="./jquery - HTML5_ number input type that takes only integers_ - Stack Overflow_files/i.gif"><div class="adzerk-vote-controls" style="display: none;"><div class="adzerk-vote-option adzerk-vote-up"><div class="adzerk-vote-icon"></div></div><div class="adzerk-vote-option adzerk-vote-down"><div class="adzerk-vote-icon"></div></div></div><div class="adzerk-vote-survey" style="display:none;"><form><span>No problem. We won't show you that ad again. Why didn't you like it?</span><ul><li><label><input type="radio" value="12" name="downvoteReason">Uninteresting</label></li><li><label><input type="radio" value="13" name="downvoteReason">Misleading</label></li><li><label><input type="radio" value="14" name="downvoteReason">Offensive</label></li><li><label><input type="radio" value="15" name="downvoteReason">Repetitive</label></li><li><label><input type="radio" value="16" name="downvoteReason">Other</label></li></ul><a href="http://stackoverflow.com/questions/8808590/html5-number-input-type-that-takes-only-integers#" class="adzerk-vote-cancel">Oops! I didn't mean to do this.</a></form></div></div>    <table>
+        <tbody><tr>
+            <td class="votecell">
+                
+
+<div class="vote">
+        <input type="hidden" name="_id_" value="8808590">
+        <a class="vote-up-off" title="This question shows research effort; it is useful and clear">up vote</a>
+        <span itemprop="upvoteCount" class="vote-count-post ">109</span>
+        <a class="vote-down-off" title="This question does not show any research effort; it is unclear or not useful">down vote</a>
+
+        <a class="star-off" href="http://stackoverflow.com/questions/8808590/html5-number-input-type-that-takes-only-integers#">favorite</a>
+        <div class="favoritecount"><b>19</b></div>
+
+
+</div>
+
+            </td>
+            
+<td class="postcell">
+<div>
+    <div class="post-text" itemprop="text">
+
+<p>I'm using the jQuery Tools <a href="http://flowplayer.org/tools/demos/validator/index.html">Validator</a> which implements HTML5 validations through jQuery. It's been working great so far except for one thing. In the HTML5 specification, the input type "number" can have both integers and floating point numbers. This seems incredibly short-sighted since it will only be a useful validator when your database fields are signed floating point numbers (for unsigned ints you'll have to fall back to "pattern" validation and thus loose extra features like the up and down arrows for browsers that support it). Is there another input type or perhaps an attribute that would restrict the input to just unsigned integers? I couldn't find any, thanks.</p>
+
+<p><strong>EDIT</strong></p>
+
+<p>Ok guys, I appreciate your time and help, but I see many undeserved up-voting going on :D. Setting the step to 1 is not the answer since it doesn't restrict the input. You can still type a negative floating point number into the textbox. Also, I am aware of pattern validation (I mentioned it in my original post), but that was not part of the question. I wanted to know if HTML5 allowed restricting an input of type "number" to positive integer values. To this question the answer, it seems, would be "no, it does not". I didn't want to use pattern validation because this causes some drawbacks when using jQuery Tools validation, but it now seems that the specification doesn't allow for a cleaner way to do this. </p>
+    </div>
+    <div class="post-taglist">
+        <a href="http://stackoverflow.com/questions/tagged/jquery" class="post-tag js-gps-track" title="show questions tagged &#39;jquery&#39;" rel="tag">jquery</a> <a href="http://stackoverflow.com/questions/tagged/html5" class="post-tag js-gps-track" title="show questions tagged &#39;html5&#39;" rel="tag">html5</a> <a href="http://stackoverflow.com/questions/tagged/validation" class="post-tag js-gps-track" title="show questions tagged &#39;validation&#39;" rel="tag">validation</a> <a href="http://stackoverflow.com/questions/tagged/jquery-tools" class="post-tag js-gps-track" title="show questions tagged &#39;jquery-tools&#39;" rel="tag">jquery-tools</a> 
+    </div>
+    <table class="fw">
+    <tbody><tr>
+    <td class="vt">
+<div class="post-menu"><a href="http://stackoverflow.com/q/8808590" title="short permalink to this question" class="short-link" id="link-post-8808590">share</a><span class="lsep">|</span><a href="http://stackoverflow.com/posts/8808590/edit" class="suggest-edit-post" title="">improve this question</a></div>        
+    </td>
+    <td align="right" class="post-signature">
+<div class="user-info ">
+    <div class="user-action-time">
+        <a href="http://stackoverflow.com/posts/8808590/revisions" title="show all edits to this post">edited <span title="2012-01-10 19:11:50Z" class="relativetime">Jan 10 '12 at 19:11</span></a>
+    </div>
+    <div class="user-gravatar32">
+        
+    </div>
+    <div class="user-details">
+        
+        <div class="-flair">
+            
+        </div>
+    </div>
+</div>    </td>
+    <td class="post-signature owner">
+        <div class="user-info ">
+    <div class="user-action-time">
+        asked <span title="2012-01-10 18:35:39Z" class="relativetime">Jan 10 '12 at 18:35</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/424185/jaypea"><div class="gravatar-wrapper-32"><img src="./jquery - HTML5_ number input type that takes only integers_ - Stack Overflow_files/1f14d8a4c2c5901d7493286f71425509" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/424185/jaypea">JayPea</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">3,947</span><span title="6 gold badges"><span class="badge1"></span><span class="badgecount">6</span></span><span title="27 silver badges"><span class="badge2"></span><span class="badgecount">27</span></span><span title="53 bronze badges"><span class="badge3"></span><span class="badgecount">53</span></span>
+        </div>
+    </div>
+</div>
+    </td>
+    </tr>
+    </tbody></table>
+</div>
+</td>
+        </tr>
+                
+<tr>
+    <td class="votecell"></td>
+    <td>
+	    <div id="comments-8808590" class="comments  dno">
+		    <table>
+                <tbody data-remaining-comments-count="0" data-canpost="false" data-cansee="true" data-comments-unavailable="false" data-addlink-disabled="true">
+
+                        <tr><td></td><td></td></tr>
+                </tbody>
+		    </table>
+	    </div>
+
+        <div id="comments-link-8808590" data-rep="50" data-anon="true">
+
+                <a class="js-add-link comments-link disabled-link " title="Use comments to ask for more information or suggest improvements. Avoid answering questions in comments.">add a comment</a><span class="js-link-separator dno">&nbsp;|&nbsp;</span>
+            <a class="js-show-link comments-link dno" title="expand to show all comments on this post" href="http://stackoverflow.com/questions/8808590/html5-number-input-type-that-takes-only-integers#" onclick=""></a>
+        </div>         
+    </td>
+</tr>        </tbody></table>
+</div>
+
+			<div id="answers">
+
+				<a name="tab-top"></a>
+				<div id="answers-header">
+					<div class="subheader answers-subheader">
+						<h2>
+								14 Answers
+                                <span style="display:none;" itemprop="answerCount">14</span>
+						</h2>
+						<div>
+							<div id="tabs">
+        <a href="http://stackoverflow.com/questions/8808590/html5-number-input-type-that-takes-only-integers?answertab=active#tab-top" data-nav-xhref="" title="Answers with the latest activity first" data-value="active" data-shortcut="A">
+            active</a>
+        <a href="http://stackoverflow.com/questions/8808590/html5-number-input-type-that-takes-only-integers?answertab=oldest#tab-top" data-nav-xhref="" title="Answers in the order they were provided" data-value="oldest" data-shortcut="O">
+            oldest</a>
+        <a class="youarehere" href="http://stackoverflow.com/questions/8808590/html5-number-input-type-that-takes-only-integers?answertab=votes#tab-top" data-nav-xhref="" title="Answers with the highest score first" data-value="votes" data-shortcut="V">
+            votes</a>
+</div>
+						</div>
+					</div>    
+				</div>    
+
+
+
+
+  
+<a name="17208628"></a>
+<div id="answer-17208628" class="answer" data-answerid="17208628" itemscope="" itemtype="http://schema.org/Answer">
+    <table>
+        <tbody><tr>
+            <td class="votecell">
+                
+
+<div class="vote">
+        <input type="hidden" name="_id_" value="17208628">
+        <a class="vote-up-off" title="This answer is useful">up vote</a>
+        <span itemprop="upvoteCount" class="vote-count-post ">158</span>
+        <a class="vote-down-off" title="This answer is not useful">down vote</a>
+
+
+
+
+</div>
+
+            </td>
+            
+
+
+<td class="answercell">
+    <div class="post-text" itemprop="text">
+<p><a href="http://www.w3.org/TR/html-markup/input.number.html">http://www.w3.org/TR/html-markup/input.number.html</a></p>
+
+<p>The best you can achieve with HTML only</p>
+
+<pre class="default prettyprint prettyprinted"><code><span class="tag">&lt;input</span><span class="pln"> </span><span class="atn">type</span><span class="pun">=</span><span class="atv">"number"</span><span class="pln"> </span><span class="atn">min</span><span class="pun">=</span><span class="atv">"0"</span><span class="pln"> </span><span class="atn">step</span><span class="pun">=</span><span class="atv">"1"</span><span class="tag">/&gt;</span></code></pre>
+    </div>
+    <table class="fw">
+    <tbody><tr>
+    <td class="vt">
+<div class="post-menu"><a href="http://stackoverflow.com/a/17208628" title="short permalink to this answer" class="short-link" id="link-post-17208628">share</a><span class="lsep">|</span><a href="http://stackoverflow.com/posts/17208628/edit" class="suggest-edit-post" title="">improve this answer</a></div>                    </td>
+    <td align="right" class="post-signature">
+<div class="user-info ">
+    <div class="user-action-time">
+        <a href="http://stackoverflow.com/posts/17208628/revisions" title="show all edits to this post">edited <span title="2014-09-21 20:46:00Z" class="relativetime">Sep 21 '14 at 20:46</span></a>
+    </div>
+    <div class="user-gravatar32">
+        
+    </div>
+    <div class="user-details">
+        
+        <div class="-flair">
+            
+        </div>
+    </div>
+</div>    </td>
+            
+
+
+    <td align="right" class="post-signature">   
+       
+
+    <div class="user-info user-hover">
+    <div class="user-action-time">
+        answered <span title="2013-06-20 08:19:38Z" class="relativetime">Jun 20 '13 at 8:19</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/1582182/aur%c3%a9lien-ooms"><div class="gravatar-wrapper-32"><img src="./jquery - HTML5_ number input type that takes only integers_ - Stack Overflow_files/caf9123d47d46c7ae84eb6ca88681c27" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/1582182/aur%c3%a9lien-ooms">Aurélien Ooms</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">2,446</span><span title="3 gold badges"><span class="badge1"></span><span class="badgecount">3</span></span><span title="11 silver badges"><span class="badge2"></span><span class="badgecount">11</span></span><span title="25 bronze badges"><span class="badge3"></span><span class="badgecount">25</span></span>
+        </div>
+    </div>
+</div>
+    </td>
+    </tr>
+    </tbody></table>
+</td>
+        </tr>
+        
+<tr>
+    <td class="votecell"></td>
+    <td>
+	    <div id="comments-17208628" class="comments ">
+		    <table>
+                <tbody data-remaining-comments-count="4" data-canpost="false" data-cansee="true" data-comments-unavailable="false" data-addlink-disabled="true">
+
+
+
+    <tr id="comment-32558468" class="comment ">
+        <td class="comment-actions">
+            <table>
+                <tbody>
+                    <tr>
+                        <td class=" comment-score">
+                                <span title="number of &#39;useful comment&#39; votes received" class="cool">1</span>
+                        </td>
+                        <td>
+                                &nbsp;
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </td>
+        <td class="comment-text">
+            <div style="display: block;" class="comment-body">
+                <span class="comment-copy">Excelent sollution. Helped me a lot. Thanks.</span>
+                    –&nbsp;<a href="http://stackoverflow.com/users/2174305/christian" title="577 reputation" class="comment-user">Christian</a>
+                <span class="comment-date" dir="ltr"><a class="comment-link" href="http://stackoverflow.com/questions/8808590/html5-number-input-type-that-takes-only-integers#comment32558468_17208628"><span title="2014-02-04 16:30:53Z" class="relativetime-clean">Feb 4 '14 at 16:30</span></a></span>
+                                                                            </div>
+                    </td>
+    </tr>
+    <tr id="comment-36395898" class="comment ">
+        <td class="comment-actions">
+            <table>
+                <tbody>
+                    <tr>
+                        <td class=" comment-score">
+                                <span title="number of &#39;useful comment&#39; votes received" class="warm">5</span>
+                        </td>
+                        <td>
+                                &nbsp;
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </td>
+        <td class="comment-text">
+            <div style="display: block;" class="comment-body">
+                <span class="comment-copy">You should probably set <code>min</code> to <code>1</code> as he wants positive numbers (and not non-negative numbers).</span>
+                    –&nbsp;<a href="http://stackoverflow.com/users/562769/martin-thoma" title="14,359 reputation" class="comment-user">Martin Thoma</a>
+                <span class="comment-date" dir="ltr"><a class="comment-link" href="http://stackoverflow.com/questions/8808590/html5-number-input-type-that-takes-only-integers#comment36395898_17208628"><span title="2014-05-15 20:20:56Z" class="relativetime-clean">May 15 '14 at 20:20</span></a></span>
+                                                                            </div>
+                    </td>
+    </tr>
+    <tr id="comment-37841576" class="comment ">
+        <td class="comment-actions">
+            <table>
+                <tbody>
+                    <tr>
+                        <td class=" comment-score">
+                                <span title="number of &#39;useful comment&#39; votes received" class="warm">11</span>
+                        </td>
+                        <td>
+                                &nbsp;
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </td>
+        <td class="comment-text">
+            <div style="display: block;" class="comment-body">
+                <span class="comment-copy">According to <a href="http://www.w3.org/TR/html5/forms.html#the-input-element" rel="nofollow">the specification</a> the <b>pattern attribute</b> can only be used where the input type is Text, Search, URL, Telephone, E-mail, Password. Whilst the pattern usage shown here may <i>work</i> in some browsers, it is non-standard and should not be relied upon. The "step" portion of the answer is probably the key point to be taken away.</span>
+                    –&nbsp;<a href="http://stackoverflow.com/users/1107593/pwdst" title="6,566 reputation" class="comment-user">pwdst</a>
+                <span class="comment-date" dir="ltr"><a class="comment-link" href="http://stackoverflow.com/questions/8808590/html5-number-input-type-that-takes-only-integers#comment37841576_17208628"><span title="2014-06-27 14:04:46Z" class="relativetime-clean">Jun 27 '14 at 14:04</span></a></span>
+                                                                            </div>
+                    </td>
+    </tr>
+    <tr id="comment-39814496" class="comment ">
+        <td class="comment-actions">
+            <table>
+                <tbody>
+                    <tr>
+                        <td class=" comment-score">
+                                <span title="number of &#39;useful comment&#39; votes received" class="cool">1</span>
+                        </td>
+                        <td>
+                                &nbsp;
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </td>
+        <td class="comment-text">
+            <div style="display: block;" class="comment-body">
+                <span class="comment-copy">@pwdst I'll second that. <code>&lt;input type="number" min="0" step="1"/&gt;</code> is the most correct answer to the question. Anyway, what's the point in having both <code>step="1"</code> and <code>pattern="\d+"</code>? I can't type in floating point numbers in either cases.</span>
+                    –&nbsp;<a href="http://stackoverflow.com/users/2523628/danish-ashfaq" title="306 reputation" class="comment-user">Danish Ashfaq</a>
+                <span class="comment-date" dir="ltr"><a class="comment-link" href="http://stackoverflow.com/questions/8808590/html5-number-input-type-that-takes-only-integers#comment39814496_17208628"><span title="2014-08-26 12:43:09Z" class="relativetime-clean">Aug 26 '14 at 12:43</span></a></span>
+                                                                            </div>
+                    </td>
+    </tr>
+    <tr id="comment-61470554" class="comment ">
+        <td class="comment-actions">
+            <table>
+                <tbody>
+                    <tr>
+                        <td class=" comment-score">
+                                <span title="number of &#39;useful comment&#39; votes received" class="cool">1</span>
+                        </td>
+                        <td>
+                                &nbsp;
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </td>
+        <td class="comment-text">
+            <div style="display: block;" class="comment-body">
+                <span class="comment-copy">@ShibinRagh <a href="https://www.w3.org/TR/2012/WD-html5-20121025/common-input-element-attributes.html#attr-input-step" rel="nofollow">w3.org/TR/2012/WD-html5-20121025/…</a></span>
+                    –&nbsp;<a href="http://stackoverflow.com/users/1582182/aur%c3%a9lien-ooms" title="2,446 reputation" class="comment-user">Aurélien Ooms</a>
+                <span class="comment-date" dir="ltr"><a class="comment-link" href="http://stackoverflow.com/questions/8808590/html5-number-input-type-that-takes-only-integers#comment61470554_17208628"><span title="2016-04-30 15:05:26Z" class="relativetime-clean">Apr 30 at 15:05</span></a></span>
+                                                                            </div>
+                    </td>
+    </tr>
+                </tbody>
+		    </table>
+	    </div>
+
+        <div id="comments-link-17208628" data-rep="50" data-anon="true">
+
+                <a class="js-add-link comments-link  dno" title="Use comments to ask for more information or suggest improvements. Avoid comments like “+1” or “thanks”."></a><span class="js-link-separator dno">&nbsp;|&nbsp;</span>
+            <a class="js-show-link comments-link " title="expand to show all comments on this post" href="http://stackoverflow.com/questions/8808590/html5-number-input-type-that-takes-only-integers#" onclick="">show <b>4</b> more comments</a>
+        </div>         
+    </td>
+</tr>    </tbody></table>
+</div>
+<script>
+                var ados = ados || {}; ados.run = ados.run || [];
+                ados.run.push(function () { ados_add_placement(22,8277,"adzerk1423489388",4).setZone(44); });
+            </script>
+            <div class="everyonelovesstackoverflow adzerk-vote" id="adzerk1423489388"><a href="http://engine.adzerk.net/r?e=eyJhdiI6NDE0LCJhdCI6NCwiYnQiOjAsImNtIjo0NzE0OTMsImNoIjoxMTc4LCJjayI6e30sImNyIjoxNjI3NzY0LCJkaSI6ImJkY2ZkZTQ0MDc0OTQyNzA4ZDdjN2NiYzMwNzlmNGE5IiwiZG0iOjEsImZjIjoxOTI0NDQzLCJmbCI6MjE0MjMxMiwiaXAiOiI1MS4xNzEuNy4xNTYiLCJrdyI6ImpxdWVyeSxodG1sNSx2YWxpZGF0aW9uLGpxdWVyeS10b29scyIsIm53IjoyMiwicGMiOjAsImVjIjowLCJwciI6MTYwNCwicnQiOjEsInJmIjoiaHR0cHM6Ly93d3cuZ29vZ2xlLmllLyIsInN0Ijo4Mjc3LCJ1ayI6InVlMS05YjZmMDNlNGMyZGY0NjU5YjZjOGRhZmY4ODk0OGE0ZCIsInpuIjo0NCwidHMiOjE0NzUxNjExNDQ2NTIsImJmIjp0cnVlLCJwbiI6ImFkemVyazE0MjM0ODkzODgiLCJ1ciI6Imh0dHA6Ly9zdGFja292ZXJmbG93LmNvbS9qb2JzP3V0bV9zb3VyY2U9d2Vic2l0ZSZ1dG1fbWVkaXVtPWJhbm5lciZ1dG1fY29udGVudD1sZWFkZXJib2FyZF8yJnV0bV9jYW1wYWlnbj1ob3VzZV9hZHNfaG91c2VfYWRzX1JPU19TTyJ9&amp;s=3B9oN6tgRPCg2UOdgzPaksDjEBs" rel="nofollow" target="_blank" title=""><img src="./jquery - HTML5_ number input type that takes only integers_ - Stack Overflow_files/c6eb02709d7d40c48ae0ff1632e88956.png" title="" alt="" border="0" width="728" height="90"></a><img height="0px" width="0px" border="0" style="position:absolute;" src="./jquery - HTML5_ number input type that takes only integers_ - Stack Overflow_files/i(1).gif"><div class="adzerk-vote-controls" style="display: none;"><div class="adzerk-vote-option adzerk-vote-up"><div class="adzerk-vote-icon"></div></div><div class="adzerk-vote-option adzerk-vote-down"><div class="adzerk-vote-icon"></div></div></div><div class="adzerk-vote-survey" style="display:none;"><form><span>No problem. We won't show you that ad again. Why didn't you like it?</span><ul><li><label><input type="radio" value="12" name="downvoteReason">Uninteresting</label></li><li><label><input type="radio" value="13" name="downvoteReason">Misleading</label></li><li><label><input type="radio" value="14" name="downvoteReason">Offensive</label></li><li><label><input type="radio" value="15" name="downvoteReason">Repetitive</label></li><li><label><input type="radio" value="16" name="downvoteReason">Other</label></li></ul><a href="http://stackoverflow.com/questions/8808590/html5-number-input-type-that-takes-only-integers#" class="adzerk-vote-cancel">Oops! I didn't mean to do this.</a></form></div></div>
+  
+<a name="8808608"></a>
+<div id="answer-8808608" class="answer" data-answerid="8808608" itemscope="" itemtype="http://schema.org/Answer">
+    <table>
+        <tbody><tr>
+            <td class="votecell">
+                
+
+<div class="vote">
+        <input type="hidden" name="_id_" value="8808608">
+        <a class="vote-up-off" title="This answer is useful">up vote</a>
+        <span itemprop="upvoteCount" class="vote-count-post ">90</span>
+        <a class="vote-down-off" title="This answer is not useful">down vote</a>
+
+
+
+
+</div>
+
+            </td>
+            
+
+
+<td class="answercell">
+    <div class="post-text" itemprop="text">
+<p>Set the <code>step</code> attribute to <code>1</code>:</p>
+
+<pre class="default prettyprint prettyprinted"><code><span class="tag">&lt;input</span><span class="pln"> </span><span class="atn">type</span><span class="pun">=</span><span class="atv">"number"</span><span class="pln"> </span><span class="atn">step</span><span class="pun">=</span><span class="atv">"1"</span><span class="pln"> </span><span class="tag">/&gt;</span></code></pre>
+
+<p>This seems a bit buggy in Chrome right now so it might not be the best solution at the moment.</p>
+
+<p>A better solution is to use the <code>pattern</code> attribute, that uses a regular expression to match the input:</p>
+
+<pre class="default prettyprint prettyprinted"><code><span class="tag">&lt;input</span><span class="pln"> </span><span class="atn">type</span><span class="pun">=</span><span class="atv">"text"</span><span class="pln"> </span><span class="atn">pattern</span><span class="pun">=</span><span class="atv">"\d*"</span><span class="pln"> </span><span class="tag">/&gt;</span></code></pre>
+
+<p><code>\d</code> is the regular expression for a number, <code>*</code> means that it accepts more than one of them.
+Here is the demo: <a href="http://jsfiddle.net/b8NrE/1/">http://jsfiddle.net/b8NrE/1/</a></p>
+    </div>
+    <table class="fw">
+    <tbody><tr>
+    <td class="vt">
+<div class="post-menu"><a href="http://stackoverflow.com/a/8808608" title="short permalink to this answer" class="short-link" id="link-post-8808608">share</a><span class="lsep">|</span><a href="http://stackoverflow.com/posts/8808608/edit" class="suggest-edit-post" title="">improve this answer</a></div>                    </td>
+    <td align="right" class="post-signature">
+<div class="user-info ">
+    <div class="user-action-time">
+        <a href="http://stackoverflow.com/posts/8808608/revisions" title="show all edits to this post">edited <span title="2012-01-10 18:43:34Z" class="relativetime">Jan 10 '12 at 18:43</span></a>
+    </div>
+    <div class="user-gravatar32">
+        
+    </div>
+    <div class="user-details">
+        
+        <div class="-flair">
+            
+        </div>
+    </div>
+</div>    </td>
+            
+
+
+    <td align="right" class="post-signature">   
+       
+
+    <div class="user-info user-hover">
+    <div class="user-action-time">
+        answered <span title="2012-01-10 18:37:23Z" class="relativetime">Jan 10 '12 at 18:37</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/854624/js-coder"><div class="gravatar-wrapper-32"><img src="./jquery - HTML5_ number input type that takes only integers_ - Stack Overflow_files/2dfa9c10043c20d0f5e650ce0cee3680" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/854624/js-coder">js-coder</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">4,104</span><span title="5 gold badges"><span class="badge1"></span><span class="badgecount">5</span></span><span title="26 silver badges"><span class="badge2"></span><span class="badgecount">26</span></span><span title="52 bronze badges"><span class="badge3"></span><span class="badgecount">52</span></span>
+        </div>
+    </div>
+</div>
+    </td>
+    </tr>
+    </tbody></table>
+</td>
+        </tr>
+        
+<tr>
+    <td class="votecell"></td>
+    <td>
+	    <div id="comments-8808608" class="comments ">
+		    <table>
+                <tbody data-remaining-comments-count="5" data-canpost="false" data-cansee="true" data-comments-unavailable="false" data-addlink-disabled="true">
+
+
+
+    <tr id="comment-10991981" class="comment ">
+        <td class="comment-actions">
+            <table>
+                <tbody>
+                    <tr>
+                        <td class=" comment-score">
+                                <span title="number of &#39;useful comment&#39; votes received" class="cool">2</span>
+                        </td>
+                        <td>
+                                &nbsp;
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </td>
+        <td class="comment-text">
+            <div style="display: block;" class="comment-body">
+                <span class="comment-copy">As JayPea learned, not all browsers support all HTML5 elements yet, so it's best to provide graceful degrading, as you have proposed.</span>
+                    –&nbsp;<a href="http://stackoverflow.com/users/27637/dok" title="24,821 reputation" class="comment-user">DOK</a>
+                <span class="comment-date" dir="ltr"><a class="comment-link" href="http://stackoverflow.com/questions/8808590/html5-number-input-type-that-takes-only-integers#comment10991981_8808608"><span title="2012-01-10 18:54:28Z" class="relativetime-clean">Jan 10 '12 at 18:54</span></a></span>
+                                                                            </div>
+                    </td>
+    </tr>
+    <tr id="comment-13809603" class="comment ">
+        <td>
+            <table>
+                <tbody>
+                    <tr>
+                        <td class=" comment-score">
+                                &nbsp;&nbsp;
+                        </td>
+                        <td>
+                                &nbsp;
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </td>
+        <td class="comment-text">
+            <div style="display: block;" class="comment-body">
+                <span class="comment-copy">On Chrome 18, running Ubuntu, the fiddle above does not seem to work. The number attribute does, however.</span>
+                    –&nbsp;<a href="http://stackoverflow.com/users/967986/zut" title="459 reputation" class="comment-user">Zut</a>
+                <span class="comment-date" dir="ltr"><a class="comment-link" href="http://stackoverflow.com/questions/8808590/html5-number-input-type-that-takes-only-integers#comment13809603_8808608"><span title="2012-05-18 09:34:57Z" class="relativetime-clean">May 18 '12 at 9:34</span></a></span>
+                                                                            </div>
+                    </td>
+    </tr>
+    <tr id="comment-13810614" class="comment ">
+        <td class="comment-actions">
+            <table>
+                <tbody>
+                    <tr>
+                        <td class=" comment-score">
+                                <span title="number of &#39;useful comment&#39; votes received" class="cool">1</span>
+                        </td>
+                        <td>
+                                &nbsp;
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </td>
+        <td class="comment-text">
+            <div style="display: block;" class="comment-body">
+                <span class="comment-copy">@Zut Works for me. (Chrome 18 and Ubuntu.) Did you actually enter something into the input? Use <code>&lt;input type="text" pattern="\d+" required /&gt;</code> if you don't want to accept an empty input.</span>
+                    –&nbsp;<a href="http://stackoverflow.com/users/854624/js-coder" title="4,104 reputation" class="comment-user">js-coder</a>
+                <span class="comment-date" dir="ltr"><a class="comment-link" href="http://stackoverflow.com/questions/8808590/html5-number-input-type-that-takes-only-integers#comment13810614_8808608"><span title="2012-05-18 10:17:16Z" class="relativetime-clean">May 18 '12 at 10:17</span></a></span>
+                    <span class="edited-yes" title="this comment was edited 1 time"></span>
+                                                                            </div>
+                    </td>
+    </tr>
+    <tr id="comment-15301885" class="comment ">
+        <td class="comment-actions">
+            <table>
+                <tbody>
+                    <tr>
+                        <td class=" comment-score">
+                                <span title="number of &#39;useful comment&#39; votes received" class="cool">2</span>
+                        </td>
+                        <td>
+                                &nbsp;
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </td>
+        <td class="comment-text">
+            <div style="display: block;" class="comment-body">
+                <span class="comment-copy">@Zut HTML5 validation doesn't stop you from entering those keys. It just prevents the form from being send with those characters. If you submit a form with an input of the type <code>number</code> that contains other characters, then Chrome will show you an error message.</span>
+                    –&nbsp;<a href="http://stackoverflow.com/users/854624/js-coder" title="4,104 reputation" class="comment-user">js-coder</a>
+                <span class="comment-date" dir="ltr"><a class="comment-link" href="http://stackoverflow.com/questions/8808590/html5-number-input-type-that-takes-only-integers#comment15301885_8808608"><span title="2012-07-19 18:42:08Z" class="relativetime-clean">Jul 19 '12 at 18:42</span></a></span>
+                                                                            </div>
+                    </td>
+    </tr>
+    <tr id="comment-15312750" class="comment ">
+        <td class="comment-actions">
+            <table>
+                <tbody>
+                    <tr>
+                        <td class=" comment-score">
+                                <span title="number of &#39;useful comment&#39; votes received" class="cool">1</span>
+                        </td>
+                        <td>
+                                &nbsp;
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </td>
+        <td class="comment-text">
+            <div style="display: block;" class="comment-body">
+                <span class="comment-copy">@dotweb - I see your point. The difference between the two is that with the number attribute, all alphabetic characters are automatically removed when I deselect (trigger blur) for the input. This does not happen when using the pattern attribute. I guess this distinction is only important if you are using AJAX to post your data, and you're using some other event than <code>submit</code> to trigger the post.</span>
+                    –&nbsp;<a href="http://stackoverflow.com/users/967986/zut" title="459 reputation" class="comment-user">Zut</a>
+                <span class="comment-date" dir="ltr"><a class="comment-link" href="http://stackoverflow.com/questions/8808590/html5-number-input-type-that-takes-only-integers#comment15312750_8808608"><span title="2012-07-20 06:57:42Z" class="relativetime-clean">Jul 20 '12 at 6:57</span></a></span>
+                                                                            </div>
+                    </td>
+    </tr>
+                </tbody>
+		    </table>
+	    </div>
+
+        <div id="comments-link-8808608" data-rep="50" data-anon="true">
+
+                <a class="js-add-link comments-link  dno" title="Use comments to ask for more information or suggest improvements. Avoid comments like “+1” or “thanks”."></a><span class="js-link-separator dno">&nbsp;|&nbsp;</span>
+            <a class="js-show-link comments-link " title="expand to show all comments on this post" href="http://stackoverflow.com/questions/8808590/html5-number-input-type-that-takes-only-integers#" onclick="">show <b>5</b> more comments</a>
+        </div>         
+    </td>
+</tr>    </tbody></table>
+</div>
+
+  
+<a name="23443691"></a>
+<div id="answer-23443691" class="answer" data-answerid="23443691" itemscope="" itemtype="http://schema.org/Answer">
+    <table>
+        <tbody><tr>
+            <td class="votecell">
+                
+
+<div class="vote">
+        <input type="hidden" name="_id_" value="23443691">
+        <a class="vote-up-off" title="This answer is useful">up vote</a>
+        <span itemprop="upvoteCount" class="vote-count-post ">12</span>
+        <a class="vote-down-off" title="This answer is not useful">down vote</a>
+
+
+
+
+</div>
+
+            </td>
+            
+
+
+<td class="answercell">
+    <div class="post-text" itemprop="text">
+<pre class="default prettyprint prettyprinted"><code><span class="tag">&lt;input</span><span class="pln"> </span><span class="atn">type</span><span class="pun">=</span><span class="atv">"text"</span><span class="pln"> </span><span class="atn">name</span><span class="pun">=</span><span class="atv">"Phone Number"</span><span class="pln"> </span><span class="atn">pattern</span><span class="pun">=</span><span class="atv">"[0-9]{10}"</span><span class="pln"> </span><span class="atn">title</span><span class="pun">=</span><span class="atv">"Phone number"</span><span class="tag">&gt;</span></code></pre>
+
+<p>Using this code, the input to the text feild limit to enter only digits....Pattern is the new attribute available in HTML5</p>
+
+<p><a href="http://www.w3schools.com/tags/att_input_pattern.asp">Patter attribute doc</a></p>
+    </div>
+    <table class="fw">
+    <tbody><tr>
+    <td class="vt">
+<div class="post-menu"><a href="http://stackoverflow.com/a/23443691" title="short permalink to this answer" class="short-link" id="link-post-23443691">share</a><span class="lsep">|</span><a href="http://stackoverflow.com/posts/23443691/edit" class="suggest-edit-post" title="">improve this answer</a></div>                    </td>
+    <td align="right" class="post-signature">
+<div class="user-info ">
+    <div class="user-action-time">
+        <a href="http://stackoverflow.com/posts/23443691/revisions" title="show all edits to this post">edited <span title="2014-05-03 11:45:29Z" class="relativetime">May 3 '14 at 11:45</span></a>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/2670249/chirag-ghori"><div class="gravatar-wrapper-32"><img src="./jquery - HTML5_ number input type that takes only integers_ - Stack Overflow_files/8df844054033768ad4c40784318f944f" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/2670249/chirag-ghori">Chirag Ghori</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">3,166</span><span title="2 gold badges"><span class="badge1"></span><span class="badgecount">2</span></span><span title="8 silver badges"><span class="badge2"></span><span class="badgecount">8</span></span><span title="28 bronze badges"><span class="badge3"></span><span class="badgecount">28</span></span>
+        </div>
+    </div>
+</div>    </td>
+            
+
+
+    <td align="right" class="post-signature">   
+       
+
+    <div class="user-info ">
+    <div class="user-action-time">
+        answered <span title="2014-05-03 11:14:51Z" class="relativetime">May 3 '14 at 11:14</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/2466310/thejustv"><div class="gravatar-wrapper-32"><img src="./jquery - HTML5_ number input type that takes only integers_ - Stack Overflow_files/aIVNK.jpg" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/2466310/thejustv">thejustv</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">655</span><span title="7 silver badges"><span class="badge2"></span><span class="badgecount">7</span></span><span title="21 bronze badges"><span class="badge3"></span><span class="badgecount">21</span></span>
+        </div>
+    </div>
+</div>
+    </td>
+    </tr>
+    </tbody></table>
+</td>
+        </tr>
+        
+<tr>
+    <td class="votecell"></td>
+    <td>
+	    <div id="comments-23443691" class="comments ">
+		    <table>
+                <tbody data-remaining-comments-count="0" data-canpost="false" data-cansee="true" data-comments-unavailable="false" data-addlink-disabled="true">
+
+
+
+    <tr id="comment-36598288" class="comment ">
+        <td>
+            <table>
+                <tbody>
+                    <tr>
+                        <td class=" comment-score">
+                                &nbsp;&nbsp;
+                        </td>
+                        <td>
+                                &nbsp;
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </td>
+        <td class="comment-text">
+            <div style="display: block;" class="comment-body">
+                <span class="comment-copy"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Input#attr-pattern" rel="nofollow">developer.mozilla.org/en-US/docs/Web/HTML/Element/…</a></span>
+                    –&nbsp;<a href="http://stackoverflow.com/users/144665/iambriansreed" title="13,777 reputation" class="comment-user">iambriansreed</a>
+                <span class="comment-date" dir="ltr"><a class="comment-link" href="http://stackoverflow.com/questions/8808590/html5-number-input-type-that-takes-only-integers#comment36598288_23443691"><span title="2014-05-21 22:10:27Z" class="relativetime-clean">May 21 '14 at 22:10</span></a></span>
+                                                                            </div>
+                    </td>
+    </tr>
+    <tr id="comment-37841390" class="comment ">
+        <td class="comment-actions">
+            <table>
+                <tbody>
+                    <tr>
+                        <td class=" comment-score">
+                                <span title="number of &#39;useful comment&#39; votes received" class="cool">2</span>
+                        </td>
+                        <td>
+                                &nbsp;
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </td>
+        <td class="comment-text">
+            <div style="display: block;" class="comment-body">
+                <span class="comment-copy">According to <a href="http://www.w3.org/TR/html5/forms.html#the-input-element" rel="nofollow">the specification</a> the <b>pattern attribute</b> can only be used where the input type is Text, Search, URL, Telephone, E-mail, Password (as shown here with the "Text" type). This means that semantics of the number input type and therefore (importantly) the numeric on-screen keyboards of some tablets and phones is lost when using this method.</span>
+                    –&nbsp;<a href="http://stackoverflow.com/users/1107593/pwdst" title="6,566 reputation" class="comment-user">pwdst</a>
+                <span class="comment-date" dir="ltr"><a class="comment-link" href="http://stackoverflow.com/questions/8808590/html5-number-input-type-that-takes-only-integers#comment37841390_23443691"><span title="2014-06-27 14:00:04Z" class="relativetime-clean">Jun 27 '14 at 14:00</span></a></span>
+                                                                            </div>
+                    </td>
+    </tr>
+    <tr id="comment-45817581" class="comment ">
+        <td>
+            <table>
+                <tbody>
+                    <tr>
+                        <td class=" comment-score">
+                                &nbsp;&nbsp;
+                        </td>
+                        <td>
+                                &nbsp;
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </td>
+        <td class="comment-text">
+            <div style="display: block;" class="comment-body">
+                <span class="comment-copy">This on firefox 36.0 allows you to type letters and special characters.</span>
+                    –&nbsp;<a href="http://stackoverflow.com/users/2890522/malavos" title="272 reputation" class="comment-user">Malavos</a>
+                <span class="comment-date" dir="ltr"><a class="comment-link" href="http://stackoverflow.com/questions/8808590/html5-number-input-type-that-takes-only-integers#comment45817581_23443691"><span title="2015-02-27 16:16:35Z" class="relativetime-clean">Feb 27 '15 at 16:16</span></a></span>
+                                                                            </div>
+                    </td>
+    </tr>
+                </tbody>
+		    </table>
+	    </div>
+
+        <div id="comments-link-23443691" data-rep="50" data-anon="true">
+
+                <a class="js-add-link comments-link disabled-link " title="Use comments to ask for more information or suggest improvements. Avoid comments like “+1” or “thanks”.">add a comment</a><span class="js-link-separator dno">&nbsp;|&nbsp;</span>
+            <a class="js-show-link comments-link dno" title="expand to show all comments on this post" href="http://stackoverflow.com/questions/8808590/html5-number-input-type-that-takes-only-integers#" onclick=""></a>
+        </div>         
+    </td>
+</tr>    </tbody></table>
+</div>
+
+  
+<a name="23443818"></a>
+<div id="answer-23443818" class="answer" data-answerid="23443818" itemscope="" itemtype="http://schema.org/Answer">
+    <table>
+        <tbody><tr>
+            <td class="votecell">
+                
+
+<div class="vote">
+        <input type="hidden" name="_id_" value="23443818">
+        <a class="vote-up-off" title="This answer is useful">up vote</a>
+        <span itemprop="upvoteCount" class="vote-count-post ">10</span>
+        <a class="vote-down-off" title="This answer is not useful">down vote</a>
+
+
+
+
+</div>
+
+            </td>
+            
+
+
+<td class="answercell">
+    <div class="post-text" itemprop="text">
+<p>This is not only for html5 all browser is working fine . try this   onkeyup="this.value=this.value.replace(/[^0-9]/g,'');"</p>
+    </div>
+    <table class="fw">
+    <tbody><tr>
+    <td class="vt">
+<div class="post-menu"><a href="http://stackoverflow.com/a/23443818" title="short permalink to this answer" class="short-link" id="link-post-23443818">share</a><span class="lsep">|</span><a href="http://stackoverflow.com/posts/23443818/edit" class="suggest-edit-post" title="">improve this answer</a></div>                    </td>
+    <td align="right" class="post-signature">
+<div class="user-info ">
+    <div class="user-action-time">
+        answered <a href="http://stackoverflow.com/posts/23443818/revisions" title="show all edits to this post"><span title="2014-05-03 11:28:49Z" class="relativetime">May 3 '14 at 11:28</span></a>
+    </div>
+    <div class="user-gravatar32">
+        
+    </div>
+    <div class="user-details">
+        
+        <div class="-flair">
+            
+        </div>
+    </div>
+</div>    </td>
+            
+
+
+    <td align="right" class="post-signature">   
+       
+
+    <div class="user-info">
+    <div class="user-details">
+        <span class="community-wiki" title="This post is community owned as of May 3 &#39;14 at 11:28. Votes do not generate reputation, and it can be edited by users with 100 rep">
+            community wiki
+        </span>
+    </div><br>
+    <div class="user-details">
+        <a id="history-23443818" href="http://stackoverflow.com/posts/23443818/revisions" title="show revision history for this post">
+        karthick
+        </a>
+    </div>
+</div>
+    </td>
+    </tr>
+    </tbody></table>
+</td>
+        </tr>
+        
+<tr>
+    <td class="votecell"></td>
+    <td>
+	    <div id="comments-23443818" class="comments ">
+		    <table>
+                <tbody data-remaining-comments-count="0" data-canpost="false" data-cansee="true" data-comments-unavailable="false" data-addlink-disabled="true">
+
+
+
+    <tr id="comment-61796192" class="comment ">
+        <td>
+            <table>
+                <tbody>
+                    <tr>
+                        <td class=" comment-score">
+                                &nbsp;&nbsp;
+                        </td>
+                        <td>
+                                &nbsp;
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </td>
+        <td class="comment-text">
+            <div style="display: block;" class="comment-body">
+                <span class="comment-copy">This is bad. On the input try: Shift+Home, Shift+End, Ctrl+A, Ctrl+C, Ctrl+V. Use <code>oninput</code> instead</span>
+                    –&nbsp;<a href="http://stackoverflow.com/users/2266583/zanderwar" title="1,241 reputation" class="comment-user">Zanderwar</a>
+                <span class="comment-date" dir="ltr"><a class="comment-link" href="http://stackoverflow.com/questions/8808590/html5-number-input-type-that-takes-only-integers#comment61796192_23443818"><span title="2016-05-10 01:30:30Z" class="relativetime-clean">May 10 at 1:30</span></a></span>
+                    <span class="edited-yes" title="this comment was edited 3 times"></span>
+                                                                            </div>
+                    </td>
+    </tr>
+                </tbody>
+		    </table>
+	    </div>
+
+        <div id="comments-link-23443818" data-rep="50" data-anon="true">
+
+                <a class="js-add-link comments-link disabled-link " title="Use comments to ask for more information or suggest improvements. Avoid comments like “+1” or “thanks”.">add a comment</a><span class="js-link-separator dno">&nbsp;|&nbsp;</span>
+            <a class="js-show-link comments-link dno" title="expand to show all comments on this post" href="http://stackoverflow.com/questions/8808590/html5-number-input-type-that-takes-only-integers#" onclick=""></a>
+        </div>         
+    </td>
+</tr>    </tbody></table>
+</div>
+
+  
+<a name="30302125"></a>
+<div id="answer-30302125" class="answer" data-answerid="30302125" itemscope="" itemtype="http://schema.org/Answer">
+    <table>
+        <tbody><tr>
+            <td class="votecell">
+                
+
+<div class="vote">
+        <input type="hidden" name="_id_" value="30302125">
+        <a class="vote-up-off" title="This answer is useful">up vote</a>
+        <span itemprop="upvoteCount" class="vote-count-post ">9</span>
+        <a class="vote-down-off" title="This answer is not useful">down vote</a>
+
+
+
+
+</div>
+
+            </td>
+            
+
+
+<td class="answercell">
+    <div class="post-text" itemprop="text">
+<p>The easy way using JavaScript:</p>
+
+<pre class="default prettyprint prettyprinted"><code><span class="tag">&lt;input</span><span class="pln"> </span><span class="atn">type</span><span class="pun">=</span><span class="atv">"text"</span><span class="pln"> </span><span class="atn">oninput</span><span class="pun">=</span><span class="atv">"</span><span class="kwd">this</span><span class="pun">.</span><span class="pln">value </span><span class="pun">=</span><span class="pln"> </span><span class="kwd">this</span><span class="pun">.</span><span class="pln">value</span><span class="pun">.</span><span class="pln">replace</span><span class="pun">(</span><span class="str">/[^0-9.]/</span><span class="pln">g</span><span class="pun">,</span><span class="pln"> </span><span class="str">''</span><span class="pun">);</span><span class="pln"> </span><span class="kwd">this</span><span class="pun">.</span><span class="pln">value </span><span class="pun">=</span><span class="pln"> </span><span class="kwd">this</span><span class="pun">.</span><span class="pln">value</span><span class="pun">.</span><span class="pln">replace</span><span class="pun">(</span><span class="str">/(\..*)\./</span><span class="pln">g</span><span class="pun">,</span><span class="pln"> </span><span class="str">'$1'</span><span class="pun">);</span><span class="atv">"</span><span class="pln"> </span><span class="tag">&gt;</span></code></pre>
+    </div>
+    <table class="fw">
+    <tbody><tr>
+    <td class="vt">
+<div class="post-menu"><a href="http://stackoverflow.com/a/30302125" title="short permalink to this answer" class="short-link" id="link-post-30302125">share</a><span class="lsep">|</span><a href="http://stackoverflow.com/posts/30302125/edit" class="suggest-edit-post" title="">improve this answer</a></div>                    </td>
+            
+
+
+    <td align="right" class="post-signature">   
+       
+
+    <div class="user-info ">
+    <div class="user-action-time">
+        answered <span title="2015-05-18 11:34:19Z" class="relativetime">May 18 '15 at 11:34</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/1756032/tarek-kalaji"><div class="gravatar-wrapper-32"><img src="./jquery - HTML5_ number input type that takes only integers_ - Stack Overflow_files/picture" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/1756032/tarek-kalaji">Tarek Kalaji</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">405</span><span title="8 silver badges"><span class="badge2"></span><span class="badgecount">8</span></span><span title="19 bronze badges"><span class="badge3"></span><span class="badgecount">19</span></span>
+        </div>
+    </div>
+</div>
+    </td>
+    </tr>
+    </tbody></table>
+</td>
+        </tr>
+        
+<tr>
+    <td class="votecell"></td>
+    <td>
+	    <div id="comments-30302125" class="comments  dno">
+		    <table>
+                <tbody data-remaining-comments-count="0" data-canpost="false" data-cansee="true" data-comments-unavailable="false" data-addlink-disabled="true">
+
+                        <tr><td></td><td></td></tr>
+                </tbody>
+		    </table>
+	    </div>
+
+        <div id="comments-link-30302125" data-rep="50" data-anon="true">
+
+                <a class="js-add-link comments-link disabled-link " title="Use comments to ask for more information or suggest improvements. Avoid comments like “+1” or “thanks”.">add a comment</a><span class="js-link-separator dno">&nbsp;|&nbsp;</span>
+            <a class="js-show-link comments-link dno" title="expand to show all comments on this post" href="http://stackoverflow.com/questions/8808590/html5-number-input-type-that-takes-only-integers#" onclick=""></a>
+        </div>         
+    </td>
+</tr>    </tbody></table>
+</div>
+
+  
+<a name="10743939"></a>
+<div id="answer-10743939" class="answer" data-answerid="10743939" itemscope="" itemtype="http://schema.org/Answer">
+    <table>
+        <tbody><tr>
+            <td class="votecell">
+                
+
+<div class="vote">
+        <input type="hidden" name="_id_" value="10743939">
+        <a class="vote-up-off" title="This answer is useful">up vote</a>
+        <span itemprop="upvoteCount" class="vote-count-post ">4</span>
+        <a class="vote-down-off" title="This answer is not useful">down vote</a>
+
+
+
+
+</div>
+
+            </td>
+            
+
+
+<td class="answercell">
+    <div class="post-text" itemprop="text">
+<p>Yes, HTML5 does. Try this code (<a href="http://www.w3schools.com/html/tryit.asp?filename=tryhtml5_input_type_number" rel="nofollow">w3school</a>):</p>
+
+<pre class="default prettyprint prettyprinted"><code><span class="dec">&lt;!DOCTYPE html&gt;</span><span class="pln">
+</span><span class="tag">&lt;html&gt;</span><span class="pln">
+</span><span class="tag">&lt;body&gt;</span><span class="pln">
+
+</span><span class="tag">&lt;form</span><span class="pln"> </span><span class="atn">action</span><span class="pun">=</span><span class="atv">""</span><span class="tag">&gt;</span><span class="pln">
+  Quantity (between 1 and 5): </span><span class="tag">&lt;input</span><span class="pln"> </span><span class="atn">type</span><span class="pun">=</span><span class="atv">"number"</span><span class="pln"> </span><span class="atn">name</span><span class="pun">=</span><span class="atv">"quantity"</span><span class="pln"> </span><span class="atn">min</span><span class="pun">=</span><span class="atv">"1"</span><span class="pln"> </span><span class="atn">max</span><span class="pun">=</span><span class="atv">"5"</span><span class="pln"> </span><span class="tag">/&gt;</span><span class="pln">
+  </span><span class="tag">&lt;input</span><span class="pln"> </span><span class="atn">type</span><span class="pun">=</span><span class="atv">"submit"</span><span class="pln"> </span><span class="tag">/&gt;</span><span class="pln">
+</span><span class="tag">&lt;/form&gt;</span><span class="pln">
+
+</span><span class="tag">&lt;/body&gt;</span><span class="pln">
+</span><span class="tag">&lt;/html&gt;</span></code></pre>
+
+<p>See the min and max paremeter? I tried it using Chrome 19 (worked) and Firefox 12 (did not work).</p>
+    </div>
+    <table class="fw">
+    <tbody><tr>
+    <td class="vt">
+<div class="post-menu"><a href="http://stackoverflow.com/a/10743939" title="short permalink to this answer" class="short-link" id="link-post-10743939">share</a><span class="lsep">|</span><a href="http://stackoverflow.com/posts/10743939/edit" class="suggest-edit-post" title="">improve this answer</a></div>                    </td>
+    <td align="right" class="post-signature">
+<div class="user-info user-hover">
+    <div class="user-action-time">
+        <a href="http://stackoverflow.com/posts/10743939/revisions" title="show all edits to this post">edited <span title="2013-08-16 12:27:13Z" class="relativetime">Aug 16 '13 at 12:27</span></a>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/766177/valentin-despa"><div class="gravatar-wrapper-32"><img src="./jquery - HTML5_ number input type that takes only integers_ - Stack Overflow_files/db2cb34280bcf071d4597f48d9852cff" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/766177/valentin-despa">Valentin Despa</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">8,478</span><span title="9 gold badges"><span class="badge1"></span><span class="badgecount">9</span></span><span title="45 silver badges"><span class="badge2"></span><span class="badgecount">45</span></span><span title="77 bronze badges"><span class="badge3"></span><span class="badgecount">77</span></span>
+        </div>
+    </div>
+</div>    </td>
+            
+
+
+    <td align="right" class="post-signature">   
+       
+
+    <div class="user-info ">
+    <div class="user-action-time">
+        answered <span title="2012-05-24 19:18:54Z" class="relativetime">May 24 '12 at 19:18</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/770392/wilsonfoz"><div class="gravatar-wrapper-32"><img src="./jquery - HTML5_ number input type that takes only integers_ - Stack Overflow_files/ee5ad842c62317efab27665a89faf977" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/770392/wilsonfoz">wilsonfoz</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">386</span><span title="3 silver badges"><span class="badge2"></span><span class="badgecount">3</span></span><span title="8 bronze badges"><span class="badge3"></span><span class="badgecount">8</span></span>
+        </div>
+    </div>
+</div>
+    </td>
+    </tr>
+    </tbody></table>
+</td>
+        </tr>
+        
+<tr>
+    <td class="votecell"></td>
+    <td>
+	    <div id="comments-10743939" class="comments  dno">
+		    <table>
+                <tbody data-remaining-comments-count="0" data-canpost="false" data-cansee="true" data-comments-unavailable="false" data-addlink-disabled="true">
+
+                        <tr><td></td><td></td></tr>
+                </tbody>
+		    </table>
+	    </div>
+
+        <div id="comments-link-10743939" data-rep="50" data-anon="true">
+
+                <a class="js-add-link comments-link disabled-link " title="Use comments to ask for more information or suggest improvements. Avoid comments like “+1” or “thanks”.">add a comment</a><span class="js-link-separator dno">&nbsp;|&nbsp;</span>
+            <a class="js-show-link comments-link dno" title="expand to show all comments on this post" href="http://stackoverflow.com/questions/8808590/html5-number-input-type-that-takes-only-integers#" onclick=""></a>
+        </div>         
+    </td>
+</tr>    </tbody></table>
+</div>
+
+  
+<a name="8808638"></a>
+<div id="answer-8808638" class="answer" data-answerid="8808638" itemscope="" itemtype="http://schema.org/Answer">
+    <table>
+        <tbody><tr>
+            <td class="votecell">
+                
+
+<div class="vote">
+        <input type="hidden" name="_id_" value="8808638">
+        <a class="vote-up-off" title="This answer is useful">up vote</a>
+        <span itemprop="upvoteCount" class="vote-count-post ">3</span>
+        <a class="vote-down-off" title="This answer is not useful">down vote</a>
+
+
+
+
+</div>
+
+            </td>
+            
+
+
+<td class="answercell">
+    <div class="post-text" itemprop="text">
+<p><a href="http://dev.w3.org/html5/markup/input.number.html" rel="nofollow">From the specs</a></p>
+
+<blockquote>
+  <p>step   =   "any" or positive floating-point number<br>
+  Specifies the value granularity of the element’s value.</p>
+</blockquote>
+
+<p>So you could simply set it to <code>1</code>:</p>
+
+<p></p>
+    </div>
+    <table class="fw">
+    <tbody><tr>
+    <td class="vt">
+<div class="post-menu"><a href="http://stackoverflow.com/a/8808638" title="short permalink to this answer" class="short-link" id="link-post-8808638">share</a><span class="lsep">|</span><a href="http://stackoverflow.com/posts/8808638/edit" class="suggest-edit-post" title="">improve this answer</a></div>                    </td>
+            
+
+
+    <td align="right" class="post-signature">   
+       
+
+    <div class="user-info user-hover">
+    <div class="user-action-time">
+        answered <span title="2012-01-10 18:39:19Z" class="relativetime">Jan 10 '12 at 18:39</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/133802/david-hedlund"><div class="gravatar-wrapper-32"><img src="./jquery - HTML5_ number input type that takes only integers_ - Stack Overflow_files/033db611465c8752e372f0a21c220f66" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/133802/david-hedlund">David Hedlund</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score 88,773" dir="ltr">88.8k</span><span title="22 gold badges"><span class="badge1"></span><span class="badgecount">22</span></span><span title="154 silver badges"><span class="badge2"></span><span class="badgecount">154</span></span><span title="184 bronze badges"><span class="badge3"></span><span class="badgecount">184</span></span>
+        </div>
+    </div>
+</div>
+    </td>
+    </tr>
+    </tbody></table>
+</td>
+        </tr>
+        
+<tr>
+    <td class="votecell"></td>
+    <td>
+	    <div id="comments-8808638" class="comments ">
+		    <table>
+                <tbody data-remaining-comments-count="0" data-canpost="false" data-cansee="true" data-comments-unavailable="false" data-addlink-disabled="true">
+
+
+
+    <tr id="comment-10991778" class="comment ">
+        <td>
+            <table>
+                <tbody>
+                    <tr>
+                        <td class=" comment-score">
+                                &nbsp;&nbsp;
+                        </td>
+                        <td>
+                                &nbsp;
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </td>
+        <td class="comment-text">
+            <div style="display: block;" class="comment-body">
+                <span class="comment-copy">I've tried this but the problem is that you can still type a floating point number in the text box.</span>
+                    –&nbsp;<a href="http://stackoverflow.com/users/424185/jaypea" title="3,947 reputation" class="comment-user owner">JayPea</a>
+                <span class="comment-date" dir="ltr"><a class="comment-link" href="http://stackoverflow.com/questions/8808590/html5-number-input-type-that-takes-only-integers#comment10991778_8808638"><span title="2012-01-10 18:44:26Z" class="relativetime-clean">Jan 10 '12 at 18:44</span></a></span>
+                                                                            </div>
+                    </td>
+    </tr>
+    <tr id="comment-10991922" class="comment ">
+        <td>
+            <table>
+                <tbody>
+                    <tr>
+                        <td class=" comment-score">
+                                &nbsp;&nbsp;
+                        </td>
+                        <td>
+                                &nbsp;
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </td>
+        <td class="comment-text">
+            <div style="display: block;" class="comment-body">
+                <span class="comment-copy">So, you need code that blocks the user from typing a decimal point?</span>
+                    –&nbsp;<a href="http://stackoverflow.com/users/901048/blazemonger" title="55,669 reputation" class="comment-user">Blazemonger</a>
+                <span class="comment-date" dir="ltr"><a class="comment-link" href="http://stackoverflow.com/questions/8808590/html5-number-input-type-that-takes-only-integers#comment10991922_8808638"><span title="2012-01-10 18:51:11Z" class="relativetime-clean">Jan 10 '12 at 18:51</span></a></span>
+                                                                            </div>
+                    </td>
+    </tr>
+                </tbody>
+		    </table>
+	    </div>
+
+        <div id="comments-link-8808638" data-rep="50" data-anon="true">
+
+                <a class="js-add-link comments-link disabled-link " title="Use comments to ask for more information or suggest improvements. Avoid comments like “+1” or “thanks”.">add a comment</a><span class="js-link-separator dno">&nbsp;|&nbsp;</span>
+            <a class="js-show-link comments-link dno" title="expand to show all comments on this post" href="http://stackoverflow.com/questions/8808590/html5-number-input-type-that-takes-only-integers#" onclick=""></a>
+        </div>         
+    </td>
+</tr>    </tbody></table>
+</div>
+
+  
+<a name="8808665"></a>
+<div id="answer-8808665" class="answer" data-answerid="8808665" itemscope="" itemtype="http://schema.org/Answer">
+    <table>
+        <tbody><tr>
+            <td class="votecell">
+                
+
+<div class="vote">
+        <input type="hidden" name="_id_" value="8808665">
+        <a class="vote-up-off" title="This answer is useful">up vote</a>
+        <span itemprop="upvoteCount" class="vote-count-post ">2</span>
+        <a class="vote-down-off" title="This answer is not useful">down vote</a>
+
+
+
+
+</div>
+
+            </td>
+            
+
+
+<td class="answercell">
+    <div class="post-text" itemprop="text">
+<p>have you tried setting the step attribute to 1 like this</p>
+
+<pre class="default prettyprint prettyprinted"><code><span class="tag">&lt;input</span><span class="pln"> </span><span class="atn">type</span><span class="pun">=</span><span class="atv">"number"</span><span class="pln"> </span><span class="atn">step</span><span class="pun">=</span><span class="atv">"1"</span><span class="pln"> </span><span class="tag">/&gt;</span><span class="pln"> </span></code></pre>
+    </div>
+    <table class="fw">
+    <tbody><tr>
+    <td class="vt">
+<div class="post-menu"><a href="http://stackoverflow.com/a/8808665" title="short permalink to this answer" class="short-link" id="link-post-8808665">share</a><span class="lsep">|</span><a href="http://stackoverflow.com/posts/8808665/edit" class="suggest-edit-post" title="">improve this answer</a></div>                    </td>
+    <td align="right" class="post-signature">
+<div class="user-info user-hover">
+    <div class="user-action-time">
+        <a href="http://stackoverflow.com/posts/8808665/revisions" title="show all edits to this post">edited <span title="2012-01-10 18:45:10Z" class="relativetime">Jan 10 '12 at 18:45</span></a>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/95/marek-grzenkowicz"><div class="gravatar-wrapper-32"><img src="./jquery - HTML5_ number input type that takes only integers_ - Stack Overflow_files/99fc91f87b0148b12d5a6a68f4b9cb3d" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/95/marek-grzenkowicz">Marek Grzenkowicz</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score 12,483" dir="ltr">12.5k</span><span title="6 gold badges"><span class="badge1"></span><span class="badgecount">6</span></span><span title="53 silver badges"><span class="badge2"></span><span class="badgecount">53</span></span><span title="81 bronze badges"><span class="badge3"></span><span class="badgecount">81</span></span>
+        </div>
+    </div>
+</div>    </td>
+            
+
+
+    <td align="right" class="post-signature">   
+       
+
+    <div class="user-info ">
+    <div class="user-action-time">
+        answered <span title="2012-01-10 18:42:17Z" class="relativetime">Jan 10 '12 at 18:42</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/1141555/devteamexpress"><div class="gravatar-wrapper-32"><img src="./jquery - HTML5_ number input type that takes only integers_ - Stack Overflow_files/e912427dbde2d54076557cf30d462e1f" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/1141555/devteamexpress">DevTeamExpress</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">76</span><span title="8 bronze badges"><span class="badge3"></span><span class="badgecount">8</span></span>
+        </div>
+    </div>
+</div>
+    </td>
+    </tr>
+    </tbody></table>
+</td>
+        </tr>
+        
+<tr>
+    <td class="votecell"></td>
+    <td>
+	    <div id="comments-8808665" class="comments  dno">
+		    <table>
+                <tbody data-remaining-comments-count="0" data-canpost="false" data-cansee="true" data-comments-unavailable="false" data-addlink-disabled="true">
+
+                        <tr><td></td><td></td></tr>
+                </tbody>
+		    </table>
+	    </div>
+
+        <div id="comments-link-8808665" data-rep="50" data-anon="true">
+
+                <a class="js-add-link comments-link disabled-link " title="Use comments to ask for more information or suggest improvements. Avoid comments like “+1” or “thanks”.">add a comment</a><span class="js-link-separator dno">&nbsp;|&nbsp;</span>
+            <a class="js-show-link comments-link dno" title="expand to show all comments on this post" href="http://stackoverflow.com/questions/8808590/html5-number-input-type-that-takes-only-integers#" onclick=""></a>
+        </div>         
+    </td>
+</tr>    </tbody></table>
+</div>
+
+  
+<a name="15722661"></a>
+<div id="answer-15722661" class="answer" data-answerid="15722661" itemscope="" itemtype="http://schema.org/Answer">
+    <table>
+        <tbody><tr>
+            <td class="votecell">
+                
+
+<div class="vote">
+        <input type="hidden" name="_id_" value="15722661">
+        <a class="vote-up-off" title="This answer is useful">up vote</a>
+        <span itemprop="upvoteCount" class="vote-count-post ">2</span>
+        <a class="vote-down-off" title="This answer is not useful">down vote</a>
+
+
+
+
+</div>
+
+            </td>
+            
+
+
+<td class="answercell">
+    <div class="post-text" itemprop="text">
+<p>Set step="any" . Works fine.
+Reference :<a href="http://blog.isotoma.com/2012/03/html5-input-typenumber-and-decimalsfloats-in-chrome/" rel="nofollow">http://blog.isotoma.com/2012/03/html5-input-typenumber-and-decimalsfloats-in-chrome/</a></p>
+    </div>
+    <table class="fw">
+    <tbody><tr>
+    <td class="vt">
+<div class="post-menu"><a href="http://stackoverflow.com/a/15722661" title="short permalink to this answer" class="short-link" id="link-post-15722661">share</a><span class="lsep">|</span><a href="http://stackoverflow.com/posts/15722661/edit" class="suggest-edit-post" title="">improve this answer</a></div>                    </td>
+            
+
+
+    <td align="right" class="post-signature">   
+       
+
+    <div class="user-info ">
+    <div class="user-action-time">
+        answered <span title="2013-03-30 19:35:54Z" class="relativetime">Mar 30 '13 at 19:35</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/2116438/udit-mittal"><div class="gravatar-wrapper-32"><img src="./jquery - HTML5_ number input type that takes only integers_ - Stack Overflow_files/8JGmz.png" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/2116438/udit-mittal">udit mittal</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">308</span><span title="1 silver badge"><span class="badge2"></span><span class="badgecount">1</span></span><span title="10 bronze badges"><span class="badge3"></span><span class="badgecount">10</span></span>
+        </div>
+    </div>
+</div>
+    </td>
+    </tr>
+    </tbody></table>
+</td>
+        </tr>
+        
+<tr>
+    <td class="votecell"></td>
+    <td>
+	    <div id="comments-15722661" class="comments  dno">
+		    <table>
+                <tbody data-remaining-comments-count="0" data-canpost="false" data-cansee="true" data-comments-unavailable="false" data-addlink-disabled="true">
+
+                        <tr><td></td><td></td></tr>
+                </tbody>
+		    </table>
+	    </div>
+
+        <div id="comments-link-15722661" data-rep="50" data-anon="true">
+
+                <a class="js-add-link comments-link disabled-link " title="Use comments to ask for more information or suggest improvements. Avoid comments like “+1” or “thanks”.">add a comment</a><span class="js-link-separator dno">&nbsp;|&nbsp;</span>
+            <a class="js-show-link comments-link dno" title="expand to show all comments on this post" href="http://stackoverflow.com/questions/8808590/html5-number-input-type-that-takes-only-integers#" onclick=""></a>
+        </div>         
+    </td>
+</tr>    </tbody></table>
+</div>
+
+  
+<a name="13219919"></a>
+<div id="answer-13219919" class="answer" data-answerid="13219919" itemscope="" itemtype="http://schema.org/Answer">
+    <table>
+        <tbody><tr>
+            <td class="votecell">
+                
+
+<div class="vote">
+        <input type="hidden" name="_id_" value="13219919">
+        <a class="vote-up-off" title="This answer is useful">up vote</a>
+        <span itemprop="upvoteCount" class="vote-count-post ">1</span>
+        <a class="vote-down-off" title="This answer is not useful">down vote</a>
+
+
+
+
+</div>
+
+            </td>
+            
+
+
+<td class="answercell">
+    <div class="post-text" itemprop="text">
+<p>Set 'step' attribute to any float number, e.g. 0.01 and you are good to go.</p>
+    </div>
+    <table class="fw">
+    <tbody><tr>
+    <td class="vt">
+<div class="post-menu"><a href="http://stackoverflow.com/a/13219919" title="short permalink to this answer" class="short-link" id="link-post-13219919">share</a><span class="lsep">|</span><a href="http://stackoverflow.com/posts/13219919/edit" class="suggest-edit-post" title="">improve this answer</a></div>                    </td>
+            
+
+
+    <td align="right" class="post-signature">   
+       
+
+    <div class="user-info ">
+    <div class="user-action-time">
+        answered <span title="2012-11-04 15:27:01Z" class="relativetime">Nov 4 '12 at 15:27</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/51240/mantas-k"><div class="gravatar-wrapper-32"><img src="./jquery - HTML5_ number input type that takes only integers_ - Stack Overflow_files/3954c6698fd1dc8c10ed06e2668717e8" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/51240/mantas-k">Mantas K.</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">54</span><span title="5 bronze badges"><span class="badge3"></span><span class="badgecount">5</span></span>
+        </div>
+    </div>
+</div>
+    </td>
+    </tr>
+    </tbody></table>
+</td>
+        </tr>
+        
+<tr>
+    <td class="votecell"></td>
+    <td>
+	    <div id="comments-13219919" class="comments  dno">
+		    <table>
+                <tbody data-remaining-comments-count="0" data-canpost="false" data-cansee="true" data-comments-unavailable="false" data-addlink-disabled="true">
+
+                        <tr><td></td><td></td></tr>
+                </tbody>
+		    </table>
+	    </div>
+
+        <div id="comments-link-13219919" data-rep="50" data-anon="true">
+
+                <a class="js-add-link comments-link disabled-link " title="Use comments to ask for more information or suggest improvements. Avoid comments like “+1” or “thanks”.">add a comment</a><span class="js-link-separator dno">&nbsp;|&nbsp;</span>
+            <a class="js-show-link comments-link dno" title="expand to show all comments on this post" href="http://stackoverflow.com/questions/8808590/html5-number-input-type-that-takes-only-integers#" onclick=""></a>
+        </div>         
+    </td>
+</tr>    </tbody></table>
+</div>
+
+  
+<a name="34850753"></a>
+<div id="answer-34850753" class="answer" data-answerid="34850753" itemscope="" itemtype="http://schema.org/Answer">
+    <table>
+        <tbody><tr>
+            <td class="votecell">
+                
+
+<div class="vote">
+        <input type="hidden" name="_id_" value="34850753">
+        <a class="vote-up-off" title="This answer is useful">up vote</a>
+        <span itemprop="upvoteCount" class="vote-count-post ">1</span>
+        <a class="vote-down-off" title="This answer is not useful">down vote</a>
+
+
+
+
+</div>
+
+            </td>
+            
+
+
+<td class="answercell">
+    <div class="post-text" itemprop="text">
+<pre class="default prettyprint prettyprinted"><code><span class="kwd">var</span><span class="pln"> valKeyDown</span><span class="pun">;</span><span class="pln">
+</span><span class="kwd">var</span><span class="pln"> valKeyUp</span><span class="pun">;</span><span class="pln">
+
+
+</span><span class="kwd">function</span><span class="pln"> integerOnly</span><span class="pun">(</span><span class="pln">e</span><span class="pun">)</span><span class="pln"> </span><span class="pun">{</span><span class="pln">
+    e </span><span class="pun">=</span><span class="pln"> e </span><span class="pun">||</span><span class="pln"> window</span><span class="pun">.</span><span class="kwd">event</span><span class="pun">;</span><span class="pln">
+    </span><span class="kwd">var</span><span class="pln"> code </span><span class="pun">=</span><span class="pln"> e</span><span class="pun">.</span><span class="pln">which </span><span class="pun">||</span><span class="pln"> e</span><span class="pun">.</span><span class="pln">keyCode</span><span class="pun">;</span><span class="pln">
+    </span><span class="kwd">if</span><span class="pln"> </span><span class="pun">(!</span><span class="pln">e</span><span class="pun">.</span><span class="pln">ctrlKey</span><span class="pun">)</span><span class="pln"> </span><span class="pun">{</span><span class="pln">
+        </span><span class="kwd">var</span><span class="pln"> arrIntCodes1 </span><span class="pun">=</span><span class="pln"> </span><span class="kwd">new</span><span class="pln"> </span><span class="typ">Array</span><span class="pun">(</span><span class="lit">96</span><span class="pun">,</span><span class="pln"> </span><span class="lit">97</span><span class="pun">,</span><span class="pln"> </span><span class="lit">98</span><span class="pun">,</span><span class="pln"> </span><span class="lit">99</span><span class="pun">,</span><span class="pln"> </span><span class="lit">100</span><span class="pun">,</span><span class="pln"> </span><span class="lit">101</span><span class="pun">,</span><span class="pln"> </span><span class="lit">102</span><span class="pun">,</span><span class="pln"> </span><span class="lit">103</span><span class="pun">,</span><span class="pln"> </span><span class="lit">104</span><span class="pun">,</span><span class="pln"> </span><span class="lit">105</span><span class="pun">,</span><span class="pln"> </span><span class="lit">8</span><span class="pun">,</span><span class="pln"> </span><span class="lit">9</span><span class="pun">,</span><span class="pln"> </span><span class="lit">116</span><span class="pun">);</span><span class="pln">   </span><span class="com">// 96 TO 105 - 0 TO 9 (Numpad)</span><span class="pln">
+        </span><span class="kwd">if</span><span class="pln"> </span><span class="pun">(!</span><span class="pln">e</span><span class="pun">.</span><span class="pln">shiftKey</span><span class="pun">)</span><span class="pln"> </span><span class="pun">{</span><span class="pln">                          </span><span class="com">//48 to 57 - 0 to 9 </span><span class="pln">
+            arrIntCodes1</span><span class="pun">.</span><span class="pln">push</span><span class="pun">(</span><span class="lit">48</span><span class="pun">);</span><span class="pln">                  </span><span class="com">//These keys will be allowed only if shift key is NOT pressed</span><span class="pln">
+            arrIntCodes1</span><span class="pun">.</span><span class="pln">push</span><span class="pun">(</span><span class="lit">49</span><span class="pun">);</span><span class="pln">                  </span><span class="com">//Because, with shift key (48 to 57) events will print chars like @,#,$,%,^, etc.</span><span class="pln">
+            arrIntCodes1</span><span class="pun">.</span><span class="pln">push</span><span class="pun">(</span><span class="lit">50</span><span class="pun">);</span><span class="pln">
+            arrIntCodes1</span><span class="pun">.</span><span class="pln">push</span><span class="pun">(</span><span class="lit">51</span><span class="pun">);</span><span class="pln">
+            arrIntCodes1</span><span class="pun">.</span><span class="pln">push</span><span class="pun">(</span><span class="lit">52</span><span class="pun">);</span><span class="pln">
+            arrIntCodes1</span><span class="pun">.</span><span class="pln">push</span><span class="pun">(</span><span class="lit">53</span><span class="pun">);</span><span class="pln">
+            arrIntCodes1</span><span class="pun">.</span><span class="pln">push</span><span class="pun">(</span><span class="lit">54</span><span class="pun">);</span><span class="pln">
+            arrIntCodes1</span><span class="pun">.</span><span class="pln">push</span><span class="pun">(</span><span class="lit">55</span><span class="pun">);</span><span class="pln">
+            arrIntCodes1</span><span class="pun">.</span><span class="pln">push</span><span class="pun">(</span><span class="lit">56</span><span class="pun">);</span><span class="pln">
+            arrIntCodes1</span><span class="pun">.</span><span class="pln">push</span><span class="pun">(</span><span class="lit">57</span><span class="pun">);</span><span class="pln">
+        </span><span class="pun">}</span><span class="pln">
+        </span><span class="kwd">var</span><span class="pln"> arrIntCodes2 </span><span class="pun">=</span><span class="pln"> </span><span class="kwd">new</span><span class="pln"> </span><span class="typ">Array</span><span class="pun">(</span><span class="lit">35</span><span class="pun">,</span><span class="pln"> </span><span class="lit">36</span><span class="pun">,</span><span class="pln"> </span><span class="lit">37</span><span class="pun">,</span><span class="pln"> </span><span class="lit">38</span><span class="pun">,</span><span class="pln"> </span><span class="lit">39</span><span class="pun">,</span><span class="pln"> </span><span class="lit">40</span><span class="pun">,</span><span class="pln"> </span><span class="lit">46</span><span class="pun">);</span><span class="pln">
+        </span><span class="kwd">if</span><span class="pln"> </span><span class="pun">(</span><span class="pln">$</span><span class="pun">.</span><span class="pln">inArray</span><span class="pun">(</span><span class="pln">e</span><span class="pun">.</span><span class="pln">keyCode</span><span class="pun">,</span><span class="pln"> arrIntCodes2</span><span class="pun">)</span><span class="pln"> </span><span class="pun">!=</span><span class="pln"> </span><span class="pun">-</span><span class="lit">1</span><span class="pun">)</span><span class="pln"> </span><span class="pun">{</span><span class="pln">
+            arrIntCodes1</span><span class="pun">.</span><span class="pln">push</span><span class="pun">(</span><span class="pln">e</span><span class="pun">.</span><span class="pln">keyCode</span><span class="pun">);</span><span class="pln">
+        </span><span class="pun">}</span><span class="pln">
+        </span><span class="kwd">if</span><span class="pln"> </span><span class="pun">(</span><span class="pln">$</span><span class="pun">.</span><span class="pln">inArray</span><span class="pun">(</span><span class="pln">code</span><span class="pun">,</span><span class="pln"> arrIntCodes1</span><span class="pun">)</span><span class="pln"> </span><span class="pun">==</span><span class="pln"> </span><span class="pun">-</span><span class="lit">1</span><span class="pun">)</span><span class="pln"> </span><span class="pun">{</span><span class="pln">
+            </span><span class="kwd">return</span><span class="pln"> </span><span class="kwd">false</span><span class="pun">;</span><span class="pln">
+        </span><span class="pun">}</span><span class="pln">
+    </span><span class="pun">}</span><span class="pln">
+    </span><span class="kwd">return</span><span class="pln"> </span><span class="kwd">true</span><span class="pun">;</span><span class="pln">
+</span><span class="pun">}</span><span class="pln">
+
+$</span><span class="pun">(</span><span class="str">'.integerOnly'</span><span class="pun">).</span><span class="pln">keydown</span><span class="pun">(</span><span class="kwd">function</span><span class="pln"> </span><span class="pun">(</span><span class="kwd">event</span><span class="pun">)</span><span class="pln"> </span><span class="pun">{</span><span class="pln">
+    valKeyDown </span><span class="pun">=</span><span class="pln"> </span><span class="kwd">this</span><span class="pun">.</span><span class="pln">value</span><span class="pun">;</span><span class="pln">
+    </span><span class="kwd">return</span><span class="pln"> integerOnly</span><span class="pun">(</span><span class="kwd">event</span><span class="pun">);</span><span class="pln">
+</span><span class="pun">});</span><span class="pln">
+
+$</span><span class="pun">(</span><span class="str">'.integerOnly'</span><span class="pun">).</span><span class="pln">keyup</span><span class="pun">(</span><span class="kwd">function</span><span class="pln"> </span><span class="pun">(</span><span class="kwd">event</span><span class="pun">)</span><span class="pln"> </span><span class="pun">{</span><span class="pln">          </span><span class="com">//This is to protect if user copy-pastes some character value ,..</span><span class="pln">
+    valKeyUp </span><span class="pun">=</span><span class="pln"> </span><span class="kwd">this</span><span class="pun">.</span><span class="pln">value</span><span class="pun">;</span><span class="pln">                          </span><span class="com">//In that case, pasted text is replaced with old value,</span><span class="pln">
+    </span><span class="kwd">if</span><span class="pln"> </span><span class="pun">(!</span><span class="kwd">new</span><span class="pln"> </span><span class="typ">RegExp</span><span class="pun">(</span><span class="str">'^[0-9]*$'</span><span class="pun">).</span><span class="pln">test</span><span class="pun">(</span><span class="pln">valKeyUp</span><span class="pun">))</span><span class="pln"> </span><span class="pun">{</span><span class="pln">   </span><span class="com">//which is stored in 'valKeyDown' at keydown event.</span><span class="pln">
+        $</span><span class="pun">(</span><span class="kwd">this</span><span class="pun">).</span><span class="pln">val</span><span class="pun">(</span><span class="pln">valKeyDown</span><span class="pun">);</span><span class="pln">                    </span><span class="com">//It is not possible to check this inside 'integerOnly' function as,</span><span class="pln">
+    </span><span class="pun">}</span><span class="pln">                                               </span><span class="com">//one cannot get the text printed by keydown event </span><span class="pln">
+</span><span class="pun">});</span><span class="pln">                                                 </span><span class="com">//(that's why, this is checked on keyup)</span><span class="pln">
+
+$</span><span class="pun">(</span><span class="str">'.integerOnly'</span><span class="pun">).</span><span class="pln">bind</span><span class="pun">(</span><span class="str">'input propertychange'</span><span class="pun">,</span><span class="pln"> </span><span class="kwd">function</span><span class="pun">(</span><span class="pln">e</span><span class="pun">)</span><span class="pln"> </span><span class="pun">{</span><span class="pln">    </span><span class="com">//if user copy-pastes some character value using mouse</span><span class="pln">
+    valKeyUp </span><span class="pun">=</span><span class="pln"> </span><span class="kwd">this</span><span class="pun">.</span><span class="pln">value</span><span class="pun">;</span><span class="pln">
+    </span><span class="kwd">if</span><span class="pln"> </span><span class="pun">(!</span><span class="kwd">new</span><span class="pln"> </span><span class="typ">RegExp</span><span class="pun">(</span><span class="str">'^[0-9]*$'</span><span class="pun">).</span><span class="pln">test</span><span class="pun">(</span><span class="pln">valKeyUp</span><span class="pun">))</span><span class="pln"> </span><span class="pun">{</span><span class="pln">
+        $</span><span class="pun">(</span><span class="kwd">this</span><span class="pun">).</span><span class="pln">val</span><span class="pun">(</span><span class="pln">valKeyDown</span><span class="pun">);</span><span class="pln">
+    </span><span class="pun">}</span><span class="pln">
+</span><span class="pun">});</span></code></pre>
+    </div>
+    <table class="fw">
+    <tbody><tr>
+    <td class="vt">
+<div class="post-menu"><a href="http://stackoverflow.com/a/34850753" title="short permalink to this answer" class="short-link" id="link-post-34850753">share</a><span class="lsep">|</span><a href="http://stackoverflow.com/posts/34850753/edit" class="suggest-edit-post" title="">improve this answer</a></div>                    </td>
+            
+
+
+    <td align="right" class="post-signature">   
+       
+
+    <div class="user-info ">
+    <div class="user-action-time">
+        answered <span title="2016-01-18 09:02:13Z" class="relativetime">Jan 18 at 9:02</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/3835869/sarthak"><div class="gravatar-wrapper-32"><img src="./jquery - HTML5_ number input type that takes only integers_ - Stack Overflow_files/664164db412a349e2453cec7a28f7cd9" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/3835869/sarthak">Sarthak</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">11</span><span title="3 bronze badges"><span class="badge3"></span><span class="badgecount">3</span></span>
+        </div>
+    </div>
+</div>
+    </td>
+    </tr>
+    </tbody></table>
+</td>
+        </tr>
+        
+<tr>
+    <td class="votecell"></td>
+    <td>
+	    <div id="comments-34850753" class="comments  dno">
+		    <table>
+                <tbody data-remaining-comments-count="0" data-canpost="false" data-cansee="true" data-comments-unavailable="false" data-addlink-disabled="true">
+
+                        <tr><td></td><td></td></tr>
+                </tbody>
+		    </table>
+	    </div>
+
+        <div id="comments-link-34850753" data-rep="50" data-anon="true">
+
+                <a class="js-add-link comments-link disabled-link " title="Use comments to ask for more information or suggest improvements. Avoid comments like “+1” or “thanks”.">add a comment</a><span class="js-link-separator dno">&nbsp;|&nbsp;</span>
+            <a class="js-show-link comments-link dno" title="expand to show all comments on this post" href="http://stackoverflow.com/questions/8808590/html5-number-input-type-that-takes-only-integers#" onclick=""></a>
+        </div>         
+    </td>
+</tr>    </tbody></table>
+</div>
+
+  
+<a name="12164804"></a>
+<div id="answer-12164804" class="answer" data-answerid="12164804" itemscope="" itemtype="http://schema.org/Answer">
+    <table>
+        <tbody><tr>
+            <td class="votecell">
+                
+
+<div class="vote">
+        <input type="hidden" name="_id_" value="12164804">
+        <a class="vote-up-off" title="This answer is useful">up vote</a>
+        <span itemprop="upvoteCount" class="vote-count-post ">-1</span>
+        <a class="vote-down-off" title="This answer is not useful">down vote</a>
+
+
+
+
+</div>
+
+            </td>
+            
+
+
+<td class="answercell">
+    <div class="post-text" itemprop="text">
+<p>You can restrict a text input to just numeric with <code>input[inputmode]</code> <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=746142" rel="nofollow">in Firefox now</a>, see <a href="http://www.brucelawson.co.uk/2012/credit-card-bank-account-numbers-in-html5-forms/" rel="nofollow">this article from Bruce Lawson</a> about the new specification for <a href="http://www.whatwg.org/specs/web-apps/current-work/multipage/association-of-controls-and-forms.html#input-modalities%3a-the-inputmode-attribute" rel="nofollow">input[inputmode]</a>.</p>
+    </div>
+    <table class="fw">
+    <tbody><tr>
+    <td class="vt">
+<div class="post-menu"><a href="http://stackoverflow.com/a/12164804" title="short permalink to this answer" class="short-link" id="link-post-12164804">share</a><span class="lsep">|</span><a href="http://stackoverflow.com/posts/12164804/edit" class="suggest-edit-post" title="">improve this answer</a></div>                    </td>
+            
+
+
+    <td align="right" class="post-signature">   
+       
+
+    <div class="user-info ">
+    <div class="user-action-time">
+        answered <span title="2012-08-28 17:53:59Z" class="relativetime">Aug 28 '12 at 17:53</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/68655/weston"><div class="gravatar-wrapper-32"><img src="./jquery - HTML5_ number input type that takes only integers_ - Stack Overflow_files/cb9c099e5189d30416ba1c41087f56f4" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/68655/weston">weston</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">1,533</span><span title="13 silver badges"><span class="badge2"></span><span class="badgecount">13</span></span><span title="14 bronze badges"><span class="badge3"></span><span class="badgecount">14</span></span>
+        </div>
+    </div>
+</div>
+    </td>
+    </tr>
+    </tbody></table>
+</td>
+        </tr>
+        
+<tr>
+    <td class="votecell"></td>
+    <td>
+	    <div id="comments-12164804" class="comments ">
+		    <table>
+                <tbody data-remaining-comments-count="0" data-canpost="false" data-cansee="true" data-comments-unavailable="false" data-addlink-disabled="true">
+
+
+
+    <tr id="comment-28835546" class="comment ">
+        <td>
+            <table>
+                <tbody>
+                    <tr>
+                        <td class=" comment-score">
+                                &nbsp;&nbsp;
+                        </td>
+                        <td>
+                                &nbsp;
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </td>
+        <td class="comment-text">
+            <div style="display: block;" class="comment-body">
+                <span class="comment-copy"><code>inputmode</code> is mostly for hand-held devices and will trigger the correct keyboard layout, but for "normal" computers with keyboards, it iwll not prevent entering whatever you want.</span>
+                    –&nbsp;<a href="http://stackoverflow.com/users/104380/vsync" title="25,299 reputation" class="comment-user">vsync</a>
+                <span class="comment-date" dir="ltr"><a class="comment-link" href="http://stackoverflow.com/questions/8808590/html5-number-input-type-that-takes-only-integers#comment28835546_12164804"><span title="2013-10-18 10:47:25Z" class="relativetime-clean">Oct 18 '13 at 10:47</span></a></span>
+                                                                            </div>
+                    </td>
+    </tr>
+                </tbody>
+		    </table>
+	    </div>
+
+        <div id="comments-link-12164804" data-rep="50" data-anon="true">
+
+                <a class="js-add-link comments-link disabled-link " title="Use comments to ask for more information or suggest improvements. Avoid comments like “+1” or “thanks”.">add a comment</a><span class="js-link-separator dno">&nbsp;|&nbsp;</span>
+            <a class="js-show-link comments-link dno" title="expand to show all comments on this post" href="http://stackoverflow.com/questions/8808590/html5-number-input-type-that-takes-only-integers#" onclick=""></a>
+        </div>         
+    </td>
+</tr>    </tbody></table>
+</div>
+
+  
+<a name="19150276"></a>
+<div id="answer-19150276" class="answer" data-answerid="19150276" itemscope="" itemtype="http://schema.org/Answer">
+    <table>
+        <tbody><tr>
+            <td class="votecell">
+                
+
+<div class="vote">
+        <input type="hidden" name="_id_" value="19150276">
+        <a class="vote-up-off" title="This answer is useful">up vote</a>
+        <span itemprop="upvoteCount" class="vote-count-post ">-1</span>
+        <a class="vote-down-off" title="This answer is not useful">down vote</a>
+
+
+
+
+</div>
+
+            </td>
+            
+
+
+<td class="answercell">
+    <div class="post-text" itemprop="text">
+<p>Incidentally, it seems that if you have anything other than a number in a "number" input, val() etc returns ''. I've just put a check on and it seems to work for what I need (restricting letter and other characters).</p>
+
+<pre class="default prettyprint prettyprinted"><code><span class="kwd">if</span><span class="pun">(</span><span class="pln"> </span><span class="kwd">var</span><span class="pln"> </span><span class="pun">==</span><span class="pln"> </span><span class="str">''</span><span class="pln"> </span><span class="pun">)</span><span class="pln"> </span><span class="pun">{</span><span class="pln">
+    alert</span><span class="pun">(</span><span class="pln"> </span><span class="str">'Var is not a number'</span><span class="pln"> </span><span class="pun">);</span><span class="pln">
+</span><span class="pun">}</span></code></pre>
+
+<p>Works with leading zeros, decimal points etc.</p>
+    </div>
+    <table class="fw">
+    <tbody><tr>
+    <td class="vt">
+<div class="post-menu"><a href="http://stackoverflow.com/a/19150276" title="short permalink to this answer" class="short-link" id="link-post-19150276">share</a><span class="lsep">|</span><a href="http://stackoverflow.com/posts/19150276/edit" class="suggest-edit-post" title="">improve this answer</a></div>                    </td>
+            
+
+
+    <td align="right" class="post-signature">   
+       
+
+    <div class="user-info user-hover">
+    <div class="user-action-time">
+        answered <span title="2013-10-03 03:33:48Z" class="relativetime">Oct 3 '13 at 3:33</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/2812842/robbie-averill"><div class="gravatar-wrapper-32"><img src="./jquery - HTML5_ number input type that takes only integers_ - Stack Overflow_files/9IQEv.jpg" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/2812842/robbie-averill">Robbie Averill</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score 15,162" dir="ltr">15.2k</span><span title="4 gold badges"><span class="badge1"></span><span class="badgecount">4</span></span><span title="25 silver badges"><span class="badge2"></span><span class="badgecount">25</span></span><span title="61 bronze badges"><span class="badge3"></span><span class="badgecount">61</span></span>
+        </div>
+    </div>
+</div>
+    </td>
+    </tr>
+    </tbody></table>
+</td>
+        </tr>
+        
+<tr>
+    <td class="votecell"></td>
+    <td>
+	    <div id="comments-19150276" class="comments  dno">
+		    <table>
+                <tbody data-remaining-comments-count="0" data-canpost="false" data-cansee="true" data-comments-unavailable="false" data-addlink-disabled="true">
+
+                        <tr><td></td><td></td></tr>
+                </tbody>
+		    </table>
+	    </div>
+
+        <div id="comments-link-19150276" data-rep="50" data-anon="true">
+
+                <a class="js-add-link comments-link disabled-link " title="Use comments to ask for more information or suggest improvements. Avoid comments like “+1” or “thanks”.">add a comment</a><span class="js-link-separator dno">&nbsp;|&nbsp;</span>
+            <a class="js-show-link comments-link dno" title="expand to show all comments on this post" href="http://stackoverflow.com/questions/8808590/html5-number-input-type-that-takes-only-integers#" onclick=""></a>
+        </div>         
+    </td>
+</tr>    </tbody></table>
+</div>
+
+  
+<a name="26006842"></a>
+<div id="answer-26006842" class="answer downvoted-answer" data-answerid="26006842" itemscope="" itemtype="http://schema.org/Answer">
+    <table>
+        <tbody><tr>
+            <td class="votecell">
+                
+
+<div class="vote">
+        <input type="hidden" name="_id_" value="26006842">
+        <a class="vote-up-off" title="This answer is useful">up vote</a>
+        <span itemprop="upvoteCount" class="vote-count-post ">-7</span>
+        <a class="vote-down-off" title="This answer is not useful">down vote</a>
+
+
+
+
+</div>
+
+            </td>
+            
+
+
+<td class="answercell">
+    <div class="post-text" itemprop="text">
+<p>You can just use type="phone",
+it will restrict it to a number.</p>
+
+<p></p>
+    </div>
+    <table class="fw">
+    <tbody><tr>
+    <td class="vt">
+<div class="post-menu"><a href="http://stackoverflow.com/a/26006842" title="short permalink to this answer" class="short-link" id="link-post-26006842">share</a><span class="lsep">|</span><a href="http://stackoverflow.com/posts/26006842/edit" class="suggest-edit-post" title="">improve this answer</a></div>                    </td>
+            
+
+
+    <td align="right" class="post-signature">   
+       
+
+    <div class="user-info ">
+    <div class="user-action-time">
+        answered <span title="2014-09-24 00:51:16Z" class="relativetime">Sep 24 '14 at 0:51</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://stackoverflow.com/users/1372676/panzerdriver"><div class="gravatar-wrapper-32"><img src="./jquery - HTML5_ number input type that takes only integers_ - Stack Overflow_files/6429867bf33f113ede5f1029f5c6df60" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://stackoverflow.com/users/1372676/panzerdriver">panzerdriver</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score " dir="ltr">27</span><span title="2 bronze badges"><span class="badge3"></span><span class="badgecount">2</span></span>
+        </div>
+    </div>
+</div>
+    </td>
+    </tr>
+    </tbody></table>
+</td>
+        </tr>
+        
+<tr>
+    <td class="votecell"></td>
+    <td>
+	    <div id="comments-26006842" class="comments ">
+		    <table>
+                <tbody data-remaining-comments-count="0" data-canpost="false" data-cansee="true" data-comments-unavailable="false" data-addlink-disabled="true">
+
+
+
+    <tr id="comment-50512823" class="comment ">
+        <td>
+            <table>
+                <tbody>
+                    <tr>
+                        <td class=" comment-score">
+                                &nbsp;&nbsp;
+                        </td>
+                        <td>
+                                &nbsp;
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </td>
+        <td class="comment-text">
+            <div style="display: block;" class="comment-body">
+                <span class="comment-copy">type phone doesn't even exists.</span>
+                    –&nbsp;<a href="http://stackoverflow.com/users/1869094/datelligence" title="989 reputation" class="comment-user">datelligence</a>
+                <span class="comment-date" dir="ltr"><a class="comment-link" href="http://stackoverflow.com/questions/8808590/html5-number-input-type-that-takes-only-integers#comment50512823_26006842"><span title="2015-07-07 01:12:55Z" class="relativetime-clean">Jul 7 '15 at 1:12</span></a></span>
+                                                                            </div>
+                    </td>
+    </tr>
+                </tbody>
+		    </table>
+	    </div>
+
+        <div id="comments-link-26006842" data-rep="50" data-anon="true">
+
+                <a class="js-add-link comments-link disabled-link " title="Use comments to ask for more information or suggest improvements. Avoid comments like “+1” or “thanks”.">add a comment</a><span class="js-link-separator dno">&nbsp;|&nbsp;</span>
+            <a class="js-show-link comments-link dno" title="expand to show all comments on this post" href="http://stackoverflow.com/questions/8808590/html5-number-input-type-that-takes-only-integers#" onclick=""></a>
+        </div>         
+    </td>
+</tr>    </tbody></table>
+</div>
+									<a name="new-answer"></a>
+						<form id="post-form" action="http://stackoverflow.com/questions/8808590/answer/submit" method="post" class="post-form">
+						    <input type="hidden" id="post-id" value="8808590">
+                            <input type="hidden" id="qualityBanWarningShown" name="qualityBanWarningShown" value="false">
+                            <input type="hidden" name="referrer" value="https://www.google.ie/">
+							<h2 class="space">Your Answer</h2>
+
+
+            <script>
+            StackExchange.ifUsing("editor", function () {
+                StackExchange.using("externalEditor", function () {
+                    StackExchange.using("snippets", function () {
+                        StackExchange.snippets.init();
+                    });
+                });
+            }, "code-snippets");
+        </script>
+    
+
+<script>
+    StackExchange.ready(function() {
+        initTagRenderer("".split(" "), "".split(" "));
+       
+        StackExchange.using("externalEditor", function() {
+                // Have to fire editor after snippets, if snippets enabled
+                if (StackExchange.settings.snippets.snippetsEnabled) {
+                    StackExchange.using("snippets", function() {
+                        createEditor();
+                    });
+                }
+                else {
+                    createEditor();
+                }
+            });
+
+            function createEditor() {
+                prepareEditor({
+                    heartbeatType: 'answer',
+                convertImagesToLinks: true,
+                reputationToPostImages: 10,
+                bindNavPrevention: true,
+                postfix: "",
+                    onDemand: true,
+                    discardSelector: ".discard-answer"
+                    ,immediatelyShowMarkdownHelp:true
+                    });
+                
+
+        }
+    });  
+</script>
+
+
+<div id="post-editor" class="post-editor js-post-editor">
+
+    <div style="position: relative;">     
+        <div class="wmd-container">
+            <div id="wmd-button-bar" class="wmd-button-bar"><ul id="wmd-button-row" class="wmd-button-row"><li id="wmd-bold-button" class="wmd-button" style="left: 0px;"><span style="background-position: 0px -20px;"></span></li><li id="wmd-italic-button" class="wmd-button" style="left: 25px;"><span style="background-position: -20px -20px;"></span></li><li id="wmd-spacer1" class="wmd-spacer" style="left: 50px;"><span style="background-position: -40px -20px;"></span></li><li id="wmd-link-button" class="wmd-button" style="left: 75px;"><span style="background-position: -40px -20px;"></span></li><li id="wmd-quote-button" class="wmd-button" style="left: 100px;"><span style="background-position: -60px -20px;"></span></li><li id="wmd-code-button" class="wmd-button" style="left: 125px;"><span style="background-position: -80px -20px;"></span></li><li id="wmd-image-button" class="wmd-button" style="left: 150px;"><span style="background-position: -100px -20px;"></span></li><li id="wmd-spacer2" class="wmd-spacer" style="left: 175px;"><span style="background-position: -120px -20px;"></span></li><li id="wmd-olist-button" class="wmd-button" style="left: 200px;"><span style="background-position: -120px -20px;"></span></li><li id="wmd-ulist-button" class="wmd-button" style="left: 225px;"><span style="background-position: -140px -20px;"></span></li><li id="wmd-heading-button" class="wmd-button" style="left: 250px;"><span style="background-position: -160px -20px;"></span></li><li id="wmd-hr-button" class="wmd-button" style="left: 275px;"><span style="background-position: -180px -20px;"></span></li><li id="wmd-spacer3" class="wmd-spacer" style="left: 300px;"><span style="background-position: -200px -20px;"></span></li><li id="wmd-undo-button" class="wmd-button" style="left: 325px;"><span style="background-position: -200px -20px;"></span></li><li id="wmd-redo-button" class="wmd-button" style="left: 350px;"><span style="background-position: -220px -20px;"></span></li></ul></div>
+            <textarea id="wmd-input" class="wmd-input" name="post-text" cols="92" rows="15" tabindex="101" data-min-length=""></textarea>
+        </div>
+    </div>
+
+    <div class="fl" style="margin-top: 8px; height:24px;">&nbsp;</div>
+    <div id="draft-saved" class="draft-saved community-option fl" style="margin-top: 8px; height:24px; display:none;">draft saved</div>
+
+    <div id="draft-discarded" class="draft-discarded community-option fl" style="margin-top: 8px; height:24px; display:none;">draft discarded</div>
+
+
+
+    <div id="wmd-preview" class="wmd-preview"></div>
+    <div></div>
+    <div class="edit-block">
+        <input id="fkey" name="fkey" type="hidden" value="1e3d7953b1d748bc0cb2ea51901986c0">
+        <input id="author" name="author" type="text">
+    </div>
+
+
+
+</div>
+							<div style="position: relative;">
+								
+								            <div class="form-item new-post-login">
+        
+                <div class="new-login-form">
+                    <div class="new-login-left">
+                        <h3>Sign up or <a id="login-link" href="http://stackoverflow.com/users/login?ssrc=question_page&amp;returnurl=http%3a%2f%2fstackoverflow.com%2fquestions%2f8808590%2fhtml5-number-input-type-that-takes-only-integers%23new-answer">log in</a></h3>
+                        <script>
+                            StackExchange.ready(function () {
+                                StackExchange.helpers.onClickDraftSave('#login-link');
+                            });
+                        </script>
+                        <div class="preferred-login google-login">
+                            <p><span class="icon"></span><span>Sign up using Google</span></p>
+                        </div>
+                        <div class="preferred-login facebook-login">
+                            <p><span class="icon"></span><span>Sign up using Facebook</span></p>
+                        </div>
+                        <div class="preferred-login stackexchange-login">
+                            <p><span class="icon"></span><span>Sign up using Email and Password</span></p>
+                        </div>
+                    </div>
+                    <input type="hidden" name="manual-openid" class="manual-openid">
+                    <input type="hidden" name="use-facebook" class="use-facebook" value="false">
+                    <input type="hidden" name="use-google" class="use-google" value="false">
+                    <input type="button" class="submit-openid" value="Submit" style="display:none">
+                    <div class="new-login-right">
+                                <h3>Post as a guest</h3>
+    <div class="form-item">
+        <table>
+        <tbody><tr>
+                    <td class="vm">
+                <div>
+                    <label for="display-name">Name</label>
+                    <input id="display-name" name="display-name" type="text" size="30" maxlength="30" value="" tabindex="105">
+                </div>
+                <div>
+                    <label for="m-address">Email</label>
+                    <input id="m-address" name="m-address" type="email" size="30" maxlength="100" value="" tabindex="106" placeholder="required, but never shown">
+                </div>
+            </td>
+        </tr>
+        </tbody></table>
+    </div>
+
+                    </div>
+                </div>
+            </div>
+            <script>
+                StackExchange.ready(
+                    function () {
+                        StackExchange.openid.initPostLogin('.new-post-login', 'http%3a%2f%2fstackoverflow.com%2fquestions%2f8808590%2fhtml5-number-input-type-that-takes-only-integers%23new-answer', 'question_page');
+                    }
+                );
+            </script>
+            <noscript>
+                        &lt;h3&gt;Post as a guest&lt;/h3&gt;
+    &lt;div class="form-item"&gt;
+        &lt;table&gt;
+        &lt;tr&gt;
+                    &lt;td class="vm"&gt;
+                &lt;div&gt;
+                    &lt;label for="display-name"&gt;Name&lt;/label&gt;
+                    &lt;input id="display-name" name="display-name" type="text" size="30" maxlength="30" value="" tabindex="105"&gt;
+                &lt;/div&gt;
+                &lt;div&gt;
+                    &lt;label for="m-address"&gt;Email&lt;/label&gt;
+                    &lt;input id="m-address" name="m-address" type="email" size="30" maxlength="100" value="" tabindex="106" placeholder="required, but never shown" /&gt;
+                &lt;/div&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;/table&gt;
+    &lt;/div&gt;
+
+            </noscript>
+
+							</div>
+           
+															<div class="form-submit cbt">
+									<input id="submit-button" type="submit" value="Post Your Answer" tabindex="110">
+									<a href="http://stackoverflow.com/questions/8808590/html5-number-input-type-that-takes-only-integers#" class="btn-clear discard-answer dno">discard</a>
+
+<p class="privacy-policy-agreement">
+By posting your answer, you agree to the <a href="http://stackexchange.com/legal/privacy-policy" target="_blank">privacy policy</a> and <a href="http://stackexchange.com/legal/terms-of-service" target="_blank">terms of service</a>.</p>
+<input type="hidden" name="legalLinksShown" value="1">								</div>
+						</form>
+
+
+
+						<h2 class="bottom-notice" data-loc="1">
+Not the answer you're looking for?							Browse other questions tagged <a href="http://stackoverflow.com/questions/tagged/jquery" class="post-tag" title="show questions tagged &#39;jquery&#39;" rel="tag">jquery</a> <a href="http://stackoverflow.com/questions/tagged/html5" class="post-tag" title="show questions tagged &#39;html5&#39;" rel="tag">html5</a> <a href="http://stackoverflow.com/questions/tagged/validation" class="post-tag" title="show questions tagged &#39;validation&#39;" rel="tag">validation</a> <a href="http://stackoverflow.com/questions/tagged/jquery-tools" class="post-tag" title="show questions tagged &#39;jquery-tools&#39;" rel="tag">jquery-tools</a>  or <a href="http://stackoverflow.com/questions/ask">ask your own question</a>.						</h2>
+			</div>
+		</div>
+				<div id="sidebar" class="show-votes">
+						    <div class="module question-stats">
+			        <table id="qinfo">
+			            <tbody><tr>
+			                <td>
+			                    <p class="label-key">asked</p>
+			                </td>
+			                <td style="padding-left: 10px">
+			                    <p class="label-key" title="2012-01-10 18:35:39Z"><b>4 years ago</b></p>
+			                </td>
+			            </tr>
+			            <tr>
+			                <td>
+			                    <p class="label-key">viewed</p>
+			                </td>
+
+			                <td style="padding-left: 10px">
+			                    <p class="label-key">
+			                        <b>236966 times</b>
+			                    </p>
+			                </td>
+			            </tr>
+			                <tr>
+			                    <td>
+			                        <p class="label-key">active</p>
+			                    </td>
+			                    <td style="padding-left: 10px">
+			                        <p class="label-key"><b><a href="http://stackoverflow.com/questions/8808590/html5-number-input-type-that-takes-only-integers?lastactivity" class="lastactivity-link" title="2016-01-18 09:02:13Z">8 months ago</a></b></p>
+			                    </td>
+			                </tr>
+			        </tbody></table>
+			    </div>
+						
+			<script>
+                var ados = ados || {}; ados.run = ados.run || [];
+                ados.run.push(function () { ados_add_placement(22,8277,"adzerk1227112433",[5,17,2221]).setZone(45); });
+            </script>
+            <div class="everyonelovesstackoverflow adzerk-vote" id="adzerk1227112433"><div id="careersadsdoublehigh" style="display:none;"></div><img height="0px" width="0px" border="0" style="position:absolute;" src="./jquery - HTML5_ number input type that takes only integers_ - Stack Overflow_files/i(2).gif"><div class="adzerk-vote-controls" style="display:none;"><div class="adzerk-vote-option adzerk-vote-up"><div class="adzerk-vote-icon"></div></div><div class="adzerk-vote-option adzerk-vote-down"><div class="adzerk-vote-icon"></div></div></div><div class="adzerk-vote-survey" style="display:none;"><form><span>No problem. We won't show you that ad again. Why didn't you like it?</span><ul><li><label><input type="radio" value="12" name="downvoteReason">Uninteresting</label></li><li><label><input type="radio" value="13" name="downvoteReason">Misleading</label></li><li><label><input type="radio" value="14" name="downvoteReason">Offensive</label></li><li><label><input type="radio" value="15" name="downvoteReason">Repetitive</label></li><li><label><input type="radio" value="16" name="downvoteReason">Other</label></li></ul><a href="http://stackoverflow.com/questions/8808590/html5-number-input-type-that-takes-only-integers#" class="adzerk-vote-cancel">Oops! I didn't mean to do this.</a></form></div></div>
+            <div id="hireme" class=" orange looking tagged clc-jobs-multi"><a href="http://stackoverflow.com/jobs" target="_blank" data-at="0" data-tz="1" data-ti="0" class="top "><span>Looking for a job?</span></a><div class="middle"><ul class="jobs"><li class="clc-dismissable"><div class="job-wrap"><a class="job" data-at="0" data-tz="3" data-ti="225622" href="http://stackoverflow.com/jobs/125622/qa-automation-engineer-at-irelands-leading-distilled-sch" target="_blank" title="QA Automation Engineer at Ireland&#39;s Leading Property Website - Daft! at Distilled SCH. Click to learn more."><div class="title">QA Automation Engineer at Ireland's Leading Property Website - Daft!</div><div><span class="company">Distilled SCH</span><span class="location">Dublin, Ireland</span></div><span class="post-tag highlight">java</span><span class="post-tag">selenium-webdriver</span></a></div><a class="clc-dismiss clc-non-ad" data-clc-url="//clc.stackoverflow.com/dismiss-job" data-clcparam-cid="225622" data-clc-tooltip="dismiss this job"><span class="clc-tooltip above-left">dismiss this job</span></a></li><li class="clc-dismissable"><div class="job-wrap"><a class="job" data-at="0" data-tz="3" data-ti="225294" href="http://stackoverflow.com/jobs/125294/front-end-developer-join-us-in-building-the-best-vaimo" target="_blank" title="Front-End Developer: Join us in building the best in-class eCommerce solutions! at Vaimo. Click to learn more."><div class="title">Front-End Developer: Join us in building the best in-class eCommerce solutions!</div><div><span class="company">Vaimo</span><span class="location">Kyiv, Ukraine</span></div><div class="opts"><span class="salary">$18,000 - $36,000</span><span class="opt remote">Remote</span></div><span class="post-tag">css</span><span class="post-tag">html</span></a></div><a class="clc-dismiss clc-non-ad" data-clc-url="//clc.stackoverflow.com/dismiss-job" data-clcparam-cid="225294" data-clc-tooltip="dismiss this job"><span class="clc-tooltip above-left">dismiss this job</span></a></li><li class="clc-dismissable"><div class="job-wrap"><a class="job" data-at="0" data-tz="3" data-ti="222224" href="http://stackoverflow.com/jobs/122224/senior-java-developer-dublin-terminalfour" target="_blank" title="Senior Java Developer - Dublin at TERMINALFOUR. Click to learn more."><div class="title">Senior Java Developer - Dublin</div><div><span class="company">TERMINALFOUR</span><span class="location">Dublin, Ireland</span></div><span class="post-tag">javascript</span><span class="post-tag highlight">java</span></a></div><a class="clc-dismiss clc-non-ad" data-clc-url="//clc.stackoverflow.com/dismiss-job" data-clcparam-cid="222224" data-clc-tooltip="dismiss this job"><span class="clc-tooltip above-left">dismiss this job</span></a></li><li class="clc-dismissable"><div class="job-wrap"><a class="job" data-at="0" data-tz="3" data-ti="220789" href="http://stackoverflow.com/jobs/120789/web-developer-front-end-pokerstars" target="_blank" title="Web Developer Front-End at Pokerstars. Click to learn more."><div class="title">Web Developer Front-End</div><div><span class="company">Pokerstars</span><span class="location">Loughlinstown, Ireland</span></div><span class="post-tag">css</span><span class="post-tag">html</span></a></div><a class="clc-dismiss clc-non-ad" data-clc-url="//clc.stackoverflow.com/dismiss-job" data-clcparam-cid="220789" data-clc-tooltip="dismiss this job"><span class="clc-tooltip above-left">dismiss this job</span></a></li></ul><div style="clear:both"></div></div><img class="impression" src="./jquery - HTML5_ number input type that takes only integers_ - Stack Overflow_files/soi.gif" style="display:none;"></div>
+        <script>
+;(function(n){var u=Object.assign||function(n){for(var i,r,u,f,e=[],t=1;t<arguments.length;t++)e[t-1]=arguments[t];for(i=0,r=e;i<r.length;i++){u=r[i];for(f in u)n[f]=u[f]}return n},r,t,f,i;try{if(typeof[].indexOf!="function")return;if(r=["stackoverflow.com","serverfault.com","careers.stackoverflow.com","blog.codinghorror.com","joelonsoftware.com","www.joelonsoftware.com"],r[0]!=="*"&&r.indexOf(location.hostname)===-1)return;t=window;f=t.clc_opts?u({},window.clc_opts):{};t.clc_opts=u(n,f);void 0;t.clc_opts.autoload&&(t.clc_init=t.clc_init||[],t.clc_init.push(function(){return t.clc.load()}));i=document.createElement("script");i.async=!0;void 0;i.src=t.clc_opts.lib;document.body.appendChild(i)}catch(e){void 0}}).call(null, {"azw":true,"kt":2000,"tto":true,"autoload":true,"d":{"sb":["hireme","clc-sb"],"tlb":["careers1","clc-tlb"],"mlb":["careers3","clc-mlb"]},"allowed":["stackoverflow.com","serverfault.com","careers.stackoverflow.com","blog.codinghorror.com","joelonsoftware.com","www.joelonsoftware.com"],"h":"clc.stackoverflow.com","u":"//clc.stackoverflow.com/p.js","lib":"//cdn.sstatic.net/clc/clc.min.js?v=6f49b407ccbc"});        </script>
+			
+
+            <div class="module sidebar-linked">
+	<h4 id="h-linked">Linked</h4>
+	<div class="linked" data-tracker="lq=1">
+
+<div class="spacer">
+	<a href="http://stackoverflow.com/q/16536177?lq=1" title="Vote score (upvotes - downvotes)">
+		<div class="answer-votes  default">1</div>
+	</a>
+	<a href="http://stackoverflow.com/questions/16536177/validation-for-only-integers-in-text-box?noredirect=1&amp;lq=1" class="question-hyperlink">validation for only integers in text box</a>
+</div>
+<div class="spacer">
+	<a href="http://stackoverflow.com/q/31402332?lq=1" title="Vote score (upvotes - downvotes)">
+		<div class="answer-votes  default">0</div>
+	</a>
+	<a href="http://stackoverflow.com/questions/31402332/html-input-type-that-only-accepts-float-or-integer-numbers?noredirect=1&amp;lq=1" class="question-hyperlink">Html input type that only accepts float or integer numbers</a>
+</div>
+<div class="spacer">
+	<a href="http://stackoverflow.com/q/18224064?lq=1" title="Vote score (upvotes - downvotes)">
+		<div class="answer-votes answered-accepted default">13</div>
+	</a>
+	<a href="http://stackoverflow.com/questions/18224064/dont-allow-typing-alphabetic-characters-in-a-input-type-number?noredirect=1&amp;lq=1" class="question-hyperlink">Don't allow typing alphabetic characters in a &lt;input type=number /&gt;</a>
+</div>
+<div class="spacer">
+	<a href="http://stackoverflow.com/q/29823591?lq=1" title="Vote score (upvotes - downvotes)">
+		<div class="answer-votes answered-accepted default">0</div>
+	</a>
+	<a href="http://stackoverflow.com/questions/29823591/html-input-do-not-allow-numbers?noredirect=1&amp;lq=1" class="question-hyperlink">HTML input do not allow numbers</a>
+</div>
+<div class="spacer">
+	<a href="http://stackoverflow.com/q/21504837?lq=1" title="Vote score (upvotes - downvotes)">
+		<div class="answer-votes  default">1</div>
+	</a>
+	<a href="http://stackoverflow.com/questions/21504837/how-to-validate-form-input-on-the-same-page-by-using-random-numbers?noredirect=1&amp;lq=1" class="question-hyperlink">How to validate form input on the same page by using random numbers?</a>
+</div>
+<div class="spacer">
+	<a href="http://stackoverflow.com/q/37043867?lq=1" title="Vote score (upvotes - downvotes)">
+		<div class="answer-votes  default">1</div>
+	</a>
+	<a href="http://stackoverflow.com/questions/37043867/how-to-avoid-decimal-values-in-input-type-number?noredirect=1&amp;lq=1" class="question-hyperlink">How to avoid Decimal values in input type number</a>
+</div>
+<div class="spacer">
+	<a href="http://stackoverflow.com/q/31729378?lq=1" title="Vote score (upvotes - downvotes)">
+		<div class="answer-votes answered-accepted default">1</div>
+	</a>
+	<a href="http://stackoverflow.com/questions/31729378/constrain-text-input-so-it-excludes-html-or-script-when-using-web-api-in-html-pa?noredirect=1&amp;lq=1" class="question-hyperlink">Constrain text input so it excludes html or script when using Web API in html page</a>
+</div>
+<div class="spacer">
+	<a href="http://stackoverflow.com/q/38510585?lq=1" title="Vote score (upvotes - downvotes)">
+		<div class="answer-votes  default">-1</div>
+	</a>
+	<a href="http://stackoverflow.com/questions/38510585/how-to-not-allow-dot-in-number-field-in-html?noredirect=1&amp;lq=1" class="question-hyperlink">How to Not allow dot in number field in html?</a>
+</div>
+<div class="spacer">
+	<a href="http://stackoverflow.com/q/38160122?lq=1" title="Vote score (upvotes - downvotes)">
+		<div class="answer-votes answered-accepted default">-1</div>
+	</a>
+	<a href="http://stackoverflow.com/questions/38160122/how-to-allow-only-numbers-in-textbox-in-angularjs?noredirect=1&amp;lq=1" class="question-hyperlink">how to allow only numbers in textbox in angularjs?</a>
+</div>			</div>
+</div>
+
+				<div class="module sidebar-related">
+					<h4 id="h-related">Related</h4>
+                    <div class="related js-gps-related-questions" data-tracker="rq=1">
+                        <div class="spacer js-gps-track"><a href="http://stackoverflow.com/q/891696?rq=1" title="Vote score (upvotes - downvotes)"><div class="answer-votes answered-accepted large">196</div></a><a href="http://stackoverflow.com/questions/891696/jquery-what-is-the-best-way-to-restrict-number-only-input-for-textboxes-all?rq=1" class="question-hyperlink">jQuery: what is the best way to restrict “number”-only input for textboxes? (allow decimal points)</a></div><div class="spacer js-gps-track"><a href="http://stackoverflow.com/q/7825274?rq=1" title="Vote score (upvotes - downvotes)"><div class="answer-votes answered-accepted default">1</div></a><a href="http://stackoverflow.com/questions/7825274/jquery-tools-validator-not-required-but-test-if-not-empty?rq=1" class="question-hyperlink">jQuery Tools Validator: not required, but test if not empty</a></div><div class="spacer js-gps-track"><a href="http://stackoverflow.com/q/9894785?rq=1" title="Vote score (upvotes - downvotes)"><div class="answer-votes answered-accepted default">2</div></a><a href="http://stackoverflow.com/questions/9894785/html5-vs-jquery-validate-for-inputs?rq=1" class="question-hyperlink">HTML5 vs. jQuery Validate (For Inputs…)</a></div><div class="spacer js-gps-track"><a href="http://stackoverflow.com/q/18104094?rq=1" title="Vote score (upvotes - downvotes)"><div class="answer-votes answered-accepted default">3</div></a><a href="http://stackoverflow.com/questions/18104094/how-to-restrict-user-input-character-length-of-html5-input-type-number?rq=1" class="question-hyperlink">How to restrict user input character length of HTML5 input type=“number”?</a></div><div class="spacer js-gps-track"><a href="http://stackoverflow.com/q/19011861?rq=1" title="Vote score (upvotes - downvotes)"><div class="answer-votes answered-accepted large">247</div></a><a href="http://stackoverflow.com/questions/19011861/is-there-a-float-input-type-in-html5?rq=1" class="question-hyperlink">Is there a float input type in HTML(5)?</a></div><div class="spacer js-gps-track"><a href="http://stackoverflow.com/q/26271767?rq=1" title="Vote score (upvotes - downvotes)"><div class="answer-votes default">0</div></a><a href="http://stackoverflow.com/questions/26271767/disable-input-validation-for-input-type-number?rq=1" class="question-hyperlink">Disable input validation for input type=number</a></div><div class="spacer js-gps-track"><a href="http://stackoverflow.com/q/26419858?rq=1" title="Vote score (upvotes - downvotes)"><div class="answer-votes answered-accepted default">0</div></a><a href="http://stackoverflow.com/questions/26419858/jquery-how-to-validate-key-input-float-value-only-for-html5-input-type-number-o?rq=1" class="question-hyperlink">JQuery: How to validate key input float value only for HTML5 input type number on Keydown Event</a></div><div class="spacer js-gps-track"><a href="http://stackoverflow.com/q/30312450?rq=1" title="Vote score (upvotes - downvotes)"><div class="answer-votes default">0</div></a><a href="http://stackoverflow.com/questions/30312450/html5-input-type-number-currency-validation-failing?rq=1" class="question-hyperlink">HTML5 input type number currency validation failing</a></div><div class="spacer js-gps-track"><a href="http://stackoverflow.com/q/31027419?rq=1" title="Vote score (upvotes - downvotes)"><div class="answer-votes default">0</div></a><a href="http://stackoverflow.com/questions/31027419/html5-novalidate-only-for-some-inputs?rq=1" class="question-hyperlink">HTML5 novalidate only for some inputs</a></div><div class="spacer js-gps-track"><a href="http://stackoverflow.com/q/34202182?rq=1" title="Vote score (upvotes - downvotes)"><div class="answer-votes default">0</div></a><a href="http://stackoverflow.com/questions/34202182/html5-number-type-to-accept-only-positive-integers?rq=1" class="question-hyperlink">html5 number type to accept only positive integers</a></div>
+                    </div>
+				</div>
+            
+<div id="hot-network-questions" class="module">
+    <h4>
+        <a href="http://stackexchange.com/questions?tab=hot" class="js-gps-track" data-gps-track="posts_hot_network.click({ item_type:1, location:11 })">
+            Hot Network Questions
+        </a>
+    </h4>
+    <ul>
+            <li>
+                <div class="favicon favicon-scifi" title="Science Fiction &amp; Fantasy Stack Exchange"></div><a href="http://scifi.stackexchange.com/questions/141754/why-do-people-refer-to-cultists-in-the-lovecraftian-mythos-if-lovecraft-himse" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:186 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    Why do people refer to "cultists" in the Lovecraftian mythos, if Lovecraft himself never used the word?
+                </a>
+
+            </li>
+            <li>
+                <div class="favicon favicon-worldbuilding" title="Worldbuilding Stack Exchange"></div><a href="http://worldbuilding.stackexchange.com/questions/56710/how-does-the-booze-rat-fuel-its-defensive-mechanism" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:579 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    How does the Booze-Rat fuel its defensive mechanism?
+                </a>
+
+            </li>
+            <li>
+                <div class="favicon favicon-superuser" title="Super User"></div><a href="http://superuser.com/questions/1129428/what-does-the-path-mean" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:3 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    What does the path '/../' mean?
+                </a>
+
+            </li>
+            <li>
+                <div class="favicon favicon-codegolf" title="Programming Puzzles &amp; Code Golf Stack Exchange"></div><a href="http://codegolf.stackexchange.com/questions/94861/multiple-key-sorting" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:200 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    Multiple-Key Sorting
+                </a>
+
+            </li>
+            <li>
+                <div class="favicon favicon-math" title="Mathematics Stack Exchange"></div><a href="http://math.stackexchange.com/questions/1945872/do-i-need-to-cite-an-old-theorem-if-ive-strengthened-it-wrote-my-own-theorem" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:69 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    Do I need to cite an old theorem, if I've strengthened it, wrote my own theorem statement, with a different proof?
+                </a>
+
+            </li>
+            <li class="dno js-hidden" style="display: list-item;">
+                <div class="favicon favicon-aviation" title="Aviation Stack Exchange"></div><a href="http://aviation.stackexchange.com/questions/31894/are-the-first-solo-flights-by-a-student-pilot-more-dangerous" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:528 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    Are the first solo flights by a student pilot more dangerous?
+                </a>
+
+            </li>
+            <li class="dno js-hidden" style="display: list-item;">
+                <div class="favicon favicon-puzzling" title="Puzzling Stack Exchange"></div><a href="http://puzzling.stackexchange.com/questions/43400/im-too-shy-to-ask-but-will-you-say-yes" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:559 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    I'm too shy to ask, but will you say yes?
+                </a>
+
+            </li>
+            <li class="dno js-hidden" style="display: list-item;">
+                <div class="favicon favicon-puzzling" title="Puzzling Stack Exchange"></div><a href="http://puzzling.stackexchange.com/questions/43397/alphametic-with-modulo" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:559 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    Alphametic with modulo
+                </a>
+
+            </li>
+            <li class="dno js-hidden" style="display: list-item;">
+                <div class="favicon favicon-writers" title="Writers Stack Exchange"></div><a href="http://writers.stackexchange.com/questions/24796/should-i-use-contractions-in-my-narrative" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:166 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    Should I use contractions in my narrative?
+                </a>
+
+            </li>
+            <li class="dno js-hidden" style="display: list-item;">
+                <div class="favicon favicon-mathematica" title="Mathematica Stack Exchange"></div><a href="http://mathematica.stackexchange.com/questions/127458/i-would-like-to-create-a-fractal-by-copying-scaling-and-rotating-the-initial-el" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:387 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    I would like to create a fractal by copying, scaling and rotating the initial element
+                </a>
+
+            </li>
+            <li class="dno js-hidden" style="display: list-item;">
+                <div class="favicon favicon-tridion" title="Tridion Stack Exchange"></div><a href="http://tridion.stackexchange.com/questions/15662/dxa-issue-with-special-character-in-image-names" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:485 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    DXA issue with special character in image names
+                </a>
+
+            </li>
+            <li class="dno js-hidden" style="display: list-item;">
+                <div class="favicon favicon-scifi" title="Science Fiction &amp; Fantasy Stack Exchange"></div><a href="http://scifi.stackexchange.com/questions/141670/what-are-the-starfleet-regulations-on-crew-relationships-or-fraternizing" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:186 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    What are the Starfleet regulations on crew relationships or fraternizing?
+                </a>
+
+            </li>
+            <li class="dno js-hidden" style="display: list-item;">
+                <div class="favicon favicon-scifi" title="Science Fiction &amp; Fantasy Stack Exchange"></div><a href="http://scifi.stackexchange.com/questions/141645/what-does-sauron-need-with-mithril" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:186 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    What does Sauron need with mithril?
+                </a>
+
+            </li>
+            <li class="dno js-hidden" style="display: list-item;">
+                <div class="favicon favicon-bicycles" title="Bicycles Stack Exchange"></div><a href="http://bicycles.stackexchange.com/questions/42920/how-to-indicate-you-are-going-straight" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:126 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    How to indicate you are going straight?
+                </a>
+
+            </li>
+            <li class="dno js-hidden" style="display: list-item;">
+                <div class="favicon favicon-tex" title="TeX - LaTeX Stack Exchange"></div><a href="http://tex.stackexchange.com/questions/331835/draw-a-line-under-a-figure-that-match-the-figure-lentgh" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:85 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    Draw a line under a figure that match the figure lentgh
+                </a>
+
+            </li>
+            <li class="dno js-hidden" style="display: list-item;">
+                <div class="favicon favicon-rpg" title="Role-playing Games Stack Exchange"></div><a href="http://rpg.stackexchange.com/questions/88525/potion-of-longevity-and-a-9-year-old-character" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:122 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    Potion of Longevity and a 9 year old character
+                </a>
+
+            </li>
+            <li class="dno js-hidden" style="display: list-item;">
+                <div class="favicon favicon-parenting" title="Parenting Stack Exchange"></div><a href="http://parenting.stackexchange.com/questions/27277/my-girlfriend-wants-to-disown-my-14-y-o-transgender-step-daughter" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:228 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    My girlfriend wants to disown my 14 y/o transgender step-daughter
+                </a>
+
+            </li>
+            <li class="dno js-hidden" style="display: list-item;">
+                <div class="favicon favicon-rpg" title="Role-playing Games Stack Exchange"></div><a href="http://rpg.stackexchange.com/questions/88553/how-to-deal-with-a-dm-who-controls-us-with-powerful-npcs" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:122 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    How to deal with a DM who controls us with powerful NPCs?
+                </a>
+
+            </li>
+            <li class="dno js-hidden" style="display: list-item;">
+                <div class="favicon favicon-history" title="History Stack Exchange"></div><a href="http://history.stackexchange.com/questions/33057/which-period-is-this-game-map-supposed-to-represent" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:324 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    Which period is this game map supposed to represent?
+                </a>
+
+            </li>
+            <li class="dno js-hidden" style="display: list-item;">
+                <div class="favicon favicon-workplace" title="The Workplace Stack Exchange"></div><a href="http://workplace.stackexchange.com/questions/76797/do-i-send-relatives-resume-to-recruiters-when-i-dont-exactly-support-the-candi" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:423 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    Do I send relative's resume to recruiters when I don't exactly support the candidate's track record?
+                </a>
+
+            </li>
+            <li class="dno js-hidden" style="display: list-item;">
+                <div class="favicon favicon-electronics" title="Electrical Engineering Stack Exchange"></div><a href="http://electronics.stackexchange.com/questions/260477/why-dont-we-see-faster-7400-series-chips" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:135 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    Why don't we see faster 7400 series chips?
+                </a>
+
+            </li>
+            <li class="dno js-hidden" style="display: list-item;">
+                <div class="favicon favicon-money" title="Personal Finance &amp; Money Stack Exchange"></div><a href="http://money.stackexchange.com/questions/71171/if-i-let-a-friend-drive-my-car-for-a-day-should-i-tell-my-insurance-company" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:93 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    If I let a friend drive my car for a day should I tell my insurance company?
+                </a>
+
+            </li>
+            <li class="dno js-hidden" style="display: list-item;">
+                <div class="favicon favicon-scifi" title="Science Fiction &amp; Fantasy Stack Exchange"></div><a href="http://scifi.stackexchange.com/questions/141767/would-the-one-ring-work-if-it-was-worn-on-the-toe-instead-of-the-finger" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:186 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    Would the one ring work if it was worn on the toe instead of the finger?
+                </a>
+
+            </li>
+            <li class="dno js-hidden" style="display: list-item;">
+                <div class="favicon favicon-codereview" title="Code Review Stack Exchange"></div><a href="http://codereview.stackexchange.com/questions/142784/dailyprogrammer-284-wandering-fingers" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:196 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    DailyProgrammer 284: Wandering Fingers
+                </a>
+
+            </li>
+    </ul>
+
+        
+</div>
+		</div>
+	
+<div id="feed-link">
+    <div id="feed-link-text">
+        <a href="http://stackoverflow.com/feeds/question/8808590" title="feed of this question and its answers">
+            <span class="feed-icon"></span>question feed
+        </a>
+    </div>
+</div>	<script>
+StackExchange.ready(function(){$.get('/posts/8808590/ivc/2e59');});
+</script>
+<noscript>
+    &lt;div&gt;&lt;img src="/posts/8808590/ivc/2e59" class="dno" alt="" width="0" height="0"&gt;&lt;/div&gt;
+</noscript><div style="display:none" id="prettify-lang">default</div></div>
+
+
+        </div>
+    </div><script async="" src="./jquery - HTML5_ number input type that takes only integers_ - Stack Overflow_files/clc.min.js.download"></script>
+    <div id="footer" class="categories">
+        <div class="footerwrap">            
+            <div id="footer-menu">
+                <div class="top-footer-links">
+                    <a href="http://stackoverflow.com/company/about">about us</a>
+                        <a href="http://stackoverflow.com/tour">tour</a>
+                    <a href="http://stackoverflow.com/help">help</a>
+                    <a href="http://blog.stackoverflow.com/?blb=1">blog</a>
+                        <a href="http://chat.stackoverflow.com/">chat</a>
+                    <a href="http://data.stackexchange.com/">data</a>
+                    <a href="http://stackexchange.com/legal">legal</a>
+                    <a href="http://stackexchange.com/legal/privacy-policy">privacy policy</a>
+                    <a href="http://stackoverflow.com/company/work-here">work here</a>
+                    <a href="http://stackexchange.com/mediakit">advertising info</a>
+
+                    <a onclick="StackExchange.switchMobile(&quot;on&quot;)">mobile</a>
+                    <b><a href="http://stackoverflow.com/contact">contact us</a></b>
+                        <b><a href="http://meta.stackoverflow.com/">feedback</a></b>
+                    
+                </div>
+                <div id="footer-sites">
+                    <table>
+    <tbody><tr>
+            <th colspan="4">
+                Technology
+            </th>
+            <th colspan="2">
+                Life / Arts
+            </th>
+            <th colspan="2">
+                Culture / Recreation
+            </th>
+            <th colspan="2">
+                Science
+            </th>
+            <th>
+                Other
+            </th>
+    </tr>
+    <tr>
+            <td>
+                <ol>
+                        <li><a href="http://stackoverflow.com/" title="professional and enthusiast programmers">Stack Overflow</a></li>
+                        <li><a href="http://serverfault.com/" title="system and network administrators">Server Fault</a></li>
+                        <li><a href="http://superuser.com/" title="computer enthusiasts and power users">Super User</a></li>
+                        <li><a href="http://webapps.stackexchange.com/" title="power users of web applications">Web Applications</a></li>
+                        <li><a href="http://askubuntu.com/" title="Ubuntu users and developers">Ask Ubuntu</a></li>
+                        <li><a href="http://webmasters.stackexchange.com/" title="pro webmasters">Webmasters</a></li>
+                        <li><a href="http://gamedev.stackexchange.com/" title="professional and independent game developers">Game Development</a></li>
+                        <li><a href="http://tex.stackexchange.com/" title="users of TeX, LaTeX, ConTeXt, and related typesetting systems">TeX - LaTeX</a></li>
+                            </ol></td><td><ol>
+                        <li><a href="http://programmers.stackexchange.com/" title="professional programmers interested in conceptual questions about software development">Programmers</a></li>
+                        <li><a href="http://unix.stackexchange.com/" title="users of Linux, FreeBSD and other Un*x-like operating systems">Unix &amp; Linux</a></li>
+                        <li><a href="http://apple.stackexchange.com/" title="power users of Apple hardware and software">Ask Different (Apple)</a></li>
+                        <li><a href="http://wordpress.stackexchange.com/" title="WordPress developers and administrators">WordPress Development</a></li>
+                        <li><a href="http://gis.stackexchange.com/" title="cartographers, geographers and GIS professionals">Geographic Information Systems</a></li>
+                        <li><a href="http://electronics.stackexchange.com/" title="electronics and electrical engineering professionals, students, and enthusiasts">Electrical Engineering</a></li>
+                        <li><a href="http://android.stackexchange.com/" title="enthusiasts and power users of the Android operating system">Android Enthusiasts</a></li>
+                        <li><a href="http://security.stackexchange.com/" title="information security professionals">Information Security</a></li>
+                            </ol></td><td><ol>
+                        <li><a href="http://dba.stackexchange.com/" title="database professionals who wish to improve their database skills and learn from others in the community">Database Administrators</a></li>
+                        <li><a href="http://drupal.stackexchange.com/" title="Drupal developers and administrators">Drupal Answers</a></li>
+                        <li><a href="http://sharepoint.stackexchange.com/" title="SharePoint enthusiasts">SharePoint</a></li>
+                        <li><a href="http://ux.stackexchange.com/" title="user experience researchers and experts">User Experience</a></li>
+                        <li><a href="http://mathematica.stackexchange.com/" title="users of Mathematica">Mathematica</a></li>
+                        <li><a href="http://salesforce.stackexchange.com/" title="Salesforce administrators, implementation experts, developers and anybody in-between">Salesforce</a></li>
+                        <li><a href="http://expressionengine.stackexchange.com/" title="administrators, end users, developers and designers for ExpressionEngine® CMS">ExpressionEngine® Answers</a></li>
+                        <li><a href="http://crypto.stackexchange.com/" title="software developers, mathematicians and others interested in cryptography">Cryptography</a></li>
+                            </ol></td><td><ol>
+                        <li><a href="http://codereview.stackexchange.com/" title="peer programmer code reviews">Code Review</a></li>
+                        <li><a href="http://magento.stackexchange.com/" title="users of the Magento e-Commerce platform">Magento</a></li>
+                        <li><a href="http://dsp.stackexchange.com/" title="practitioners of the art and science of signal, image and video processing">Signal Processing</a></li>
+                        <li><a href="http://raspberrypi.stackexchange.com/" title="users and developers of hardware and software for Raspberry Pi">Raspberry Pi</a></li>
+                        <li><a href="http://codegolf.stackexchange.com/" title="programming puzzle enthusiasts and code golfers">Programming Puzzles &amp; Code Golf</a></li>
+                    
+                        <li>
+                            <a href="http://stackexchange.com/sites#technology" class="more">
+                                more (7)
+                            </a>
+                        </li>
+                </ol>
+            </td>
+            <td>
+                <ol>
+                        <li><a href="http://photo.stackexchange.com/" title="professional, enthusiast and amateur photographers">Photography</a></li>
+                        <li><a href="http://scifi.stackexchange.com/" title="science fiction and fantasy enthusiasts">Science Fiction &amp; Fantasy</a></li>
+                        <li><a href="http://graphicdesign.stackexchange.com/" title="Graphic Design professionals, students, and enthusiasts">Graphic Design</a></li>
+                        <li><a href="http://movies.stackexchange.com/" title="movie and tv enthusiasts">Movies &amp; TV</a></li>
+                        <li><a href="http://music.stackexchange.com/" title="musicians, students, and enthusiasts">Music: Practice &amp; Theory</a></li>
+                        <li><a href="http://cooking.stackexchange.com/" title="professional and amateur chefs">Seasoned Advice (cooking)</a></li>
+                        <li><a href="http://diy.stackexchange.com/" title="contractors and serious DIYers">Home Improvement</a></li>
+                        <li><a href="http://money.stackexchange.com/" title="people who want to be financially literate">Personal Finance &amp; Money</a></li>
+                            </ol></td><td><ol>
+                        <li><a href="http://academia.stackexchange.com/" title="academics and those enrolled in higher education">Academia</a></li>
+                    
+                        <li>
+                            <a href="http://stackexchange.com/sites#lifearts" class="more">
+                                more (8)
+                            </a>
+                        </li>
+                </ol>
+            </td>
+            <td>
+                <ol>
+                        <li><a href="http://english.stackexchange.com/" title="linguists, etymologists, and serious English language enthusiasts">English Language &amp; Usage</a></li>
+                        <li><a href="http://skeptics.stackexchange.com/" title="scientific skepticism">Skeptics</a></li>
+                        <li><a href="http://judaism.stackexchange.com/" title="those who base their lives on Jewish law and tradition and anyone interested in learning more">Mi Yodeya (Judaism)</a></li>
+                        <li><a href="http://travel.stackexchange.com/" title="road warriors and seasoned travelers">Travel</a></li>
+                        <li><a href="http://christianity.stackexchange.com/" title="committed Christians, experts in Christianity and those interested in learning more">Christianity</a></li>
+                        <li><a href="http://ell.stackexchange.com/" title="speakers of other languages learning English">English Language Learners</a></li>
+                        <li><a href="http://japanese.stackexchange.com/" title="students, teachers, and linguists wanting to discuss the finer points of the Japanese language">Japanese Language</a></li>
+                        <li><a href="http://gaming.stackexchange.com/" title="passionate videogamers on all platforms">Arqade (gaming)</a></li>
+                            </ol></td><td><ol>
+                        <li><a href="http://bicycles.stackexchange.com/" title="people who build and repair bicycles, people who train cycling, or commute on bicycles">Bicycles</a></li>
+                        <li><a href="http://rpg.stackexchange.com/" title="gamemasters and players of tabletop, paper-and-pencil role-playing games">Role-playing Games</a></li>
+                        <li><a href="http://anime.stackexchange.com/" title="anime and manga fans">Anime &amp; Manga</a></li>
+                    
+                        <li>
+                            <a href="http://stackexchange.com/sites#culturerecreation" class="more">
+                                more (18)
+                            </a>
+                        </li>
+                </ol>
+            </td>
+            <td>
+                <ol>
+                        <li><a href="http://math.stackexchange.com/" title="people studying math at any level and professionals in related fields">Mathematics</a></li>
+                        <li><a href="http://stats.stackexchange.com/" title="people interested in statistics, machine learning, data analysis, data mining, and data visualization">Cross Validated (stats)</a></li>
+                        <li><a href="http://cstheory.stackexchange.com/" title="theoretical computer scientists and researchers in related fields">Theoretical Computer Science</a></li>
+                        <li><a href="http://physics.stackexchange.com/" title="active researchers, academics and students of physics">Physics</a></li>
+                        <li><a href="http://mathoverflow.net/" title="professional mathematicians">MathOverflow</a></li>
+                        <li><a href="http://chemistry.stackexchange.com/" title="scientists, academics, teachers and students">Chemistry</a></li>
+                        <li><a href="http://biology.stackexchange.com/" title="biology researchers, academics, and students">Biology</a></li>
+                        <li><a href="http://cs.stackexchange.com/" title="students, researchers and practitioners of computer science">Computer Science</a></li>
+                            </ol></td><td><ol>
+                        <li><a href="http://philosophy.stackexchange.com/" title="those interested in logical reasoning">Philosophy</a></li>
+                    
+                        <li>
+                            <a href="http://stackexchange.com/sites#science" class="more">
+                                more (3)
+                            </a>
+                        </li>
+                </ol>
+            </td>
+            <td>
+                <ol>
+                        <li><a href="http://stackapps.com/" title="apps, scripts, and development with the Stack Exchange API">Stack Apps</a></li>
+                        <li><a href="http://meta.stackexchange.com/" title="meta-discussion of the Stack Exchange family of Q&amp;A websites">Meta Stack Exchange</a></li>
+                        <li><a href="http://area51.stackexchange.com/" title="proposing new sites in the Stack Exchange network">Area 51</a></li>
+                        <li><a href="http://careers.stackoverflow.com/">Stack Overflow Careers</a></li>
+                    
+                </ol>
+            </td>
+    </tr>
+</tbody></table>
+                </div>
+            </div>
+            <div id="copyright">
+                site design / logo © 2016 Stack Exchange Inc; user contributions licensed under <a href="https://creativecommons.org/licenses/by-sa/3.0/" rel="license">cc by-sa 3.0</a> 
+                with <a href="http://blog.stackoverflow.com/2009/06/attribution-required/" rel="license">attribution required</a>
+            </div>
+            <div id="svnrev">
+                rev 2016.9.29.4021
+            </div>
+                </div>
+    </div>
+    <noscript>
+        &lt;div id="noscript-warning"&gt;Stack Overflow works best with JavaScript enabled&lt;img src="http://pixel.quantserve.com/pixel/p-c1rF4kxgLUzNc.gif" alt="" class="dno"&gt;&lt;/div&gt;
+    </noscript>
+<script>var p = "http", d = "static"; if (document.location.protocol == "https:") { p += "s"; d = "engine"; } var z = document.createElement("script"); z.type = "text/javascript"; z.async = true; z.src = p + "://" + d + ".adzerk.net/ados.js"; var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(z, s);</script>
+<script>
+    var ados = ados || {};
+    ados.run = ados.run || [];
+    
+    
+        
+        ados.run.push(function () {
+                setTimeout(function () { $("#adzerk-user-match").remove(); }, window.AUMIframeDone ? 0 : 2000);
+                ados_setKeywords('jquery,html5,validation,jquery-tools');; ados_load();
+        });   
+        
+</script>
+
+    <script>
+            (function(i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function() { (i[r].q = i[r].q || []).push(arguments) }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m);
+            })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+            
+            ga('create', 'UA-5620270-1');
+            ga('set', 'dimension2', '|jquery|html5|validation|jquery-tools|');             ga('send', 'pageview');
+        
+        var _qevents = _qevents || [],
+            _comscore = _comscore || [];
+        (function () {
+            var ssl='https:'==document.location.protocol,
+                s=document.getElementsByTagName('script')[0],
+                qc=document.createElement('script');
+                qc.async = true;
+                qc.src = (ssl ? 'https://secure' : 'http://edge') + '.quantserve.com/quant.js';
+                s.parentNode.insertBefore(qc, s);
+                _qevents.push({ qacct: "p-c1rF4kxgLUzNc" });
+                            var sc=document.createElement('script');
+                sc.async=true;
+                sc.src=(ssl?'https://sb':'http://b') + '.scorecardresearch.com/beacon.js';
+                s.parentNode.insertBefore(sc, s);
+                _comscore.push({ c1: "2", c2: "17440561" });
+        })();
+
+    </script>
+        
+    
+            <script type="text/javascript">
+                
+                (function(appendChild) {
+                    Node.prototype.appendChild = function() {
+                        var parent = this;
+                        var newNode = arguments[0];
+                        if (parent.nodeName === 'HEAD'
+                            && newNode
+                            && newNode.nodeName === 'SCRIPT'
+                            && newNode.src) {
+                            
+                            window.setTimeout(function() {
+                                var result = newNode.src.match(/^https:\/\/maps\.googleapis\.com\/maps\/api\/place\/js\/(\w+)Service\./i) || [];
+                                var service = result[1];
+                                if (service) {
+                                    if (service === 'Autocompletion') service =  2;
+                                    else if (service === 'Place') service = 1;
+                                    else service = 0;
+                                    StackExchange.using('gps', function() {
+                                        StackExchange.gps.track('google_maps_places_api.call', { service: service });
+                                    });
+                                }
+                            }, 0);
+                        }
+                        return appendChild.apply(this, arguments);
+                    };
+                })(Node.prototype.appendChild);
+            </script>
+    
+<div id="viewPortSize" class="bottom_right" style="background-color: rgb(0, 0, 0); color: rgb(255, 255, 255); font-size: 12px; display: block; opacity: 1;">Inner: 1215 x 544<br>Outer: 1233 x 662</div><script async="" src="./jquery - HTML5_ number input type that takes only integers_ - Stack Overflow_files/p.js.download"></script></body></html>

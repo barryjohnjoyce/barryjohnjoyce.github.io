@@ -1,5 +1,23 @@
+.jumbotron {margin: 100px; text-align: center}
+
+#bandplaying {width: 200px; height: 140px; float: right; margin: 20px;}
+
+hr {width: 85%;}
+
+ .input-group {width: 90%; margin-left: auto; margin-right: auto;}
+
+ div button a {color: white;}
+
+.albumcover {width: 100px; height: 100px; margin: 10px;}
+
+
+
 
 h2 {text-align: center;}
+
+
+
+#ituneslogo {height: 30px; width: 80px; float:right; margin-right: 20px;}
 
 audio {margin: 20px 20px;}
 
@@ -26,9 +44,11 @@ footer{
 			}
 
 body{
-	background-color: #ddd;
+	/*background-color: #ddd;*/
+  background-image: url(background.jpg);
+  background-size: cover;
 	padding: 5px;
-	}
+ font-size: 16px;}
 
 
 #headshot {width:40%; height:100px; border-radius:15%; margin: 20px; margin-left: auto; margin-right:auto;}
