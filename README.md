@@ -26,7 +26,7 @@ of potential customers to check dates for future bookings. There are working lin
 ### Some the tech used includes:
 
 - [Bootstrap](http://getbootstrap.com/)
-    - We use **Bootstrap** to give our project a simple, responsive layout
+    - I have used **Bootstrap** to give this project a simple, responsive layout
 
  
 ## Contributing
