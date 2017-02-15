@@ -20,13 +20,16 @@ The website is styled with Bootstrap and uses HTML form validation.
 Fans can see and hear clips from the band's back catalogue and also new material as it becomes available. There are photos and bios of the
 band members. Fans and commercial enterprises can contact the band though the Contacts Page and subscribe to a newsletter. Potential customers
 can check dates for future bookings. There are working links to Facebook, Twitter and YouTube for future use.
+
+<img src = static/images/bandhomepage.png
  
 ## Tech Used
 
 ### Some the tech used includes:
 
 - [Bootstrap](http://getbootstrap.com/)
-    - I have used **Bootstrap** to give this project a simple, responsive layout
+    - I have used **Bootstrap** to give this project a simple, responsive layout. The compiled javascript in Bootstrap is
+    also used to activate a Carousel.
 
  
 ## Contributing
