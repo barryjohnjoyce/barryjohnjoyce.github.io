@@ -1,84 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4b2e353f-9d9d-4da4-968f-eef9b2a0f194" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jquery - HTML5_ number input type that takes only integers_ - Stack Overflow.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jquery - HTML5_ number input type that takes only integers_ - Stack Overflow_files/033db611465c8752e372f0a21c220f66" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jquery - HTML5_ number input type that takes only integers_ - Stack Overflow_files/1f14d8a4c2c5901d7493286f71425509" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jquery - HTML5_ number input type that takes only integers_ - Stack Overflow_files/2dfa9c10043c20d0f5e650ce0cee3680" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jquery - HTML5_ number input type that takes only integers_ - Stack Overflow_files/3954c6698fd1dc8c10ed06e2668717e8" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jquery - HTML5_ number input type that takes only integers_ - Stack Overflow_files/3ce23fa868ea401dac7e2fcfda5ec312.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jquery - HTML5_ number input type that takes only integers_ - Stack Overflow_files/6429867bf33f113ede5f1029f5c6df60" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jquery - HTML5_ number input type that takes only integers_ - Stack Overflow_files/664164db412a349e2453cec7a28f7cd9" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jquery - HTML5_ number input type that takes only integers_ - Stack Overflow_files/8JGmz.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jquery - HTML5_ number input type that takes only integers_ - Stack Overflow_files/8df844054033768ad4c40784318f944f" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jquery - HTML5_ number input type that takes only integers_ - Stack Overflow_files/99fc91f87b0148b12d5a6a68f4b9cb3d" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jquery - HTML5_ number input type that takes only integers_ - Stack Overflow_files/9IQEv.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jquery - HTML5_ number input type that takes only integers_ - Stack Overflow_files/aIVNK.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jquery - HTML5_ number input type that takes only integers_ - Stack Overflow_files/adFeedback.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jquery - HTML5_ number input type that takes only integers_ - Stack Overflow_files/adFeedback.js.download" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jquery - HTML5_ number input type that takes only integers_ - Stack Overflow_files/ados" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jquery - HTML5_ number input type that takes only integers_ - Stack Overflow_files/ados.js.download" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jquery - HTML5_ number input type that takes only integers_ - Stack Overflow_files/all.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jquery - HTML5_ number input type that takes only integers_ - Stack Overflow_files/analytics.js.download" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jquery - HTML5_ number input type that takes only integers_ - Stack Overflow_files/beacon.js.download" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jquery - HTML5_ number input type that takes only integers_ - Stack Overflow_files/c6eb02709d7d40c48ae0ff1632e88956.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jquery - HTML5_ number input type that takes only integers_ - Stack Overflow_files/caf9123d47d46c7ae84eb6ca88681c27" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jquery - HTML5_ number input type that takes only integers_ - Stack Overflow_files/cb9c099e5189d30416ba1c41087f56f4" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jquery - HTML5_ number input type that takes only integers_ - Stack Overflow_files/clc.min.js.download" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jquery - HTML5_ number input type that takes only integers_ - Stack Overflow_files/db2cb34280bcf071d4597f48d9852cff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jquery - HTML5_ number input type that takes only integers_ - Stack Overflow_files/e912427dbde2d54076557cf30d462e1f" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jquery - HTML5_ number input type that takes only integers_ - Stack Overflow_files/ee5ad842c62317efab27665a89faf977" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jquery - HTML5_ number input type that takes only integers_ - Stack Overflow_files/external-editor.en.js.download" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jquery - HTML5_ number input type that takes only integers_ - Stack Overflow_files/full-anon.en.js.download" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jquery - HTML5_ number input type that takes only integers_ - Stack Overflow_files/i(1).gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jquery - HTML5_ number input type that takes only integers_ - Stack Overflow_files/i(2).gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jquery - HTML5_ number input type that takes only integers_ - Stack Overflow_files/i.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jquery - HTML5_ number input type that takes only integers_ - Stack Overflow_files/jobs-multi.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jquery - HTML5_ number input type that takes only integers_ - Stack Overflow_files/jquery.min.js.download" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jquery - HTML5_ number input type that takes only integers_ - Stack Overflow_files/p.js.download" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jquery - HTML5_ number input type that takes only integers_ - Stack Overflow_files/picture" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jquery - HTML5_ number input type that takes only integers_ - Stack Overflow_files/post-validation.en.js.download" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jquery - HTML5_ number input type that takes only integers_ - Stack Overflow_files/prettify-full.en.js.download" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jquery - HTML5_ number input type that takes only integers_ - Stack Overflow_files/quant.js.download" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jquery - HTML5_ number input type that takes only integers_ - Stack Overflow_files/snippet-javascript.en.js.download" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jquery - HTML5_ number input type that takes only integers_ - Stack Overflow_files/soi.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jquery - HTML5_ number input type that takes only integers_ - Stack Overflow_files/stub.en.js.download" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Clarksville.mp3" afterPath="$PROJECT_DIR$/static/videos/Clarksville.mp3" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DaydreamBeliever.mp3" afterPath="$PROJECT_DIR$/static/videos/DaydreamBeliever.mp3" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/George.jpg" afterPath="$PROJECT_DIR$/static/images/George.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ImABeliever.mp3" afterPath="$PROJECT_DIR$/static/videos/ImABeliever.mp3" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/John.jpg" afterPath="$PROJECT_DIR$/static/images/John.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Marilyn.jpg" afterPath="$PROJECT_DIR$/static/images/Marilyn.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Paul.jpg" afterPath="$PROJECT_DIR$/static/images/Paul.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Ringo.jpg" afterPath="$PROJECT_DIR$/static/images/Ringo.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/SteppingStone.mp3" afterPath="$PROJECT_DIR$/static/videos/SteppingStone.mp3" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/TheMonkees.mp4" afterPath="$PROJECT_DIR$/static/videos/TheMonkees.mp4" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/TheMonkees.ogv" afterPath="$PROJECT_DIR$/static/videos/TheMonkees.ogv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/TheMonkees.webm" afterPath="$PROJECT_DIR$/static/videos/TheMonkees.webm" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/album.jpg" afterPath="$PROJECT_DIR$/static/images/album.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/album2.jpg" afterPath="$PROJECT_DIR$/static/images/album2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/album3.jpg" afterPath="$PROJECT_DIR$/static/images/album3.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/availability.html" afterPath="$PROJECT_DIR$/pages/availability.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/background.jpg" afterPath="$PROJECT_DIR$/static/images/background.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/band.jpg" afterPath="$PROJECT_DIR$/static/images/band.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/band2.jpg" afterPath="$PROJECT_DIR$/static/images/band2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/band3.jpg" afterPath="$PROJECT_DIR$/static/images/band3.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/band4.jpg" afterPath="$PROJECT_DIR$/static/images/band4.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bandplaying.jpg" afterPath="$PROJECT_DIR$/static/images/bandplaying.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/contactus.html" afterPath="$PROJECT_DIR$/pages/contactus.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/fb.png" afterPath="$PROJECT_DIR$/static/images/fb.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/itunes.jpg" afterPath="$PROJECT_DIR$/static/images/itunes.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/meettheband.html" afterPath="$PROJECT_DIR$/pages/meettheband.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ourmusic.html" afterPath="$PROJECT_DIR$/pages/ourmusic.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/phone.jpg" afterPath="$PROJECT_DIR$/static/images/phone.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/redbox.png" afterPath="$PROJECT_DIR$/static/images/redbox.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/thankyou.html" afterPath="$PROJECT_DIR$/pages/thankyou.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/twitter.png" afterPath="$PROJECT_DIR$/static/images/twitter.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/youtube.png" afterPath="$PROJECT_DIR$/static/images/youtube.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style.css" afterPath="$PROJECT_DIR$/style.css" />
-    </list>
+    <list default="true" id="4b2e353f-9d9d-4da4-968f-eef9b2a0f194" name="Default" comment="" />
     <ignored path="bandProject.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -101,7 +24,7 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
+            <state relative-caret-position="-178">
               <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
               <folding>
                 <element signature="n#style#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -248,38 +171,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="pages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bandProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bandProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bootstrap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bandProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bandProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bootstrap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -911,7 +802,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
+        <state relative-caret-position="-178">
           <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
           <folding>
             <element signature="n#style#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
