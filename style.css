@@ -1,4 +1,7 @@
-/*elements*/
+/*CSS User Stylesheet*/
+/*Divided into Responsive Design, Elements, IDs and Classes sections*/
+
+/*Responsive Design */
 
 @media (max-width: 1080px) {
   .navbar-header {
@@ -24,7 +27,7 @@
   }
   .navbar-nav {
       float: none!important;
-      margin-top: 7.5px;
+      margin-top: 7px;
   }
   .navbar-nav>li {
       float: none;
@@ -37,6 +40,8 @@
       display:block !important;
   }
 }
+
+/*Elements */
 
 a{color: black;}
 
@@ -66,20 +71,12 @@ body{
     font-size: 16px;}
 
 
-/*ids*/
+/*IDs*/
 #myCollapsingList {background-color: rgba(0,0,0,1) !important; clear:right;}
-
-.bandplayingheight {height: 200px;}
-
-.bottomimage {width: 200px; height: 140px; float: right; margin: 20px; border-radius:10%}
 
 #ituneslogo {height: 30px; width: 80px; float:right; margin-right: 20px;}
 
-.headshot {width:40%; height:100px; border-radius:15%; margin: 20px; margin-left: auto; margin-right:auto;}
-
 #bandpic {display: block; float:left; border-radius:10%; margin: 20px; width: 287px; height: 175px;}
-
-.smedia {width:30px; height:30px; margin: 10px;}
 
 #carousel-example-generic {width: 300px; margin-left: auto; margin-right: auto};
 
@@ -87,22 +84,21 @@ body{
 
 #notavailable {padding-top: 50px; font-weight: bold;}
 
-#nav {height:100px;
-      padding:20px;
-      margin-bottom: 0px;
-      border-radius:5%;
-      padding-top: 15px;
-      border:red solid 5px
-      };
-
 #calendar1 {margin-left: auto; margin-right: auto;}
 
 #redbox {width: 20px; height: 16px;}
 
 #availabilitydiv {margin-top: 70px}
 
+#videowidth{width: 100%}
 
-/*classes*/
+#submitbutton{
+    margin:auto;
+    display:block
+}
+
+
+/*Classes*/
 
 .booked {background-color: red}
 
@@ -116,8 +112,31 @@ body{
 
 .meetimage {float:left; width:160px; height:100%; border-radius:15%; padding:15px;}
 
-.navbar-brand{font-family: Copperplate, "Copperplate Gothic Light"; font-size: 50px; height: auto;
-			border: red solid 5px; border-radius: 10%; white-space: nowrap;
-			}
+.navbar-brand{
+    font-family: Copperplate, "Copperplate Gothic Light";
+    font-size: 50px;
+    height: auto;
+    border: red solid 5px;
+    border-radius: 10%;
+    white-space: nowrap;
+    margin-top: 10px;
+    }
 
+.bandplayingheight {height: 200px;}
 
+.bottomimage {width: 200px; height: 140px; float: right; margin: 20px; border-radius:10%}
+
+.smedia {width:30px; height:30px; margin: 10px;}
+
+.headshot {width:40%; height:100px; border-radius:15%; margin: 20px; margin-left: auto; margin-right:auto;}
+
+.redborder{border: red solid 5px}
+
+.nav {
+
+    padding:20px;
+    margin-bottom: 0px;
+    border-radius:5%;
+    padding-top: 15px;
+    border:red solid 5px
+    }
