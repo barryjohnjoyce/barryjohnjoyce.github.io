@@ -1,53 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<title>Availability</title>
-	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="style.css" rel="stylesheet">
-  
+	<link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../style.css" rel="stylesheet">
+
 </head>
 
 <body>
 
-	<nav class="navbar-inverse" id="nav" style="border: red solid 5px">	
-		
-				<a class="navbar-brand" href="index.html">Union City</a>
+	<nav class="navbar-inverse" id="nav" style="border: red solid 5px">
 
-				<button type="button" class="navbar-toggle" 
-				    		data-toggle="collapse" 
+				<a class="navbar-brand" href="../index.html">Union City</a>
+
+				<button type="button" class="navbar-toggle"
+				    		data-toggle="collapse"
 				    		data-target="#myCollapsingList">
 					        <span class="sr-only">Toggle navigation</span>
 					        <span class="icon-bar"></span>
 					        <span class="icon-bar"></span>
 					        <span class="icon-bar"></span>
 				</button>
-				
-			<ul id="myCollapsingList" class="nav navbar-nav navbar-right collapse navbar-collapse">
-					<li><a href="meettheband.html">Meet The Band</a></li>
-					<li><a href="ourmusic.html">Our Music</a></li>
-					<li><a href="#">Check Availability</a></li>
-					<li><a href="contactus.html">Contact Us</a></li>
-			
-					<a href="https://www.facebook.com"><img src="fb.png" alt="fb.png" id="smedia"></a>
-					
-					<a href="https://www.twitter.com"><img src="twitter.png" alt="twitter.png" id="smedia"></a>
 
-					<a href="https://www.youtube.com"><img src="youtube.png" alt="youtube.png" id="smedia"></a>
+			<ul id="myCollapsingList" class="nav navbar-nav navbar-right collapse navbar-collapse">
+					<li><a href="../pages/meettheband.html">Meet The Band</a></li>
+					<li><a href="../pages/ourmusic.html">Our Music</a></li>
+					<li><a href="#">Check Availability</a></li>
+					<li><a href="../pages/contactus.html">Contact Us</a></li>
+
+					<a href="https://www.facebook.com"><img src="../static/images/fb.png" alt="fb.png" class="smedia"></a>
+
+					<a href="https://www.twitter.com"><img src="../static/images/twitter.png" alt="twitter.png" class="smedia"></a>
+
+					<a href="https://www.youtube.com"><img src="../static/images/youtube.png" alt="youtube.png" class="smedia"></a>
 			</ul>
 	</nav>
- 
+
  <div>
-	<img src="band4.jpg" alt="Band Pic" id="bandpic"/>
+	<img src="../static/images/band4.jpg" alt="Band Pic" id="bandpic"/>
 	<h1>Our Availability</h1>
-	<p>We are available for all types of bookings. We cater especially to the corporate and wedding market. <p> 
-	<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta ea, doloremque nihil voluptatum ullam commodi excepturi fugiat accusantium debitis distinctio quae enim quod modi consectetur quidem. Tempora atque ipsam accusantium?<p>
-<hr/>	
+	<p>We are available for all types of bookings. We cater especially to the corporate and wedding market. <p>
+	<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta ea, doloremque nihil voluptatum ullam commodi
+	 excepturi fugiat accusantium debitis distinctio quae enim quod modi consectetur quidem. Tempora atque ipsam accusantium?<p>
+<hr/>
 </div>
 
-<div class="container" id="calendar">
+<div class="container" id="calendar1">
 
-	<div class="row" > 
+	<div class="row" >
 
 		<div class='col-sm-6'>
 
@@ -57,10 +58,10 @@
 				    	    <table class="table-condensed table-bordered table-striped">
 				                <thead>
 				                    <tr>
-				                      <th colspan="7" >
-				                        <a class="btn"><i class="icon-chevron-left"></i></a>
-				                        <a class="btn">February 2012</a>
-				                        <a class="btn"><i class="icon-chevron-right"></i></a>
+				                      <th colspan="7"  style="background-color: white">
+				                        <i class="glyphicon-menu-hamburger" style="color: white; background-color: black" ></i>
+				                        <a class="btn" style = "text-align: center; background-color: red">February 2017</a>
+				                        <a class="btn" style="color: black"><i class="glyphicon-chevron-right"></i></a>
 				                      </th>
 				                    </tr>
 				                    <tr>
@@ -120,13 +121,13 @@
 				                        <td class="muted">3</td>
 				                    </tr>
 				                </tbody>
-				            </table>    
+				            </table>
 						</div>
 					</div>
 				</div>
 				</br>
 
-				<p><strong> Not Available </strong><img src="redbox.png" alt="redbox" id="redbox"/> </p>
+				<p><strong> Not Available </strong><img src="../static/images/redbox.png" alt="redbox" id="redbox"/> </p>
 		</div>
 
 
@@ -135,7 +136,7 @@
 
 				<p>Input Date:<input type="date" name="Booking date"/></p>
 
-				<p>Input Time:<input type="time" name="Booking time"/></p>
+
 				<br>
 				<button type="submit" class="btn-lg btn-primary"><a href="thankyou.html">Submit Your Booking Request</a></button>
 		</div>
@@ -145,26 +146,25 @@
 </div>
 <hr/>
 
-<h2> <a href="index.html"> Back to Homepage</a> </h2>
+<h2> <a href="../index.html"> Back to Homepage</a> </h2>
 
 <hr/>
 
-	
+
 <footer class="col-12">
-     
+
     <p>© Copyright 2016</p>
 
 </footer>
 
 
-
-
-	
-</body>
-
-
-
 <script src='http://code.jquery.com/jquery.min.js'></script>
 <script src='bootstrap/js/bootstrap.min.js'></script>
 
+</body>
+
 </html>
+
+
+
+
