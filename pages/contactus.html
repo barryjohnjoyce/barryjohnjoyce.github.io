@@ -1,119 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>Contact Us</title>
-	<link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>Contact Us</title>
+    <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="../style.css" rel="stylesheet">
-  
+
 </head>
 
 <body>
 
-	<nav class="navbar-inverse nav">
-		
-				<a class="navbar-brand" href="../index.html">Union City</a>
+<!-- Navigation -->
+<nav class="navbar-inverse nav">
 
-				<button type="button" class="navbar-toggle" 
-				    		data-toggle="collapse" 
-				    		data-target="#myCollapsingList">
-					        <span class="sr-only">Toggle navigation</span>
-					        <span class="icon-bar"></span>
-					        <span class="icon-bar"></span>
-					        <span class="icon-bar"></span>
-				</button>
-		
-			<ul id="myCollapsingList" class="nav navbar-nav navbar-right collapse navbar-collapse">
-					
-					<li id="list"><a href="meettheband.html">Meet The Band</a></li>
-					<li><a href="ourmusic.html">Our Music</a></li>
-					<li><a href="availability.html">Check Availability</a></li>
-					<li><a href="contactus.html">Contact Us</a></li>
-			
-					
+    <a class="navbar-brand" href="../index.html">Union City</a>
+    <div>
+        <button type="button" class="navbar-toggle"
+                data-toggle="collapse"
+                data-target="#myCollapsingList">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
 
-					<a href="https://www.facebook.com"><img src="../static/images/fb.png" alt="fb.png" class="smedia"></a>
-					
-					<a href="https://www.twitter.com"><img src="../static/images/twitter.png" alt="twitter.png" class="smedia"></a>
+        <ul id="myCollapsingList" class="nav navbar-nav navbar-right collapse navbar-collapse">
 
-					<a href="https://www.youtube.com"><img src="../static/images/youtube.png" alt="youtube.png" class="smedia"></a>
-			</ul>
-	</nav>
- 
- <div>
-	<img src="../static/images/band3.jpg" alt="Band Pic" id="bandpic"/>
-	<h1>Contact Us</h1>
-	<p> <strong> John </strong> at john.unioncity@hotmail.com or by phone on 087-1234567</p>
-	<br>
-	<p> Check out our <a href="availability.html">Availability</a> page to book us for your corporate event, wedding etc. Otherwise just drop us a line below! </p>
+            <li><a href="../pages/meettheband.html">Meet The Band</a></li>
+            <li><a href="../pages/ourmusic.html">Our Music</a></li>
+            <li><a href="../pages/availability.html">Check Availability</a></li>
+            <li><a href="../pages/contactus.html">Contact Us</a></li>
+
+            <a href="https://www.facebook.com"><img src="../static/images/fb.png" alt="fb.png" class="smedia"></a>
+
+            <a href="https://www.twitter.com"><img src="../static/images/twitter.png" alt="twitter.png" class="smedia"></a>
+
+            <a href="https://www.youtube.com"><img src="../static/images/youtube.png" alt="youtube.png" class="smedia"></a>
+        </ul>
+    </div>
+</nav>
+
+<div class="container">
+    <img src="../static/images/band3.jpg" alt="Band Pic" id="bandpic"/>
+    <h1>Contact Us</h1>
+    <p><strong> John </strong> at john.unioncity@hotmail.com or by phone on 087-1234567</p>
+    <br>
+    <p> Check out our <a href="availability.html">Availability</a> page to book us for your corporate event, wedding
+        etc. Otherwise just drop us a line below! </p>
 
 </div>
 
 <hr/>
 
 <div class='container'>
-	
-	<h2 class="page-heading"><span>Get in touch</span></h2>
-	<br>
-	   
-	<form name="contact" action="process.php" method="post">
-		
-		<div class='row'>
-			<div class='col-sm-6'>
-				<div class="input-group input-group-lg">
-					<span class="input-group-addon glyphicon glyphicon-user"></span>
-						 <input type="text" name="name" class="form-control" placeholder="Your Name" required>
-				</div> 	
-				<br>
 
-				<div class="input-group input-group-lg">
-					<span class="input-group-addon glyphicon glyphicon-earphone"></span>
-						 <input type="text" pattern="[0-9]{10}" class="form-control" id="numbers"; placeholder="Your Mobile" title="Please enter a ten-digit numerical code" required>
-				</div>
-				<br>
+    <h2 class="page-heading"><span>Get in touch</span></h2>
+    <br>
 
-				<div class="input-group input-group-lg">
-					<span class="input-group-addon">@</span>
-						<input type="email" name="email" class="form-control" placeholder="Your Email" required>
-				</div> 			
-				<br>
+    <form name="contact" action="thankyou.html" method="get">
 
-			</div>
+        <div class='row'>
+            <div class='col-sm-6'>
+                <div class="input-group input-group-lg">
+                    <span class="input-group-addon glyphicon glyphicon-user"></span>
+                    <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+                </div>
+                <br>
 
-			<div class='col-sm-6'>
+                <div class="input-group input-group-lg">
+                    <span class="input-group-addon glyphicon glyphicon-earphone"></span>
+                    <input type="text" pattern="[0-9]{10}" class="form-control" id="numbers" placeholder="Your Mobile"
+                           title="Please enter a ten-digit numerical code" required>
+                </div>
+                <br>
 
-				<div class="input-group input-group-lg"> 		
-					<span class="input-group-addon glyphicon glyphicon-question-sign"></span> 	
-					<textarea class="form-control" style="height: 180px" name="query;" placeHolder="Your query" required></textarea> 		
-				</div> 			
-				 <br> 			
-				          
-			</div>
+                <div class="input-group input-group-lg">
+                    <span class="input-group-addon">@</span>
+                    <input type="email" name="email" class="form-control" placeholder="Your Email" required>
+                </div>
+                <br>
 
-	     </div>  
-			
-		<div>
-			<button id="submitbutton" type="submit" class="btn-lg btn-primary"><a href="thankyou.html">Submit Your Query</a></button>
-			<br>
-	  		<p style="text-align: center">Tick the box to subscribe to our newsletter <input type="checkbox"> </p>
-  		</div>
-	       		
-	    </form>
-	       
-	       <hr/>
-	       <h2> <a href="../index.html"> Back To Homepage</a> </h2>
+            </div>
 
-<hr/>
-	    </div>
+            <div class='col-sm-6'>
+
+                <div class="input-group input-group-lg">
+                    <span class="input-group-addon glyphicon glyphicon-question-sign"></span>
+                    <textarea id=textArea class="form-control" name="query;" placeHolder="Your query"
+                              required></textarea>
+                </div>
+                <br>
+
+            </div>
+
+        </div>
+
+        <div>
+            <button id="submitButton" type="submit" class="btn-lg btn-primary">Submit Your Query</button>
+            <br>
+            <p id="boldAlign">Tick the box to subscribe to our newsletter <input type="checkbox"></p>
+        </div>
+
+    </form>
+
+    <hr/>
+    <h2><a href="../index.html"> Back To Homepage</a></h2>
+
+    <hr/>
+</div>
 
 
-
- 
 <br>
-	
+
 
 <footer class="col-12">
-     
+
     <p>Copyright &copy; Barry Joyce/Code Institute 2016</p>
 
 </footer>
@@ -121,6 +122,6 @@
 </body>
 
 <script src='https://code.jquery.com/jquery.min.js'></script>
-<script src='bootstrap/js/bootstrap.min.js'></script>
+<script src='../bootstrap/js/bootstrap.min.js'></script>
 
 </html>

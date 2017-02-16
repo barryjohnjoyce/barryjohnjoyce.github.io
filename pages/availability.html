@@ -1,152 +1,157 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<title>Availability</title>
-	<link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Availability</title>
+    <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="../style.css" rel="stylesheet">
 
 </head>
 
 <body>
 
-	<nav class="navbar-inverse nav">
+<!-- Navigation -->
+<nav class="navbar-inverse nav">
 
-				<a class="navbar-brand" href="../index.html">Union City</a>
+    <a class="navbar-brand" href="../index.html">Union City</a>
+    <div>
+        <button type="button" class="navbar-toggle"
+                data-toggle="collapse"
+                data-target="#myCollapsingList">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
 
-				<button type="button" class="navbar-toggle"
-				    		data-toggle="collapse"
-				    		data-target="#myCollapsingList">
-					        <span class="sr-only">Toggle navigation</span>
-					        <span class="icon-bar"></span>
-					        <span class="icon-bar"></span>
-					        <span class="icon-bar"></span>
-				</button>
+        <ul id="myCollapsingList" class="nav navbar-nav navbar-right collapse navbar-collapse">
 
-			<ul id="myCollapsingList" class="nav navbar-nav navbar-right collapse navbar-collapse">
-					<li><a href="meettheband.html">Meet The Band</a></li>
-					<li><a href="ourmusic.html">Our Music</a></li>
-					<li><a href="#">Check Availability</a></li>
-					<li><a href="contactus.html">Contact Us</a></li>
+            <li><a href="../pages/meettheband.html">Meet The Band</a></li>
+            <li><a href="../pages/ourmusic.html">Our Music</a></li>
+            <li><a href="../pages/availability.html">Check Availability</a></li>
+            <li><a href="../pages/contactus.html">Contact Us</a></li>
 
-					<a href="https://www.facebook.com"><img src="../static/images/fb.png" alt="fb.png" class="smedia"></a>
+            <a href="https://www.facebook.com"><img src="../static/images/fb.png" alt="fb.png" class="smedia"></a>
 
-					<a href="https://www.twitter.com"><img src="../static/images/twitter.png" alt="twitter.png" class="smedia"></a>
+            <a href="https://www.twitter.com"><img src="../static/images/twitter.png" alt="twitter.png" class="smedia"></a>
 
-					<a href="https://www.youtube.com"><img src="../static/images/youtube.png" alt="youtube.png" class="smedia"></a>
-			</ul>
-	</nav>
+            <a href="https://www.youtube.com"><img src="../static/images/youtube.png" alt="youtube.png" class="smedia"></a>
+        </ul>
+    </div>
+</nav>
 
- <div>
-	<img src="../static/images/band4.jpg" alt="Band Pic" id="bandpic"/>
-	<h1>Our Availability</h1>
-	<p>We are available for all types of bookings. We cater especially to the corporate and wedding market. <p>
-	<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta ea, doloremque nihil voluptatum ullam commodi
-	 excepturi fugiat accusantium debitis distinctio quae enim quod modi consectetur quidem. Tempora atque ipsam accusantium?<p>
-<hr/>
+<div class="container">
+    <img src="../static/images/band4.jpg" alt="Band Pic" id="bandpic"/>
+    <h1>Our Availability</h1>
+    <p>We are available for all types of bookings. We cater especially to the corporate and wedding market.
+    <p>
+    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta ea, doloremque nihil voluptatum ullam commodi
+        excepturi fugiat accusantium debitis distinctio quae enim quod modi consectetur quidem. Tempora atque ipsam
+        accusantium?
+    <p>
+    <hr/>
 </div>
 
-<div class="container" id="calendar1">
+<div class="container">
 
-	<div class="row" >
+    <div class="row">
 
-		<div class='col-sm-6'>
+        <div class='col-sm-6'>
+            <table class="table-condensed table-striped">
+                <thead>
+                <tr>
+                    <th colspan="7">
+                        <a class="btn"><i class="glyphicon glyphicon-chevron-left"></i></a>
+                        <a class="btn"><h3>March 2017</h3></a>
+                        <a class="btn"><i class="glyphicon glyphicon-chevron-right"></i></a>
+                    </th>
+                </tr>
+                <tr>
+                    <th>Su</th>
+                    <th>Mo</th>
+                    <th>Tu</th>
+                    <th>We</th>
+                    <th>Th</th>
+                    <th>Fr</th>
+                    <th>Sa</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td class="muted">29</td>
+                    <td class="muted">30</td>
+                    <td class="muted">31</td>
+                    <td>1</td>
+                    <td>2</td>
+                    <td class="booked">3</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>6</td>
+                    <td>7</td>
+                    <td class="booked">8</td>
+                    <td>9</td>
+                    <td>10</td>
+                    <td>11</td>
+                </tr>
+                <tr>
+                    <td class="booked">12</td>
+                    <td class="booked">13</td>
+                    <td>14</td>
+                    <td>15</td>
+                    <td>16</td>
+                    <td class="booked">17</td>
+                    <td>18</td>
+                </tr>
+                <tr>
+                    <td>19</td>
+                    <td><strong>20</strong></td>
+                    <td>21</td>
+                    <td>22</td>
+                    <td>23</td>
+                    <td>24</td>
+                    <td>25</td>
+                </tr>
+                <tr>
+                    <td>26</td>
+                    <td>27</td>
+                    <td class="booked">28</td>
+                    <td class="booked">29</td>
+                    <td class="muted">1</td>
+                    <td class="muted">2</td>
+                    <td class="muted">3</td>
+                </tr>
+                </tbody>
+            </table>
 
-				<div class="container">
-					<div class="row">
-						<div class="span12">
-				    	    <table class="table-condensed table-bordered table-striped">
-				                <thead>
-				                    <tr>
-				                      <th colspan="7"  style="background-color: white">
-				                        <i class="glyphicon-chevron-left" style="color: white; background-color: black" ></i>
-				                        <a class="btn" style = "text-align: center; background-color: red">February 2017</a>
-				                        <a class="btn" style="color: black"><i class="glyphicon-chevron-right"></i></a>
-				                      </th>
-				                    </tr>
-				                    <tr>
-				                        <th>Su</th>
-				                        <th>Mo</th>
-				                        <th>Tu</th>
-				                        <th>We</th>
-				                        <th>Th</th>
-				                        <th>Fr</th>
-				                        <th>Sa</th>
-				                    </tr>
-				                </thead>
-				                <tbody>
-				                    <tr>
-				                        <td class="muted">29</td>
-				                        <td class="muted">30</td>
-				                        <td class="muted">31</td>
-				                        <td>1</td>
-				                        <td>2</td>
-				                        <td class="booked">3</td>
-				                        <td>4</td>
-				                    </tr>
-				                    <tr>
-				                        <td>5</td>
-				                        <td>6</td>
-				                        <td>7</td>
-				                        <td class="booked">8</td>
-				                        <td>9</td>
-				                        <td>10</td>
-				                        <td>11</td>
-				                    </tr>
-				                    <tr>
-				                        <td class="booked">12</td>
-				                        <td class="booked">13</td>
-				                        <td>14</td>
-				                        <td>15</td>
-				                        <td>16</td>
-				                        <td class="booked">17</td>
-				                        <td>18</td>
-				                    </tr>
-				                    <tr>
-				                        <td>19</td>
-				                        <td><strong>20</strong></td>
-				                        <td>21</td>
-				                        <td>22</td>
-				                        <td>23</td>
-				                        <td>24</td>
-				                        <td>25</td>
-				                    </tr>
-				                    <tr>
-				                        <td>26</td>
-				                        <td>27</td>
-				                        <td class="booked">28</td>
-				                        <td class="booked">29</td>
-				                        <td class="muted">1</td>
-				                        <td class="muted">2</td>
-				                        <td class="muted">3</td>
-				                    </tr>
-				                </tbody>
-				            </table>
-						</div>
-					</div>
-				</div>
-				</br>
+            <br>
 
-				<p><strong> Not Available </strong><img src="../static/images/redbox.png" alt="redbox" id="redbox"/> </p>
-		</div>
+            <p id="notAvailable">Not Available For Bookings <img src="../static/images/redbox.png" alt="redbox"
+                                                                 id="redbox"/></p>
+        </div><!-- cloae of div col-sm-6-->
 
 
-		<div class='col-sm-6' id="notavailable">
+        <div class='col-sm-6' id="bookingColumn">
+            <form name="contact" action="thankyou.html" method="get">
 
+                <h4>Input Date Below:</h4>
+                <p>
+                    <input id="bookingCalendar" type="date" name="Bookingdate"/>
+                </p>
+                <br>
 
-				<p>Input Date:<input type="date" name="Booking date"/></p>
+                <button type="submit" class="btn-lg btn-primary">Submit Your Booking Request</button>
 
+            </form>
+        </div> <!-- cloae of div col-sm-6-->
 
-				<br>
-				<button type="submit" class="btn-lg btn-primary"><a href="thankyou.html">Submit Your Booking Request</a></button>
-		</div>
+    </div> <!--close of div class=row-->
 
-	</div>
-
-</div>
+</div> <!--close of div container-->
 <hr/>
 
-<h2> <a href="../index.html"> Back to Homepage</a> </h2>
+<h2><a href="../index.html"> Back to Homepage</a></h2>
 
 <hr/>
 
@@ -159,7 +164,7 @@
 
 
 <script src='http://code.jquery.com/jquery.min.js'></script>
-<script src='bootstrap/js/bootstrap.min.js'></script>
+<script src='../bootstrap/js/bootstrap.min.js'></script>
 
 </body>
 

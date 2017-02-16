@@ -11,7 +11,7 @@ This is the prototype frond-end website for the fictional band Union City.
  
 The website showcases the band and publicises their availability for gigs. 
 
-### How does it work? 
+### Design Background
 
 The website is designed from a blank HTML page but is styled with Bootstrap and uses HTML form validation. I have used
 the Code Institute's Project Resources folder for songs, videos, pics etc.
@@ -29,14 +29,18 @@ can check dates for future bookings. There are working links to Facebook, Twitte
 
 - [Bootstrap](http://getbootstrap.com/)
     - Bootstrap has been used for certain design elements such as the navbar. The compiled javascript in Bootstrap is
-    also used to activate a Carousel. Media queries are used to make elements repsonsive.
+    also used to activate a Carousel.
 
-- [Fonts]
+- Fonts
     - The band's logo has been designed using HTML, including the border-radius property and the Copperplate font.
 
-- [Calendar]
-    - a HTML calendar available for free from the Web has been utilised.
+- Calendar
+    - a HTML calendar available to download for free from the Web has been utilised.
 
-- [iTunes API]
-    - The "Our Music" page is linked to the iTunes API to allow fans to search for and purchase the band's commercial tracks.
+- iTunes API
+    - The "Our Music" page is linked to the iTunes API to allow fans to search for the band's commercial tracks and
+    listen to samples of their songs.
+
+- GithubPages
+    - This is a web hosting service that deploys files from Github which has been used to deploy this site.
 
